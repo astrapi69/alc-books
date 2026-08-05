@@ -1,6 +1,6 @@
 {
   "repo": "astrapi69/alc-books",
-  "generated": "2026-08-05T10:38:48Z",
+  "generated": "2026-08-05T10:49:55Z",
   "schema_version": "1.0",
   "sets": [
     {
@@ -24,7 +24,7 @@
       "ai_validated": false,
       "trust_level": 1,
       "book": null,
-      "updated_at": "2026-08-05T12:38:48+02:00"
+      "updated_at": "2026-08-05T12:49:43+02:00"
     },
     {
       "id": "biologische-souveranitat",
