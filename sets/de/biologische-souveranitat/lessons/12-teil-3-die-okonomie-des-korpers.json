@@ -1,0 +1,106 @@
+{
+  "id": "12-teil-3-die-okonomie-des-korpers",
+  "title": "Teil 3: Die Ökonomie des Körpers",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 8,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Wirtschaftliche Interessen hinter technologischer Kontrolle",
+      "body": "Wenn wir verstehen wollen, warum bestimmte technologische Möglichkeiten nicht für alle zugänglich gemacht werden, müssen wir die finanziellen Anreize dahinter untersuchen. Es gibt Akteure, die wirtschaftlich davon profitieren, dass Wissen und Technologien konzentriert bleiben. Diese Gewinnmotive können stärker sein als der Wunsch nach demokratischem Zugang oder Gerechtigkeit."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Die Krankheitsindustrie als Geschäftsmodell",
+      "body": "Manche Wirtschaftssysteme bauen darauf auf, dass Menschen chronisch krank bleiben. Wenn Heilung oder Prävention möglich wäre, würde das Geschäftsmodell zusammenbrechen. Dies schafft einen Anreiz, alternative Lösungen – wie neue genetische Therapien – nicht zu fördern oder zu verbreiten, sondern stattdessen an laufenden Behandlungen festzuhalten."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Macht ohne Legitimation in medizinischen Entscheidungen",
+      "body": "In vielen Gesundheitssystemen treffen nicht die Patienten selbst die Entscheidungen über ihre Behandlung, sondern Vermittler – Ärzte, Versicherungen, Institutionen. Diese Vermittler haben Eigeninteressen und sind oft nicht demokratisch legitimiert, dennoch kontrollieren sie, welche Therapien verfügbar sind und wer Zugang erhält. Dies verstärkt Ungleichheiten und entzieht Patienten Mitsprache."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Manche Wirtschaftssysteme bauen darauf auf, dass Menschen ___ bleiben, weil Heilung das Geschäftsmodell gefährden würde.",
+        "blanks": [
+          {
+            "accept": [
+              "chronisch krank"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "optimal informiert",
+          "technologisch fortschrittlich"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfxg43r01e85"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie die Akteure ihren beschriebenen Rollen zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Ärzte, Versicherungen, Institutionen",
+            "right": "Treffen Entscheidungen über Behandlung statt der Patienten"
+          },
+          {
+            "left": "Akteure mit Gewinnmotiven",
+            "right": "Profitieren davon, dass Wissen und Technologien konzentriert bleiben"
+          },
+          {
+            "left": "Patienten",
+            "right": "Haben oft keine Mitsprache bei verfügbaren Therapien"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-2-matching", "stable_id": "ex-msfxg43r01fuz"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Erkläre, warum alternative Lösungen wie neue genetische Therapien in manchen Systemen nicht gefördert werden, obwohl sie möglich wären.",
+        "card_ids": [],
+        "accept": [
+          "Weil Heilung das Geschäftsmodell der Krankheitsindustrie zerstören würde",
+          "Weil laufende Behandlungen mehr Gewinn bringen als Heilung",
+          "Weil es wirtschaftliche Anreize gibt, Menschen chronisch krank zu halten"
+        ],
+        "distractors": [
+          "Weil die Technologie technisch nicht funktioniert"
+        ],
+        "id": "ai-ex-3-free-text", "stable_id": "ex-msfxg43r01goi"
+      },
+      "theory_ref": "theory-2"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

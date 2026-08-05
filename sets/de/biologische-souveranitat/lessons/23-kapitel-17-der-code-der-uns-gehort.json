@@ -1,0 +1,162 @@
+{
+  "id": "23-kapitel-17-der-code-der-uns-gehort",
+  "title": "Kapitel 17: Der Code, der uns gehört",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 11,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Der genetische Code als editierbares Muster",
+      "body": "Das Genom ist nicht einfach Schicksal oder eine unveränderbare Naturgewalt – es ist ein Informationsmuster, ähnlich wie Sprache oder eine Institution. CRISPR-Technologie macht dieses Muster genauso bearbeitbar, wie die Schrifterfindung die mündliche Sprache bearbeitbar machte. Das bedeutet: Menschen können nun bewusst über ihren biologischen Code entscheiden, statt ihn passiv hinzunehmen. Diese Fähigkeit bringt aber auch eine große Verantwortung mit sich."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Biologische Souveränität: Wem gehört der Code?",
+      "body": "Der genetische Code gehört der Person, die ihn trägt – nicht dem Staat, nicht Konzernen, nicht einzelnen Forschern. Biologische Souveränität bedeutet das Recht und die Pflicht, über den eigenen Code zu bestimmen. Gleichzeitig muss diese Macht begrenzt sein durch Verantwortung gegenüber denen, die nicht für sich selbst sprechen können (wie Kinder oder zukünftige Generationen). Die Entscheidung über genetische Veränderungen darf daher nicht von Einzelnen getroffen werden, sondern muss eine demokratische Gesellschaft betreffen."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Von der Einsicht zur Verantwortung",
+      "body": "Zu wissen, dass der genetische Code editierbar ist, ändert nicht, was wir tun – wir leben, werden krank, sterben – aber es ändert, wie wir es tun und mit welchem Bewusstsein. Fragen über genetische Veränderungen sind keine technischen oder wissenschaftlichen Probleme, sondern Fragen von Gerechtigkeit, Zugang und Verantwortung. Solange diese Entscheidungen von Pharmaindustrie, Regulierungsbehörden oder einzelnen Forschern getroffen werden, ohne die Gesellschaft einzubeziehen, fehlt die ethische Grundlage – nämlich die Stimme derer, die den Code tragen."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Nach dieser Theorie ist der genetische Code ein ___, ähnlich wie Sprache oder eine Institution.",
+        "blanks": [
+          {
+            "accept": [
+              "Informationsmuster"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "unveränderbare Naturgewalt",
+          "biologisches Schicksal",
+          "wissenschaftliches Problem"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfxg43v02qxz"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Die Macht über biologische Veränderungen darf nicht unbegrenzt sein, sondern muss durch ___ gegenüber denen begrenzt werden, die nicht für sich selbst sprechen können.",
+        "blanks": [
+          {
+            "accept": [
+              "Verantwortung"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Kontrolle",
+          "Technologie",
+          "Wissen"
+        ],
+        "id": "ai-ex-2-cloze", "stable_id": "ex-msfxg43v02rcs"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie die Konzepte ihren Beschreibungen zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Biologische Souveränität",
+            "right": "Das Recht und die Pflicht einer Person, über ihren eigenen genetischen Code zu bestimmen"
+          },
+          {
+            "left": "CRISPR-Technologie",
+            "right": "Macht den genetischen Code genauso bearbeitbar wie die Schrifterfindung die mündliche Sprache"
+          },
+          {
+            "left": "Ethische Grundlage",
+            "right": "Die Einbeziehung der Gesellschaft und besonders der Stimme derer, die den Code tragen"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching", "stable_id": "ex-msfxg43v02s4p"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Warum können Entscheidungen über genetische Veränderungen nicht von einzelnen Pharmafirmen, Behörden oder Forschern allein getroffen werden? Beziehen Sie sich auf die Theorie.",
+        "card_ids": [],
+        "accept": [
+          "weil sie die ganze Gesellschaft betreffen",
+          "weil die Stimme derer fehlt, die den Code tragen",
+          "weil es eine ethische Grundlage braucht, die nur die Gesellschaft geben kann",
+          "weil auch zukünftige Generationen und diejenigen betroffen sind, die nicht selbst sprechen können"
+        ],
+        "distractors": [
+          "weil Einzelne nicht kompetent genug sind",
+          "weil die Technologie noch nicht reif genug ist"
+        ],
+        "id": "ai-ex-4-free-text", "stable_id": "ex-msfxg43v02taj"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-word-tiles",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "word_tiles",
+        "prompt": "Rekonstruieren Sie den Satz aus der Theorie (verwenden Sie jedes Wort genau einmal).",
+        "card_ids": [],
+        "tiles": [
+          "Das",
+          "Genom",
+          "ist",
+          "nicht",
+          "einfach",
+          "Schicksal",
+          "oder",
+          "eine",
+          "unveränderbare",
+          "Naturgewalt"
+        ],
+        "distractors": [],
+        "id": "ai-ex-5-word-tiles", "stable_id": "ex-msfxg43v02uoo"
+      },
+      "theory_ref": "theory-1"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

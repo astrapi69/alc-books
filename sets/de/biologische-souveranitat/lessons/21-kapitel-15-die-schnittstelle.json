@@ -1,0 +1,189 @@
+{
+  "id": "21-kapitel-15-die-schnittstelle",
+  "title": "Kapitel 15: Die Schnittstelle",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 12,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Das Genom als Träger von Ewigkeit und Zeitlichkeit",
+      "body": "Das Genom unterscheidet sich grundlegend von anderen Informationssystemen wie Sprache oder geschriebenes Wissen. Während diese außerhalb unseres Körpers existieren und weitergegeben werden können, ist das Genom integral mit uns verschmolzen – es ist nicht etwas, das wir haben, sondern das, was wir sind. Die genetische Information in jeder Zelle enthält zwei Dimensionen gleichzeitig: Sie ist zeitlich, weil jeder einzelne Körper sterblich und vergänglich ist; sie ist aber auch ewig, weil die Sequenzen über Generationen unverändert weitergegeben werden und manche Teile seit Millionen Jahren existieren. Das Genom ist somit die biologische Verkörperung der Idee, dass ein grundlegendes Muster über die Zeit hinweg bestehen bleibt, während seine konkrete Ausdrucksform ständig neu entsteht und vergeht."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Der kategoriale Unterschied zwischen Veränderung der Manifestation und Veränderung des Musters",
+      "body": "Es gibt einen entscheidenden Unterschied zwischen drei Arten von Eingriffen: erstens die Veränderung der Lebensbedingungen, die nur beeinflussen, wie sich ein bestehendes Muster ausdrückt; zweitens die somatische Gentherapie, die das Muster nur in einzelnen Körperzellen einer Person korrigiert und nicht an kommende Generationen weitergegeben wird; drittens das Keimbahn-Editing, das das Muster selbst dauerhaft verändert und diese Änderung an alle zukünftigen Nachkommen weitergeben wird. Die ersten beiden sind Eingriffe in die zeitliche Manifestation – sie sind reparierbar und begrenzt. Das Keimbahn-Editing ist kategorial anders: Es macht den Menschen nicht nur zum Leser oder Reparateur seines Codes, sondern zum Autor eines Textes, der sich seit Milliarden Jahren selbst durch Evolution geschrieben hat."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Verantwortung als Bedingung für Selbstgestaltung",
+      "body": "Die Fähigkeit, den eigenen genetischen Code zu verändern, ist weder grundsätzlich verboten noch unbegrenzt erlaubt. Sie ist vielmehr an drei Bedingungen gebunden: Der Mensch muss sich bewusst sein, wer er ist und dass er ein Teil einer älteren, größeren Geschichte ist; er muss die Verantwortung für die Konsequenzen seiner Eingriffe tragen, besonders für kommende Generationen, denen er nicht die Folgen seiner Entscheidung aufzwingen darf; und drittens muss solch eine weitreichende Entscheidung demokratisch getroffen werden, nicht von Einzelnen, sondern von der Gesellschaft insgesamt. Ein Werkzeug wie CRISPR, das an der Grenze zwischen dem Ewigen und dem Zeitlichen schneidet, erfordert eine Art von Verantwortung, die es bisher in dieser Form nie gab."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Das Genom ist nicht etwas, das wir haben, sondern das, was wir ___.",
+        "blanks": [
+          {
+            "accept": [
+              "sind"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "denken",
+          "erschaffen",
+          "erben"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfxg43u02e4r"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Das Genom ist zeitlich, weil jeder Körper sterblich ist, und es ist ___, weil die Sequenzen über Generationen unverändert weitergegeben werden.",
+        "blanks": [
+          {
+            "accept": [
+              "ewig"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "veränderbar",
+          "reparierbar",
+          "konstant"
+        ],
+        "id": "ai-ex-2-cloze", "stable_id": "ex-msfxg43u02f79"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie die drei Arten von Eingriffen ihrer Auswirkung zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Veränderung der Lebensbedingungen",
+            "right": "Beeinflusst nur die Manifestation des bestehenden Musters"
+          },
+          {
+            "left": "Somatische Gentherapie",
+            "right": "Korrigiert das Muster nur in einzelnen Körperzellen und wird nicht weitergegeben"
+          },
+          {
+            "left": "Keimbahn-Editing",
+            "right": "Verändert das Muster dauerhaft und wird an alle zukünftigen Nachkommen weitergegeben"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching", "stable_id": "ex-msfxg43u02gcp"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Durch Keimbahn-Editing wird der Mensch nicht nur zum Leser oder Reparateur seines Codes, sondern zum ___ eines Textes, der sich seit Milliarden Jahren selbst durch Evolution geschrieben hat.",
+        "blanks": [
+          {
+            "accept": [
+              "Autor"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Leser",
+          "Übersetzer",
+          "Kritiker"
+        ],
+        "id": "ai-ex-4-cloze", "stable_id": "ex-msfxg43u02h52"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie die Konzepte ihrer Beschreibung zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Das Genom",
+            "right": "Integral mit uns verschmolzen, nicht etwas das wir haben"
+          },
+          {
+            "left": "Sprache und geschriebenes Wissen",
+            "right": "Existieren außerhalb unseres Körpers und können weitergegeben werden"
+          },
+          {
+            "left": "CRISPR",
+            "right": "Ein Werkzeug, das an der Grenze zwischen dem Ewigen und dem Zeitlichen schneidet"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-5-matching", "stable_id": "ex-msfxg43u02i8r"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-6-ai-ex-6-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Nenne zwei der drei Bedingungen, die an die Fähigkeit zur Veränderung des eigenen genetischen Codes gebunden sind.",
+        "card_ids": [],
+        "accept": [
+          "Bewusstsein für die eigene Geschichte und Teil einer größeren Geschichte sein",
+          "Verantwortung für die Konsequenzen besonders für zukünftige Generationen tragen",
+          "demokratische Entscheidung durch die Gesellschaft insgesamt, nicht von Einzelnen"
+        ],
+        "distractors": [
+          "technische Machbarkeit durch CRISPR"
+        ],
+        "id": "ai-ex-6-free-text", "stable_id": "ex-msfxg43u02jrc"
+      },
+      "theory_ref": "theory-3"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

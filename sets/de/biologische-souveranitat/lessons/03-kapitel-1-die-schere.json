@@ -1,0 +1,188 @@
+{
+  "id": "03-kapitel-1-die-schere",
+  "title": "Kapitel 1: Die Schere",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 12,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Vom Bakterienschutz zum universellen Werkzeug",
+      "body": "Bakterien verfügen über ein natürliches Abwehrsystem gegen Viren: Sie speichern Bruchstücke von Virus-DNA in ihrem eigenen Erbgut und nutzen diese wie Fahndungsfotos, um Angreifer wiederzuerkennen und unschädlich zu machen. Diese biologische \"Datenbank\" nennt sich CRISPR. Was Horvath und Barrangou 2007 bewiesen, war bahnbrechend: Einzeller ohne Gehirn besitzen echtes Gedächtnis. Doch erst als Charpentier und Doudna das System 2012 vereinfachten, wurde es zu einem praktischen Werkzeug. Sie zeigten, dass das Protein Cas9 mit einer programmierbaren Anleitung (Guide-RNA) an beliebige Stellen im Erbgut navigiert und dort präzise schneiden kann. Die Technik war so überlegen gegenüber früheren Methoden, dass sie sich innerhalb von Monaten weltweit verbreitete—nicht weil Labore warteten, sondern weil sie genau das brauchten, was fehlte."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Was CRISPR tatsächlich leistet",
+      "body": "CRISPR funktioniert auf drei Ebenen. Erstens schneidet es gezielt: Das Cas9-Protein wird von einer RNA-Anleitung zu einer genauen Stelle im Genom gelotst und durchtrennt dort den DNA-Doppelstrang. Zweitens ist es programmierbar: Nicht das Protein selbst muss neu entworfen werden, sondern nur die RNA-Anleitung wird angepasst—vergleichbar mit dem Unterschied zwischen einer Schreibmaschine mit festen Lettern und einer Tastatur, auf der man anders tippt. Dieser Unterschied ist nicht einfach schneller, er ist kategorisch anders und macht Genbearbeitung erstmals für viele Labore zugänglich. Drittens, und das ist philosophisch bedeutsam: CRISPR macht Erbinformation nicht nur lesbar oder kopierbar, sondern editierbar. Wer einen Text editieren kann, wird vom Leser zum Autor seines eigenen Codes."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Von der Heilung zur politischen Frage",
+      "body": "2025 erhielt ein Säugling in Philadelphia namens KJ eine massgeschneiderte Gentherapie gegen eine tödliche Stoffwechselstörung: Ein einzelner fehlerhafter Buchstabe in seinem CPS1-Gen wurde korrigiert. Innerhalb von Monaten war er gesund genug, nach Hause zu gehen. Diese konkrete Heilung zeigt, dass CRISPR nicht mehr Zukunftsmusik ist, sondern Gegenwart. Doch die Fähigkeit, menschliche Erbinformation umzuschreiben, wirft Fragen auf, die über Medizin und Ethik hinausgehen: Wem gehört der genetische Code? Wer entscheidet über Zugang, Kosten und Konsequenzen? Diese Fragen sind nicht technisch, sondern politisch. Sie handeln von Macht, Gerechtigkeit und davon, wer berechtigt ist, die biologische Grundlage menschlichen Lebens zu gestalten."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Bakterien speichern Bruchstücke von Virus-DNA in ihrem Erbgut und nutzen diese wie ___, um Angreifer wiederzuerkennen und unschädlich zu machen.",
+        "blanks": [
+          {
+            "accept": [
+              "Fahndungsfotos"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Sicherheitskameras",
+          "Wörterbücher",
+          "Landkarten"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfxg43o00712"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Das Cas9-Protein wird von einer ___ zu einer genauen Stelle im Genom gelotst und durchtrennt dort den DNA-Doppelstrang.",
+        "blanks": [
+          {
+            "accept": [
+              "RNA-Anleitung"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Virus-DNA",
+          "Fahndungsfoto",
+          "Guide-Protein"
+        ],
+        "id": "ai-ex-2-cloze", "stable_id": "ex-msfxg43o008ug"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie jeden Namen den entsprechenden Beitrag zu CRISPR zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Horvath und Barrangou",
+            "right": "Beweis, dass Bakterien echtes Gedächtnis besitzen"
+          },
+          {
+            "left": "Charpentier und Doudna",
+            "right": "Vereinfachung des Systems zu einem praktischen Werkzeug"
+          },
+          {
+            "left": "KJ",
+            "right": "Patient, der 2025 eine massgeschneiderte Gentherapie erhielt"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching", "stable_id": "ex-msfxg43o0096h"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Bei KJ wurde ein einzelner fehlerhafter Buchstabe im ___ korrigiert, um eine tödliche Stoffwechselstörung zu behandeln.",
+        "blanks": [
+          {
+            "accept": [
+              "CPS1-Gen"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Virus-DNA",
+          "RNA-Anleitung",
+          "Fahndungsfoto"
+        ],
+        "id": "ai-ex-4-cloze", "stable_id": "ex-msfxg43o00ah5"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Erklären Sie, warum der Unterschied zwischen einem fest entworfenem Protein und einer programmierbaren RNA-Anleitung nicht nur schneller, sondern kategorisch anders ist.",
+        "card_ids": [],
+        "accept": [
+          "Man muss nur die Anleitung ändern, nicht das Protein selbst neu entwerfen",
+          "Die Anpassung erfolgt durch die RNA, nicht durch Umgestaltung des Proteins",
+          "Es ermöglicht schnelle Programmierbarkeit ohne jedes Mal das Protein neu zu konstruieren"
+        ],
+        "distractors": [
+          "Die RNA ist stabiler als Proteine",
+          "Es reduziert die Kosten um 90 Prozent"
+        ],
+        "id": "ai-ex-5-free-text", "stable_id": "ex-msfxg43o00bum"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-6-ai-ex-6-word-tiles",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "word_tiles",
+        "prompt": "Rekonstruieren Sie den Satz über das transformative Merkmal von CRISPR:",
+        "card_ids": [],
+        "tiles": [
+          "CRISPR",
+          "macht",
+          "Erbinformation",
+          "nicht",
+          "nur",
+          "lesbar",
+          "oder",
+          "kopierbar",
+          "sondern",
+          "editierbar"
+        ],
+        "distractors": [],
+        "id": "ai-ex-6-word-tiles", "stable_id": "ex-msfxg43o00c2z"
+      },
+      "theory_ref": "theory-3"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

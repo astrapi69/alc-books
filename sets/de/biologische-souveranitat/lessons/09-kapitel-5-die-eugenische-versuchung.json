@@ -1,0 +1,193 @@
+{
+  "id": "09-kapitel-5-die-eugenische-versuchung",
+  "title": "Kapitel 5: Die eugenische Versuchung",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 12,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Buck v. Bell: ein Urteil auf einer Lüge",
+      "body": "Am 2. Mai 1927 genehmigte der Oberste Gerichtshof der Vereinigten Staaten in weniger als tausend Worten die Zwangssterilisierung von Menschen, die der Staat für genetisch minderwertig hielt. Die Klägerin Carrie Buck war einundzwanzig, arm und mit siebzehn nach einer Vergewaltigung schwanger geworden, was das Gericht nicht wusste oder nicht wissen wollte. Richter Oliver Wendell Holmes Jr., ein Liberaler und einer der meistzitierten Richter der Rechtsgeschichte, schrieb die Mehrheitsmeinung und den Satz, der davon blieb: Drei Generationen Schwachsinnige reichen. Acht Richter stimmten zu. Der Historiker Paul Lombardo rekonstruierte Jahrzehnte später die Fakten: Carrie hatte in der Schule angemessene Noten, ihre Mutter war arm statt behindert, und ihre Tochter Vivian schaffte es auf die Ehrenliste. Keine der drei Generationen war schwachsinnig. Carries Anwalt diente den Interessen der Anstalt, ihre Schwester Doris wurde unter dem Vorwand einer Blinddarmoperation sterilisiert. Das Urteil wurde nie formell aufgehoben."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Eugenik war ein Projekt der Demokratien",
+      "body": "Francis Galton, ein Cousin Charles Darwins, prägte 1883 den Begriff Eugenik mit einem expliziten Programm: die menschliche Rasse durch gezielte Fortpflanzung verbessern. Die Idee galt einer Epoche, die Rinder und Pferde züchtete, als vernünftig. Indiana verabschiedete 1907 das erste Sterilisierungsgesetz der USA, bis in die 1930er Jahre folgten über dreissig Bundesstaaten. Kalifornien als progressiver Vorreiterstaat sterilisierte rund 20.000 Menschen, insgesamt waren es in den USA über 60.000, in Virginia allein rund 8.300. Schweden sterilisierte auf Grundlage eines sozialdemokratischen Gesetzes von 1934 bis 1975, Alberta unterhielt bis 1972 ein Eugenics Board. Harry Laughlin, Autor des Modellgesetzes hinter Virginias Regelung, erhielt 1936 eine Ehrendoktorwürde aus Heidelberg, verliehen von den Nationalsozialisten, deren Gesetz von 1933 zur Zwangssterilisierung von rund 400.000 Menschen führte. Eugenik war kein Projekt der Diktaturen, sondern demokratischer Konsens, getragen von Parlamenten, Gerichten und den bestfinanzierten Forschungseinrichtungen ihrer Zeit."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Die Versuchung im neuen Gewand",
+      "body": "Als He Jiankui 2018 die Keimbahn zweier Embryonen editierte, argumentierte er mit Mitgefühl und dem Wohl der Kinder. Holmes hatte 1927 argumentiert, es sei besser für die ganze Welt. Die Struktur ist identisch: Ein Dritter entscheidet über den genetischen Code eines Menschen, der nicht gefragt werden kann, begründet mit dessen Wohl, gestützt auf die beste verfügbare Wissenschaft, und die Entscheidung ist irreversibel. Nur die Richtung unterscheidet sich, Elimination gegen Optimierung, negative gegen positive Eugenik. Michael Sandel verschärft das Argument: Das Problem der genetischen Optimierung sei nicht, dass sie scheitere, sondern dass sie funktioniere, denn dann entsteht Druck auf alle Eltern, und aus einer Möglichkeit wird eine Pflicht. Die Antwort des Buches steht in Teil 4, aber die Richtung ist erkennbar: Eugenik war nicht die Konsequenz biologischer Souveränität, sondern die Konsequenz ihrer Abwesenheit. Die Grenze verläuft nicht zwischen Eingriff und Nicht-Eingriff, sondern zwischen Fremdbestimmung und Selbstbestimmung."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Der Fall, in dem der Supreme Court 1927 die Zwangssterilisierung Carrie Bucks genehmigte, heisst ___.",
+        "blanks": [
+          {
+            "accept": [
+              "Buck v. Bell"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Roe v. Wade",
+          "Brown v. Board",
+          "Bell v. Virginia"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfxg43q00zq1"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Den Begriff Eugenik prägte 1883 ___, ein Cousin von Charles Darwin.",
+        "blanks": [
+          {
+            "accept": [
+              "Francis Galton"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Harry Laughlin",
+          "Charles Davenport",
+          "Oliver Wendell Holmes"
+        ],
+        "id": "ai-ex-2-cloze", "stable_id": "ex-msfxg43q0109l"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie jeder Person ihre Rolle in der Geschichte der Eugenik zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Oliver Wendell Holmes Jr.",
+            "right": "Verfasser der Mehrheitsmeinung in Buck v. Bell"
+          },
+          {
+            "left": "Harry Laughlin",
+            "right": "Autor des Modellgesetzes, 1936 in Heidelberg geehrt"
+          },
+          {
+            "left": "Paul Lombardo",
+            "right": "Historiker, der die Fakten hinter dem Urteil rekonstruierte"
+          },
+          {
+            "left": "Michael Sandel",
+            "right": "Philosoph, der Optimierung als sozialen Zwang analysiert"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching", "stable_id": "ex-msfxg43q0111x"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Sandels Einwand lautet, das Problem der genetischen Optimierung sei nicht, dass sie scheitere, sondern dass sie ___.",
+        "blanks": [
+          {
+            "accept": [
+              "funktioniere"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "teuer sei",
+          "verboten sei",
+          "unpräzise sei"
+        ],
+        "id": "ai-ex-4-cloze", "stable_id": "ex-msfxg43q012yf"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Erklären Sie, warum dieses Kapitel Eugenik nicht als Folge, sondern als Abwesenheit biologischer Souveränität deutet.",
+        "card_ids": [],
+        "accept": [
+          "Nicht die Betroffenen entschieden über ihren Code, sondern der Staat, der Arzt und das Gericht",
+          "Carrie Buck, Doris Buck und die 60.000 Sterilisierten wurden nie gefragt, es war reine Fremdbestimmung",
+          "Die Grenze verläuft zwischen Fremdbestimmung und Selbstbestimmung, nicht zwischen Eingriff und Nicht-Eingriff"
+        ],
+        "distractors": [
+          "Die damalige Technik war zu ungenau, um Souveränität zu ermöglichen",
+          "Eugenik scheiterte, weil die Gesetze schlecht formuliert waren"
+        ],
+        "id": "ai-ex-5-free-text", "stable_id": "ex-msfxg43q01393"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-6-ai-ex-6-word-tiles",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "word_tiles",
+        "prompt": "Rekonstruieren Sie den Satz, der die These des Kapitels zusammenfasst:",
+        "card_ids": [],
+        "tiles": [
+          "Eugenik",
+          "war",
+          "nicht",
+          "die",
+          "Konsequenz",
+          "von",
+          "biologischer",
+          "Souveränität",
+          "sondern",
+          "ihrer",
+          "Abwesenheit"
+        ],
+        "distractors": [],
+        "id": "ai-ex-6-word-tiles", "stable_id": "ex-msfxg43q014hh"
+      },
+      "theory_ref": "theory-3"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

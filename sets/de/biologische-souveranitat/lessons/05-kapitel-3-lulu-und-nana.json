@@ -1,0 +1,196 @@
+{
+  "id": "05-kapitel-3-lulu-und-nana",
+  "title": "Kapitel 3: Lulu und Nana",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 12,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Keimbahn-Editierung versus somatische Gentherapie",
+      "body": "Es gibt einen fundamentalen Unterschied zwischen zwei Arten von Genveränderungen: Bei der Keimbahn-Editierung werden Embryonen so verändert, dass die genetische Veränderung an alle zukünftigen Generationen weitergegeben wird – eine irreversible Entscheidung, die Menschen betrifft, die nicht zustimmen konnten. Bei der somatischen Gentherapie werden dagegen nur die Zellen einer einzelnen Person verändert, wobei die Modifikation nicht vererbt wird. Diese Unterscheidung ist ethisch entscheidend, da die Keimbahn-Editierung die Autonomie zukünftiger Menschen einschränkt und langfristige Konsequenzen mit sich bringt, die niemand vollständig vorhersehen kann."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Notwendigkeit, Transparenz und informierte Zustimmung als ethische Grundprinzipien",
+      "body": "Damit genetische Eingriffe ethisch vertretbar sind, müssen mehrere Bedingungen erfüllt sein: Es muss eine echte medizinische Notwendigkeit geben – also ein Problem, das ohne Intervention tatsächlich entstehen würde. Der Prozess muss transparent sein und der wissenschaftlichen Überprüfung durch Fachkollegen standhhalten. Und die betroffenen Personen (oder ihre Vertreter) müssen vollständig informiert zustimmen. Wenn diese Bedingungen fehlen – wenn beispielsweise eine Krankheit verhindert werden soll, die ohnehin nicht aufgetreten wäre, oder wenn ethische Genehmigungen gefälscht sind – wird ein medizinischer Eingriff zur ethischen Verletzung."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Grenzüberschreitung als Systemversagen, nicht als individuelles Fehlverhalten",
+      "body": "Die Geschichte zeigt, dass die Übertreteung ethischer Grenzen nicht einfach das Werk eines einzelnen Verrückten ist, sondern das Resultat eines Systems, das schnelle Ergebnisse und technologischen Wettbewerb über sorgfältige ethische Prüfung stellt. Wenn die verfügbaren Werkzeuge schneller wachsen als die Regelwerke, die ihre Verwendung kontrollieren, entsteht ein Vakuum, das ehrgeizige Menschen ausfüllen werden. Die zentrale Frage lautet daher: Wer kontrolliert die Grenzen zwischen zulässigen und unzulässigen Eingriffen, und wie werden diese Grenzen durchgesetzt?"
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Damit genetische Eingriffe ethisch vertretbar sind, muss es eine echte medizinische ___ geben.",
+        "blanks": [
+          {
+            "accept": [
+              "Notwendigkeit"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Erfolgsquote",
+          "Finanzierung",
+          "Technologie"
+        ],
+        "id": "ai-ex-1-cloze",
+        "stable_id": "ex-msfxg43p00j5p"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Die Übertreteung ethischer Grenzen ist typischerweise das Resultat eines ___, das schnelle Ergebnisse über sorgfältige ethische Prüfung stellt.",
+        "blanks": [
+          {
+            "accept": [
+              "Systems"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Individuums",
+          "Irrtums",
+          "Unfalls"
+        ],
+        "id": "ai-ex-2-cloze",
+        "stable_id": "ex-msfxg43p00kyd"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie die Begriffe ihren Merkmalen zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Keimbahn-Editierung",
+            "right": "Die genetische Veränderung wird an zukünftige Generationen weitergegeben"
+          },
+          {
+            "left": "Somatische Gentherapie",
+            "right": "Die Modifikation betrifft nur eine einzelne Person und wird nicht vererbt"
+          },
+          {
+            "left": "Informierte Zustimmung",
+            "right": "Bedingung, die bei Eingriffen an noch nicht geborenen Menschen nicht eingeholt werden kann"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching",
+        "stable_id": "ex-msfxg43p00lo1"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Ein medizinischer Eingriff wird zur ethischen Verletzung, wenn beispielsweise eine Krankheit verhindert werden soll, die ohnehin nicht aufgetreten wäre, oder wenn ethische ___ gefälscht sind.",
+        "blanks": [
+          {
+            "accept": [
+              "Genehmigungen"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Ergebnisse",
+          "Verträge",
+          "Daten"
+        ],
+        "id": "ai-ex-4-cloze",
+        "stable_id": "ex-msfxg43p00mdn"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Erklären Sie, warum die Unterscheidung zwischen Keimbahn-Editierung und somatischer Gentherapie ethisch entscheidend ist.",
+        "card_ids": [],
+        "accept": [
+          "weil Keimbahn-Editierung zukünftige Generationen betrifft, die nicht zustimmen konnten, während somatische Gentherapie nur eine Person betrifft",
+          "weil Keimbahn-Editierung irreversibel und vererbbar ist, somatische Gentherapie aber nicht",
+          "weil Keimbahn-Editierung die Autonomie zukünftiger Menschen einschränkt"
+        ],
+        "distractors": [
+          "weil somatische Gentherapie schneller wirkt",
+          "weil Keimbahn-Editierung weniger Nebenwirkungen hat"
+        ],
+        "id": "ai-ex-5-free-text",
+        "stable_id": "ex-msfxg43p00ngh"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-6-ai-ex-6-word-tiles",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "word_tiles",
+        "prompt": "Rekonstruieren Sie den Satz über die Bedingungen für ethisch vertretbare genetische Eingriffe.",
+        "card_ids": [],
+        "tiles": [
+          "Der",
+          "Prozess",
+          "muss",
+          "transparent",
+          "sein",
+          "und",
+          "der",
+          "wissenschaftlichen",
+          "Überprüfung",
+          "durch",
+          "Fachkollegen",
+          "standhhalten."
+        ],
+        "distractors": [],
+        "id": "ai-ex-6-word-tiles",
+        "stable_id": "ex-msfxg43p00od5"
+      },
+      "theory_ref": "theory-2"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

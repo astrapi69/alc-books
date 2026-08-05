@@ -1,0 +1,106 @@
+{
+  "id": "07-interludium-der-korper-spricht",
+  "title": "Interludium: Der Körper spricht",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 8,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Der Körper als Grundlage, nicht als Behälter",
+      "body": "Während die Philosophie lange den Geist als das Wesentliche behandelt hat, wird hier ein anderes Verständnis vorgeschlagen: Der Körper ist nicht einfach ein Transportmittel für Gedanken, sondern die notwendige Voraussetzung, damit Geist überhaupt existieren kann. Jeder Gedanke setzt biologische Prozesse voraus – Neuronen, Hormone, Sinnesorgane. Der Geist ist nicht schwebend und unabhängig, sondern verwurzelt in der materiellen Realität. Das bedeutet nicht, dass Körper und Geist identisch sind, sondern dass einer ohne den anderen nicht funktioniert. Der Körper ist der Boden, auf dem alles andere wächst."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Körperliche Eigenständigkeit und unbewusste Weisheit",
+      "body": "Der Körper verfügt über eigene, von bewusstem Denken unabhängige Fähigkeiten. Wenn sich eine Wunde heilt oder das Immunsystem einen Eindringling bekämpft, geschieht das ohne dass wir darüber nachdenken – ja, oft bevor wir es bewusst bemerken. Diese Prozesse folgen ihrer eigenen Logik, die sich über Millionen von Jahren entwickelt hat. Der Körper ist nicht nur Werkzeug des Willens, sondern ein eigenständiges System mit eigener Intelligenz und Erinnerung. Sogar Muskeln und Gewebe speichern Informationen über das, was sie getan haben."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Ganzheitlichkeit gegen reduktionistische Eingriffe",
+      "body": "Eine ethische Frage stellt sich, wenn wir den menschlichen Körper verändern möchten – etwa durch Gentechnik. Der Körper ist mehr als nur sein genetischer Code. Er umfasst Epigenetik (welche Gene aktiv sind), das Mikrobiom (die Billionen von Organismen in uns), Narben, Erfahrungen und die Art, wie Umwelt und Zeit ihn prägen. Bevor wir solche Eingriffe vornehmen, sollten wir nicht nur technisch überlegbar denken, sondern den Körper selbst – als komplexes, lebendes System – ernst nehmen und in ethische Überlegungen einbeziehen."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Der Körper ist nicht einfach ein Transportmittel für Gedanken, sondern die notwendige ___, damit Geist überhaupt existieren kann.",
+        "blanks": [
+          {
+            "accept": [
+              "Voraussetzung"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Grenze",
+          "Illusion"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfxg43q00tjo"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie jede Körperfunktion ihrer Beschreibung zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Wundheilung",
+            "right": "Biologischer Prozess, der unbewusst und ohne kognitives Nachdenken abläuft"
+          },
+          {
+            "left": "Epigenetik",
+            "right": "Bestimmung, welche Gene aktiv sind"
+          },
+          {
+            "left": "Mikrobiom",
+            "right": "Billionen von Organismen, die im menschlichen Körper leben"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-2-matching", "stable_id": "ex-msfxg43q00u9s"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Warum ist es ethisch wichtig, den Körper als mehr als nur genetischen Code zu verstehen, wenn wir Gentechnik erwägen?",
+        "card_ids": [],
+        "accept": [
+          "Weil der Körper ein komplexes, lebendes System ist, das Epigenetik, Mikrobiom und Erfahrungen umfasst",
+          "Weil der Körper mehr als nur sein genetischer Code ist und diese Komplexität in ethischen Überlegungen berücksichtigt werden sollte",
+          "Weil Umwelt, Zeit, Narben und Erfahrungen den Körper prägen und nicht ignoriert werden dürfen"
+        ],
+        "distractors": [
+          "Weil Gentechnik immer verboten sein sollte"
+        ],
+        "id": "ai-ex-3-free-text", "stable_id": "ex-msfxg43q00v22"
+      },
+      "theory_ref": "theory-3"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

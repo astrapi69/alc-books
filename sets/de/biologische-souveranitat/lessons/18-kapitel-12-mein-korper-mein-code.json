@@ -1,0 +1,166 @@
+{
+  "id": "18-kapitel-12-mein-korper-mein-code",
+  "title": "Kapitel 12: Mein Körper, mein Code?",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 11,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Biologische Souveränität: Das Recht auf Selbstbestimmung über den eigenen genetischen Code",
+      "body": "Biologische Souveränität bedeutet, dass jeder Mensch die letzte Entscheidungsgewalt über seinen genetischen Code haben sollte – ähnlich wie ein Staat über sein Territorium entscheidet. Dabei geht es nicht um absolute Macht, sondern um das Recht, selbst zu bestimmen, was mit den eigenen Genen geschieht, ohne dass Ärzte, Unternehmen oder der Staat dies ohne Zustimmung vornehmen dürfen.\n\nDamit dieses Recht jedoch real ist und nicht nur auf dem Papier existiert, braucht es zwei Voraussetzungen: Erstens die **Freiheit zu entscheiden** – niemand darf ohne Zustimmung über deinen Code bestimmen. Zweitens die **Fähigkeit zu entscheiden** – du musst tatsächlich Zugang zu den verfügbaren Therapien haben und genug Informationen besitzen, um eine fundierte Wahl zu treffen. Ohne beide Bedingungen ist biologische Souveränität nur eine leere Versprechung."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Die historischen Wurzeln: Vom Schutz vor Eingriffen zur aktiven Selbstbestimmung",
+      "body": "Das Recht auf Körperautonomie ist nicht neu – es steht in vielen Verfassungen und schützt Menschen vor staatlichen Eingriffen. Allerdings gibt es einen wichtigen Unterschied: Das klassische Recht auf körperliche Unversehrtheit sagt dem Staat \"du darfst meinen Körper nicht verletzen\", während Souveränität sagt \"ich darf mit meinem Körper entscheiden\".\n\nDie Kämpfe der letzten hundert Jahre – um Abtreibungsrechte, Sterbehilfe, Organspende, Geschlechtsangleichung – zeigen, dass Gesellschaften ständig darüber verhandeln müssen, wo diese Grenze liegt. Diese Rechte sind nicht ein für alle Mal erworben, sondern müssen kontinuierlich verteidigt werden. Mit CRISPR und Gentechnik entsteht ein völlig neues Kapitel dieser Debatte: Es geht nicht mehr nur darum, ob ich meinen Körper verändern darf, sondern ob ich die Bauanleitung selbst – meinen genetischen Code – verändern darf."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Drei Kreise der Souveränität: Von mir selbst über mein Kind bis zu künftigen Generationen",
+      "body": "Biologische Souveränität lässt sich in drei unterschiedlich komplexe Situationen aufteilen:\n\n**Erster Kreis – mein eigener Körper:** Ein erwachsener, entscheidungsfähiger Mensch stimmt einer Gentherapie zu oder lehnt sie ab. Das ist der klarste Fall und lässt sich mit etablierten Rechten wie dem Recht auf Abtreibung vergleichen.\n\n**Zweiter Kreis – mein Kind:** Eltern müssen für ihr Kind entscheiden, das selbst nicht zustimmen kann. Dies ist gerechtfertigt, wenn die Alternative schwere Krankheit oder Tod ist, die Eltern im echten Interesse des Kindes (nicht der Forschung) handeln und ihre Entscheidung transparent ist – wie bei den Muldoons mit ihrer FDA-genehmigten Therapie.\n\n**Dritter Kreis – künftige Generationen:** Bei Veränderungen der Keimbahn entscheiden wir nicht nur über eine Person, sondern über alle ihre Nachkommen – Menschen, die nicht gefragt werden können. Das ist die ethisch schwierigste Situation.\n\nDie zentrale Erkenntnis: Biologische Souveränität bedeutet nicht, dass niemand für andere entscheiden darf. Sie bedeutet, dass Stellvertreter transparent, rechenschaftspflichtig sein müssen und wirklich im Interesse des Betroffenen handeln – nicht im Interesse von Forschung oder persönlicher Karriere."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Biologische Souveränität bedeutet, dass jeder Mensch die Entscheidungsgewalt über seinen ___ haben sollte.",
+        "blanks": [
+          {
+            "accept": [
+              "genetischen Code"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Körper",
+          "Lebensstil",
+          "Krankenversicherung"
+        ],
+        "id": "ai-ex-1-cloze",
+        "stable_id": "ex-msfxg43t021eg"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Im ___ Kreis der Souveränität entscheiden wir über Menschen, die nicht gefragt werden können.",
+        "blanks": [
+          {
+            "accept": [
+              "dritten"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "ersten",
+          "zweiten",
+          "vierten"
+        ],
+        "id": "ai-ex-2-cloze",
+        "stable_id": "ex-msfxg43t0220c"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jede Voraussetzung für biologische Souveränität ihrer Erklärung zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Freiheit zu entscheiden",
+            "right": "Niemand darf ohne Zustimmung über deinen Code bestimmen"
+          },
+          {
+            "left": "Fähigkeit zu entscheiden",
+            "right": "Du musst Zugang zu Therapien und genug Informationen haben"
+          },
+          {
+            "left": "Körperautonomie",
+            "right": "Klassisches Recht, das den Staat verbietet, den Körper zu verletzen"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching",
+        "stable_id": "ex-msfxg43t023es"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Eine Entscheidung von Eltern für ihr Kind ist gerechtfertigt, wenn die Alternative schwere Krankheit oder Tod ist, die Eltern im echten Interesse des Kindes handeln und die Entscheidung ___ ist.",
+        "blanks": [
+          {
+            "accept": [
+              "transparent"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "beliebt",
+          "rentabel",
+          "einstimmig"
+        ],
+        "id": "ai-ex-4-cloze",
+        "stable_id": "ex-msfxg43t024do"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Beschreibe den Unterschied zwischen klassischem Recht auf körperliche Unversehrtheit und biologischer Souveränität.",
+        "card_ids": [],
+        "accept": [
+          "Das klassische Recht sagt, der Staat darf meinen Körper nicht verletzen; Souveränität sagt, ich darf mit meinem Körper entscheiden",
+          "Körperautonomie schützt vor Eingriffen, während Souveränität aktive Selbstbestimmung ermöglicht"
+        ],
+        "distractors": [
+          "Beide Begriffe meinen dasselbe, nur in unterschiedlicher juristischer Sprache",
+          "Das klassische Recht erlaubt aktive Selbstbestimmung, Souveränität schützt nur vor Eingriffen"
+        ],
+        "id": "ai-ex-5-free-text",
+        "stable_id": "ex-msfxg43t025ce"
+      },
+      "theory_ref": "theory-2"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

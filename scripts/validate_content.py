@@ -230,6 +230,23 @@ def lesson_shape_ok(lesson) -> bool:
     return not lesson_shape_errors(lesson)
 
 
+#: Lesson-id shapes (after the ``NN-`` ordering prefix) that mark a BRIDGE
+#: lesson in a book set: the opening, a part divider, an interlude, the
+#: closing. They summarise and connect rather than teach new material, so
+#: their text base cannot carry the full exercise minimum. This is a
+#: structural category of a book companion set, not a blanket excuse - a
+#: chapter lesson stays subject to MIN_EXERCISES.
+BRIDGE_LESSON_RE = re.compile(
+    r"^\d+-(einleitung|vorwort|teil-\d+|interludium|epilog|schluss|nachwort)\b"
+)
+
+
+def is_bridge_lesson(lesson: dict) -> bool:
+    """True for opening / part-divider / interlude / closing lessons, which
+    are exempt from MIN_EXERCISES only (every other quality rule applies)."""
+    return bool(BRIDGE_LESSON_RE.match(lesson.get("id", "")))
+
+
 def validate_lesson_quality(lesson: dict, source: str, label: str, errors: list[str]) -> None:
     """Quality minimums (from quality-rules.json) + content-repo specifics
     the JSON Schema cannot express."""
@@ -238,7 +255,7 @@ def validate_lesson_quality(lesson: dict, source: str, label: str, errors: list[
     theory = [s for s in steps if s.get("type") == "theory"]
     types = {e.get("type") for e in exercises}
 
-    if len(exercises) < MIN_EXERCISES:
+    if len(exercises) < MIN_EXERCISES and not is_bridge_lesson(lesson):
         errors.append(f"{label}: {len(exercises)} exercises (need >= {MIN_EXERCISES})")
     # MIN_TYPES enforces exercise variety for normal (language-learning) sets.
     # A DELIBERATE multiple-choice-only set — every exercise a cloze in

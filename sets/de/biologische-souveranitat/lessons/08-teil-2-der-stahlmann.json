@@ -1,0 +1,111 @@
+{
+  "id": "08-teil-2-der-stahlmann",
+  "title": "Teil 2: Der Stahlmann",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 8,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Das Prinzip der kritischen Selbstprüfung",
+      "body": "Beim Verfassen von überzeugenden Argumenten ist es wichtig, nicht nur die eigene Position zu vertreten, sondern sie auch bewusst zu hinterfragen. Die Stahlmann-Methode funktioniert so: Der Autor sucht absichtlich nach den stärksten Gegenargumenten gegen seine These und behandelt sie mit derselben Ernsthaftigkeit wie sein Hauptargument. Dies ist keine Schwäche, sondern eine Stärke – nur wenn eine These diese kritische Prüfung übersteht, verdient sie Vertrauen."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Warnsignale aus der Geschichte und Wissenschaft",
+      "body": "Historische Beispiele zeigen, dass biologische Konzepte missbraucht werden können. Die Eugenikbewegung demonstriert, wie wissenschaftliche Sprache zur Rechtfertigung von Verbrechen herangezogen wurde. Parallel dazu offenbaret die moderne Genomforschung, dass die Realität des menschlichen Erbguts viel zu komplex ist für einfache, pauschale Antworten. Diese beiden Erkenntnisse zusammen warnen uns: Vorsicht vor zu simplen Lösungen, die auf biologischen Aussagen basieren."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Die ambivalente Rolle von Kontrolle und Schutz",
+      "body": "Regulierung und Kontrolle werden oft nur als Hindernisse wahrgenommen. Doch ein differenzierter Blick zeigt: Gatekeeper – also Institutionen, die Zugang beschränken – haben nicht nur eine blockierende Funktion. Sie schützen auch vor Missbrauch und Schaden. Eine ausgewogene Betrachtung muss beide Aspekte berücksichtigen. Eine These, die nach dieser dreifachen Prüfung noch Bestand hat, hat sich bewährt."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Die Stahlmann-Methode bedeutet, dass der Autor absichtlich nach den ___ Gegenargumenten gegen seine These sucht.",
+        "blanks": [
+          {
+            "accept": [
+              "stärksten"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "schwächsten",
+          "häufigsten",
+          "irrelevantesten"
+        ],
+        "id": "ai-ex-1-cloze",
+        "stable_id": "ex-msfxg43q00w7y"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne die historischen und wissenschaftlichen Warnsignale ihren Bedeutungen zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Eugenikbewegung",
+            "right": "Zeigt, wie wissenschaftliche Sprache zur Rechtfertigung von Verbrechen missbraucht werden kann"
+          },
+          {
+            "left": "Moderne Genomforschung",
+            "right": "Offenbart, dass das menschliche Erbgut zu komplex für einfache Antworten ist"
+          },
+          {
+            "left": "Gatekeeper",
+            "right": "Institutionen, die nicht nur Zugang blockieren, sondern auch vor Missbrauch schützen"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-2-matching",
+        "stable_id": "ex-msfxg43q00x9r"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Warum wird in diesem Text die kritische Selbstprüfung als Stärke und nicht als Schwäche eines Arguments beschrieben?",
+        "card_ids": [],
+        "accept": [
+          "Weil nur Thesen, die kritische Prüfung überstehen, Vertrauen verdienen",
+          "Weil der Autor zeigt, dass das Hinterfragen der eigenen Position das Argument stärker macht",
+          "Weil eine These, die nach dreifacher Prüfung noch Bestand hat, sich bewährt hat"
+        ],
+        "distractors": [
+          "Weil das Eingestehen von Schwächen den Leser milder stimmt",
+          "Weil ein Argument ohne Gegenprüfung schneller zu formulieren ist"
+        ],
+        "id": "ai-ex-3-free-text",
+        "stable_id": "ex-msfxg43q00yvg"
+      },
+      "theory_ref": "theory-1"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

@@ -1,0 +1,156 @@
+{
+  "id": "14-kapitel-9-2-2-millionen-dollar",
+  "title": "Kapitel 9: 2,2 Millionen Dollar",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 11,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Wertbasierte Preisgestaltung und ihre Grenzen",
+      "body": "Gentherapien werden nach einem Prinzip bepreist, das \"wertbasierte Preisgestaltung\" genannt wird. Statt die Herstellungskosten als Basis zu nehmen, orientiert sich der Preis daran, welchen wirtschaftlichen Nutzen die Therapie bringt – gemessen daran, wie viel Kosten man durch die Heilung einspart, wenn man sie mit jahrzehntelanger Dauertherapie vergleicht. Dies klingt auf den ersten Blick rational: Eine einmalige Behandlung für 2,2 Millionen Dollar könnte billiger sein als 30 Jahre chronische Behandlung mit Bluttransfusionen und Krankenhausaufenthalten. Allerdings übersieht dieses Argument eine entscheidende Frage: Wer bezahlt die 2,2 Millionen Dollar *heute*? In einem fragmentierten Gesundheitssystem ohne universelle Absicherung bedeutet das in der Praxis, dass nur wohlhabende Patienten oder gut versicherte Menschen Zugang erhalten, während arme und unversicherte Menschen ausgeschlossen bleiben – obwohl die Therapie für sie medizinisch genauso wirksam wäre."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Systemische Preisgestaltung statt Kostenreflexion",
+      "body": "Die hohen Preise von Gentherapien sind nicht unvermeidlich, sondern Ergebnis der Struktur, in der sie entstehen. Mehrere Faktoren wirken zusammen: Patentgesetze erzeugen Monopole ohne Konkurrenz, regulatorische Hürden sind so hoch, dass nur große, kapitalstarke Unternehmen sie überwinden können, und dezentralisierte Herstellung wird durch Vorschriften verhindert. Das kanadische Gegenbeispiel zeigt dies deutlich: Dieselbe Zelltherapie-Technologie kostet dort weniger als ein Zehntel des amerikanischen Preises – nicht weil die Technik anders ist, sondern weil sie öffentlich finanziert, lokal produziert und ohne Monopolmarge verkauft wird. Der Preis reflektiert nicht die Produktionsrealität, sondern die wirtschaftliche Macht eines Systems, das Milliardeninvestitionen über hohe Monopolpreise zurückgewinnen muss."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Zugang als Frage von Macht und Gerechtigkeit",
+      "body": "Wenn eine heilende Technologie existiert, aber nur die wirtschaftlich Privilegierten sie erhalten können, wird medizinische Heilung zur Frage sozialer Ungleichheit. Sichelzellenanämie betrifft weltweit etwa 20 Millionen Menschen, überwiegend in Afrika, Südasien und unter marginalisierten Bevölkerungsgruppen – ausgerechnet dort, wo Menschen sich Behandlungen zu Millionnenpreisen am wenigsten leisten können. Das ist nicht nur ein ökonomisches Problem, sondern ein ethisches: Es reproduziert genetische Privilegien, bei denen der genetische Code und der Zugang zu seiner Veränderung vom Reichtum abhängen. Dies transformiert die medizinische Frage in eine politische Frage darüber, wer entscheidet, wer heilen kann und wer nicht – und diese Entscheidung fällt nicht aufgrund medizinischer Notwendigkeit, sondern aufgrund der Kaufkraft."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Wertbasierte Preisgestaltung orientiert sich nicht an den Herstellungskosten, sondern am ___, den die Therapie bringt.",
+        "blanks": [
+          {
+            "accept": [
+              "wirtschaftlichen Nutzen"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Marktdurchschnittspreis",
+          "Gewinn des Herstellers",
+          "Zeitaufwand der Entwicklung"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfxg43s01mh3"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Erklären Sie, warum der kanadische Preis für dieselbe Zelltherapie-Technologie weniger als ein Zehntel des amerikanischen Preises beträgt, ohne dabei technische Unterschiede zu nennen.",
+        "card_ids": [],
+        "accept": [
+          "Weil die Therapie öffentlich finanziert und lokal produziert wird, ohne Monopolmarge",
+          "Die öffentliche Finanzierung und lokale Produktion ohne Monopolgewinn führen zu niedrigeren Preisen",
+          "Unterschied liegt in der Systemstruktur: öffentliche Finanzierung statt Monopolmarge"
+        ],
+        "distractors": [
+          "Weil Kanada eine bessere Technologie hat",
+          "Weil die Herstellung in Kanada billiger ist"
+        ],
+        "id": "ai-ex-2-free-text", "stable_id": "ex-msfxg43s01nfh"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Mehrere Faktoren führen zu hohen Gentherapie-Preisen: ___ erzeugen Monopole, regulatorische Hürden sind hoch, und dezentralisierte Herstellung wird verhindert.",
+        "blanks": [
+          {
+            "accept": [
+              "Patentgesetze"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Internationale Handelsabkommen",
+          "Rohstoffknappheit",
+          "Transportkosten"
+        ],
+        "id": "ai-ex-3-cloze", "stable_id": "ex-msfxg43s01ogj"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie die Länder/Systeme den beschriebenen Preismodellen zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Kanada",
+            "right": "Öffentlich finanzierte, lokal produzierte Zelltherapie ohne Monopolmarge"
+          },
+          {
+            "left": "USA (fragmentiertes Gesundheitssystem)",
+            "right": "Wertbasierte Preisgestaltung mit Millionenpreisen, Zugang abhängig von Vermögen und Versicherung"
+          },
+          {
+            "left": "Regionen mit Sichelzellenanämie-Patienten (Afrika, Südasien)",
+            "right": "Bevölkerung mit höchstem medizinischen Bedarf, aber geringster Kaufkraft"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-4-matching", "stable_id": "ex-msfxg43s01p62"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Warum wird der Zugang zu heilenden Gentherapien nach dem Text zu einer Frage von Macht und Gerechtigkeit?",
+        "card_ids": [],
+        "accept": [
+          "Weil nur wirtschaftlich Privilegierte Zugang haben, während medizinische Heilung dann von Reichtum abhängt",
+          "Weil die Technologie existiert, aber nur wohlhabende Menschen sie nutzen können",
+          "Die Entscheidung, wer heilen kann, fällt nach Kaufkraft, nicht nach medizinischer Notwendigkeit"
+        ],
+        "distractors": [
+          "Weil es zu wenig Gentherapien gibt"
+        ],
+        "id": "ai-ex-5-free-text", "stable_id": "ex-msfxg43s01q0q"
+      },
+      "theory_ref": "theory-3"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

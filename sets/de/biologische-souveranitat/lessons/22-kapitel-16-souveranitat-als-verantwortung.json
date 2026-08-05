@@ -1,0 +1,189 @@
+{
+  "id": "22-kapitel-16-souveranitat-als-verantwortung",
+  "title": "Kapitel 16: Souveränität als Verantwortung",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 12,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Verantwortung als Gegengewicht zu unbegrenzter Macht",
+      "body": "Hans Jonas erkannte, dass moderne Technologien wie Atomwaffen und Gentechnik eine neue ethische Herausforderung stellen: Sie können irreversible Folgen für zukünftige Generationen haben, die nicht gefragt werden können. Seine zentrale Idee besagt, dass wer die Macht hat zu handeln, auch die Verantwortung trägt, sicherzustellen, dass diese Handlungen mit dem Weiterleben künftiger Menschheit vereinbar sind. Dies unterscheidet sich von klassischen ethischen Regeln, die sich nur auf gleichzeitig lebende Menschen bezogen. Biologische Souveränität – das Recht, über den eigenen genetischen Code zu entscheiden – ist daher nicht grenzenlos, sondern an diese Verantwortung gebunden."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Freiheit braucht Verantwortung als Gegenpart",
+      "body": "Viktor Frankl ergänzt Jonas' Gedanken durch eine einfache aber tiefe Erkenntnis: Freiheit ohne Verantwortung wird zur Willkür. Wer frei entscheiden kann, trägt auch die Pflicht, die Konsequenzen dieser Entscheidung zu tragen – nicht nur für sich selbst, sondern auch für andere, besonders für diejenigen, die keine Wahl haben. Im Kontext von Gentechnik bedeutet dies, dass die Freiheit, den eigenen oder den genetischen Code von Nachkommen zu verändern, nur dann sinnvoll ist, wenn sie von echter Verantwortlichkeit geleitet wird. Eine Freiheit, die nur Vorteile für den Handelnden bringt, aber Risiken für andere trägt, ist ethisch nicht gerechtfertigt."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Fünf konkrete Prinzipien der verantwortungsvollen Souveränität",
+      "body": "Verantwortung lässt sich in fünf praktischen Prinzipien umsetzen: **Transparenz** verlangt, dass Entscheidungen über genetische Veränderungen öffentlich und überprüfbar sein müssen, nicht im Verborgenen. **Reversibilität als Massstab** bedeutet, dass Eingriffe, die nicht rückgängig gemacht werden können und über Generationen nachwirken, einer strengeren Begründung bedürfen. **Medizinische Notwendigkeit** setzt eine Grenze: Heilung von Krankheiten verdient mehr Raum als bloße Optimierung. **Zugang als Gerechtigkeitsfrage** fordert, dass solche Technologien nicht nur den Reichen zugänglich sind, sonst entstehen biologische Klassengesellschaften. **Demut vor Komplexität** erinnert daran, dass die Fähigkeit zu handeln nicht bedeutet, alles zu verstehen – Vorsicht muss Hoffnung leiten, wenn es um irreversible Folgen geht."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Nach Jonas unterscheiden sich moderne ethische Herausforderungen von klassischen ethischen Regeln dadurch, dass sie sich nicht nur auf ___ lebende Menschen beziehen.",
+        "blanks": [
+          {
+            "accept": [
+              "gleichzeitig"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "reiche",
+          "technologisch versierte",
+          "erwachsene"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfxg43v02kzn"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Das Prinzip der ___ verlangt, dass Entscheidungen über genetische Veränderungen öffentlich und überprüfbar sein müssen.",
+        "blanks": [
+          {
+            "accept": [
+              "Transparenz"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Reversibilität",
+          "Demut",
+          "Medizinische Notwendigkeit"
+        ],
+        "id": "ai-ex-2-cloze", "stable_id": "ex-msfxg43v02lx4"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie jeden Denker seiner Hauptidee zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Hans Jonas",
+            "right": "Wer Macht hat zu handeln, trägt Verantwortung für zukünftige Generationen"
+          },
+          {
+            "left": "Viktor Frankl",
+            "right": "Freiheit ohne Verantwortung wird zur Willkür"
+          },
+          {
+            "left": "Medizinische Notwendigkeit",
+            "right": "Ein Prinzip, das Heilung von Krankheiten über bloße Optimierung bevorzugt"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching", "stable_id": "ex-msfxg43v02mpt"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Das Prinzip der ___ als Massstab bedeutet, dass Eingriffe, die nicht rückgängig gemacht werden können, einer strengeren Begründung bedürfen.",
+        "blanks": [
+          {
+            "accept": [
+              "Reversibilität"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Transparenz",
+          "Demut",
+          "Gerechtigkeit"
+        ],
+        "id": "ai-ex-4-cloze", "stable_id": "ex-msfxg43v02ntn"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Nach dem Prinzip des ___ vor Komplexität muss Vorsicht Hoffnung leiten, wenn es um irreversible Folgen geht.",
+        "blanks": [
+          {
+            "accept": [
+              "Demut"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Mut",
+          "Vertrauen",
+          "Fortschritt"
+        ],
+        "id": "ai-ex-5-cloze", "stable_id": "ex-msfxg43v02o6g"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-6-ai-ex-6-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Erklären Sie, warum eine Freiheit, die nur Vorteile für den Handelnden bringt, aber Risiken für andere trägt, nach Frankl ethisch nicht gerechtfertigt ist.",
+        "card_ids": [],
+        "accept": [
+          "Weil Freiheit von Verantwortung begleitet werden muss, nicht nur gegenüber sich selbst, sondern auch gegenüber anderen, besonders denen ohne Wahl",
+          "Weil Freiheit ohne Verantwortung zur Willkür wird und die Konsequenzen für andere nicht berücksichtigt",
+          "Weil der Handelnde die Pflicht trägt, die Konsequenzen für alle zu tragen, nicht nur für sich selbst"
+        ],
+        "distractors": [
+          "Weil technologische Fortschritte immer allen schaden",
+          "Weil nur staatliche Entscheidungen ethisch sind"
+        ],
+        "id": "ai-ex-6-free-text", "stable_id": "ex-msfxg43v02pug"
+      },
+      "theory_ref": "theory-2"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

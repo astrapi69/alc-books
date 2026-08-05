@@ -1,0 +1,189 @@
+{
+  "id": "04-kapitel-2-zwei-codes-ein-prinzip",
+  "title": "Kapitel 2: Zwei Codes, ein Prinzip",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 12,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Schrödingers Codeschrift",
+      "body": "Im Februar 1943 hielt der nach Irland geflohene Physiker Erwin Schrödinger am Trinity College Dublin eine Vorlesungsreihe zu einer Frage ausserhalb seines Fachgebiets: Was ist Leben, physikalisch betrachtet? Wo sitzt die Information, die einen Organismus über Generationen hinweg gegen den thermodynamischen Zerfall organisiert hält? Seine Antwort war richtig, obwohl er die Details nicht kennen konnte, denn die Struktur der DNA lag noch zehn Jahre in der Zukunft. Die Erbsubstanz, argumentierte er, müsse ein aperiodischer Kristall sein: stabil wie ein Kristall, aber nicht wiederholend wie eine Tapete, sondern kohärent und bedeutungsvoll wie ein Wandteppich. Dieser Kristall enthalte in einer Art Codeschrift das gesamte Muster der künftigen Entwicklung des Individuums. Ein Physiker ohne Kenntnis von Adenin, Thymin, Guanin und Cytosin griff nach genau dem Wort, das sich als richtig erweisen sollte: Code. 1953 schrieb Francis Crick ihm, dass er und James Watson durch dieses Buch zur Molekularbiologie gefunden hätten."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Der ältere Code: Schrift als Machtverschiebung",
+      "body": "Die Einsicht, dass Information die Welt organisiert, war für die menschliche Kultur seit rund fünftausend Jahren verfügbar, seit der Erfindung der Schrift in Mesopotamien. Schrift ist keine Maschine, die etwas schneller erledigt, sondern ein Speichermedium: Sie löst die Information vom Träger. Vor der Schrift war Wissen an lebende Gehirne gebunden, mit hoher Fehlerquote, geringer Reichweite und einer Haltbarkeit, die durch eine Lebensspanne begrenzt war. Danach konnte Wissen kopiert, transportiert, ergänzt und umgeschrieben werden, ohne dass Kopierer und Autor sich je begegneten. Entscheidend ist die dritte Eigenschaft: Ein niedergeschriebener Gedanke wird editierbar. Gesetze lassen sich überarbeiten, Verträge neu verhandeln, heilige Texte auslegen. Der Codex Hammurabi machte das Gesetz für jeden lesbar, der den König nie gesehen hatte, und löste damit die Regel vom Mächtigen. Das war keine technische Verbesserung, sondern eine Machtverschiebung. Alphabetisierung, Buchdruck und Internet setzten dieselbe Bewegung fort, und jede Stufe war umkämpft."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Der jüngere Code und der Übergang vom Lesen zum Schreiben",
+      "body": "Das menschliche Genom umfasst etwa 3,2 Milliarden Basenpaare, geschrieben in vier Buchstaben, und ist hierarchisch aufgebaut wie ein Text: Codons als Wörter, Gene als Sätze, Chromosomen als Kapitel. Die Parallele zur Sprache ist keine Metapher, sondern eine strukturelle Homologie, denn beide Systeme sind digital, syntaktisch geregelt, redundant zur Fehlerkorrektur und wandelbar über die Zeit. Ein Unterschied macht die Parallele radikaler: Menschliche Sprachen sind plural und übersetzungsbedürftig, der genetische Code dagegen ist universell und wird von jeder lebenden Zelle gleich gelesen. Über der Sequenz liegt zusätzlich eine Pragmatik, die Epigenetik, die nicht die Buchstaben ändert, sondern bestimmt, welche gelesen werden, so wie Leuchtstift in einem Buch. Beide Codes haben dieselbe Abfolge durchlaufen, nur um Jahrtausende versetzt: lesbar, kopierbar, editierbar. Der genetische Code wurde 2003 vollständig sequenziert, durch die Polymerase-Kettenreaktion kopierbar und ab 2012 durch CRISPR editierbar. Was die Schrift für den Logos war, ist CRISPR für das Genom."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Schrödinger argumentierte, die Erbsubstanz müsse ein ___ Kristall sein: stabil, aber nicht wiederholend.",
+        "blanks": [
+          {
+            "accept": [
+              "aperiodischer"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "periodischer",
+          "kubischer",
+          "monotoner"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfxg43p00d8z"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Der Codex Hammurabi löste das Gesetz vom Gesetzgeber und war damit keine technische Verbesserung, sondern eine ___.",
+        "blanks": [
+          {
+            "accept": [
+              "Machtverschiebung"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Vereinfachung",
+          "Rechtsreform",
+          "Verwaltungsreform"
+        ],
+        "id": "ai-ex-2-cloze", "stable_id": "ex-msfxg43p00e3w"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie jeder Entwicklungsstufe des genetischen Codes die zugehörige Technik oder Jahreszahl zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Lesbar",
+            "right": "Vollständige Sequenzierung des Genoms im Jahr 2003"
+          },
+          {
+            "left": "Kopierbar",
+            "right": "Polymerase-Kettenreaktion seit den 1980er Jahren"
+          },
+          {
+            "left": "Editierbar",
+            "right": "CRISPR-Cas9 als programmierbares Werkzeug ab 2012"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching", "stable_id": "ex-msfxg43p00fr6"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Die ___ verändert nicht die Sequenz der Buchstaben, sondern bestimmt, welche Abschnitte des Genoms gelesen werden.",
+        "blanks": [
+          {
+            "accept": [
+              "Epigenetik"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Genetik",
+          "Transkription",
+          "Mutation"
+        ],
+        "id": "ai-ex-4-cloze", "stable_id": "ex-msfxg43p00gho"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Erklären Sie, warum die Parallele zwischen Sprache und Genom keine blosse Analogie ist.",
+        "card_ids": [],
+        "accept": [
+          "Beide sind digitale Informationssysteme mit endlichen Zeichen, Syntax und Redundanz, also dasselbe Prinzip in zwei Medien",
+          "Es ist eine strukturelle Homologie: Information organisiert Materie, das Muster überlebt den einzelnen Träger",
+          "Der Geist ist ein Muster, keine Substanz, und das Genom ist ein Muster in genau diesem Sinn, der Logos des Körpers"
+        ],
+        "distractors": [
+          "Die DNA besteht chemisch aus denselben Bausteinen wie gesprochene Sprache",
+          "Beide wurden von denselben Forschern entschlüsselt"
+        ],
+        "id": "ai-ex-5-free-text", "stable_id": "ex-msfxg43p00h4t"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-6-ai-ex-6-word-tiles",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "word_tiles",
+        "prompt": "Rekonstruieren Sie den Satz über den Übergang, den CRISPR markiert:",
+        "card_ids": [],
+        "tiles": [
+          "Was",
+          "Schrift",
+          "für",
+          "den",
+          "Logos",
+          "war",
+          "ist",
+          "CRISPR",
+          "für",
+          "das",
+          "Genom"
+        ],
+        "distractors": [],
+        "id": "ai-ex-6-word-tiles", "stable_id": "ex-msfxg43p00i03"
+      },
+      "theory_ref": "theory-3"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

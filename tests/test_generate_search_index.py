@@ -111,28 +111,50 @@ def test_every_index_entry_carries_review_status() -> None:
         assert entry["review_status"] in ("authored", "generated", "reviewed")
 
 
-def test_shipped_example_sets_are_hidden() -> None:
-    """Every set this TEMPLATE ships is a hidden example (#42).
+#: Sets inherited from adaptive-learner-content-template. They are not this
+#: repository's content and must stay out of the learner's Discover list.
+INHERITED_EXAMPLE_SETS = frozenset({"example-set"})
 
-    A template is copied, not shipped: whatever visibility the example
+
+def test_inherited_example_sets_are_hidden() -> None:
+    """The example sets this repo inherited from the template stay hidden
+    (adaptive-learner-content-template#42).
+
+    A template is copied, not shipped: whatever visibility its example
     carries is inherited by every repository created from it. A visible
-    example means an author registers their new repo and advertises a
-    demo set as their first content - and does not notice, because the
-    list looks filled. Nothing between here and the learner's Discover
-    list catches it: ``validate_registered_repo.py`` checks clone,
-    commit, schema and repo slug but says nothing about the content, and
-    ``visible`` is the app's normal case. The sibling test repository
-    already ships its demo set hidden; this pins the same for the
-    template.
+    example means an author registers their new repo and advertises a demo
+    set as their first content - and does not notice, because the list
+    looks filled. Nothing between here and the learner's Discover list
+    catches it: ``validate_registered_repo.py`` checks clone, commit,
+    schema and repo slug but says nothing about the content, and
+    ``visible`` is the app's normal case.
 
-    Deliberately shipping a visible set means deleting one line here and
-    one in the manifest - a conscious act, which is the point.
+    Narrowed from "every set is hidden" when this repo gained its own
+    content: the blanket form would have forced real book sets to stay
+    hidden too. What must not regress is the INHERITED example, so that is
+    what this pins. Deleting the example set is the other valid answer -
+    then this list goes empty and the test still holds.
     """
     index, build_errors = gsi.build_index()
     assert not build_errors
     assert index["sets"], "index carries no sets"
     for entry in index["sets"]:
+        if entry["id"] not in INHERITED_EXAMPLE_SETS:
+            continue
         assert entry["visibility"] == "hidden", (
-            f"set {entry['id']!r} is advertised as visible; a repository "
-            "created from this template would inherit that"
+            f"inherited example set {entry['id']!r} is advertised as visible"
+        )
+
+
+def test_own_sets_are_not_accidentally_hidden() -> None:
+    """The repo's OWN sets must be visible - a hidden book set would be
+    invisible to learners while looking fine in the file tree (the failure
+    the sibling check above guards from the other direction)."""
+    index, build_errors = gsi.build_index()
+    assert not build_errors
+    own = [entry for entry in index["sets"] if entry["id"] not in INHERITED_EXAMPLE_SETS]
+    assert own, "repo ships no own sets"
+    for entry in own:
+        assert entry["visibility"] == "visible", (
+            f"own set {entry['id']!r} is hidden and would never reach a learner"
         )

@@ -1,0 +1,161 @@
+{
+  "id": "19-kapitel-13-keimbahn-vs-soma",
+  "title": "Kapitel 13: Keimbahn vs. Soma",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 8,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Zwei unterschiedliche Eingriffe: Soma und Keimbahn",
+      "body": "Es gibt zwei technisch ähnliche, aber ethisch völlig verschiedene Arten, den genetischen Code zu verändern. Bei der somatischen Gentherapie werden nur die Körperzellen eines lebenden Menschen behandelt – die Veränderung betrifft ausschließlich diese Person und wird nicht an Nachkommen weitergegeben. Beim Keimbahn-Editing hingegen werden die Zellen verändert, die an zukünftige Generationen weitergegeben werden. Das bedeutet: Eine Veränderung in der Keimbahn vererbt sich über alle nachfolgenden Generationen weiter und kann nicht rückgängig gemacht werden. Sie ist dauerhaft und unwiderruflich."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Das Souveränitätsproblem: Wer entscheidet für wen?",
+      "body": "Der ethische Unterschied wird durch die Frage der biologischen Selbstbestimmung deutlich. Bei somatischer Therapie entscheidet ein Mensch (oder seine Eltern im Fall von Kindern) über seinen eigenen Körper – die betroffene Person trägt die Konsequenzen dieser Entscheidung selbst. Bei Keimbahn-Editing entscheidet jemand über zukünftige Menschen, die noch nicht existieren, nicht befragt werden können und nicht zustimmen können. Diese zukünftigen Personen müssen mit einer genetischen Veränderung leben, die andere für sie getroffen haben – das verletzt ihre biologische Souveränität grundlegend."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Die schwierige Grenze: Warum klare Regeln nötig sind",
+      "body": "Obwohl es Grenzfälle gibt – etwa bei schweren Erbkrankheiten wie Huntington – muss die Linie zwischen somatischer Therapie und Keimbahn-Editing bestehen bleiben. Entscheidungen über Keimbahn-Editing können nicht von einzelnen Forschern oder Unternehmen getroffen werden, sondern müssen durch breite demokratische Debatten der Gesellschaft erfolgen. Das liegt daran, dass solche Entscheidungen nicht nur einen Patienten betreffen, sondern die genetische Zukunft der ganzen Menschheit. Ohne klare, von der Gesellschaft getragene Grenzen besteht die Gefahr, dass Einzelne das handeln, ohne auf Zustimmung zu warten."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Bei der somatischen Gentherapie werden nur die ___ eines lebenden Menschen behandelt, und die Veränderung wird nicht an Nachkommen weitergegeben.",
+        "blanks": [
+          {
+            "accept": [
+              "Körperzellen"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Keimbahncellen",
+          "Nervenzellen",
+          "Geschlechtszellen"
+        ],
+        "id": "ai-ex-1-cloze",
+        "stable_id": "ex-msfxg43u026we"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie jede Therapieform ihrer korrekten Beschreibung zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Somatische Gentherapie",
+            "right": "Die betroffene Person selbst entscheidet über ihren eigenen Körper"
+          },
+          {
+            "left": "Keimbahn-Editing",
+            "right": "Jemand entscheidet über zukünftige Menschen, die nicht befragt werden können"
+          },
+          {
+            "left": "Unwiderruflichkeit",
+            "right": "Charakteristikum von Keimbahn-Veränderungen über alle nachfolgenden Generationen"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-2-matching",
+        "stable_id": "ex-msfxg43u027ru"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Erklären Sie, warum Entscheidungen über Keimbahn-Editing nicht von einzelnen Forschern oder Unternehmen getroffen werden können.",
+        "card_ids": [],
+        "accept": [
+          "weil solche Entscheidungen die genetische Zukunft der ganzen Menschheit betreffen",
+          "weil sie nicht nur einen Patienten betreffen, sondern alle zukünftigen Generationen",
+          "weil breite demokratische Debatten der Gesellschaft erforderlich sind",
+          "weil es um die biologische Souveränität zukünftiger Menschen geht"
+        ],
+        "distractors": [
+          "weil Keimbahn-Editing technisch komplizierter ist als somatische Therapie",
+          "weil einzelne Forscher nicht die richtige Ausbildung haben"
+        ],
+        "id": "ai-ex-3-free-text",
+        "stable_id": "ex-msfxg43u028d4"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-topup-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "card_ids": [],
+        "prompt": "Fülle das fehlende Wort ein.",
+        "sentence": "Eine Veränderung in der Keimbahn ist dauerhaft und ___: sie vererbt sich über alle nachfolgenden Generationen.",
+        "blanks": [
+          {
+            "accept": [
+              "unwiderruflich"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "heilbar",
+          "freiwillig",
+          "vorübergehend"
+        ],
+        "id": "topup-ex-4-cloze", "stable_id": "ex-msfxntkd007rr"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-topup-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "card_ids": [],
+        "prompt": "Worin besteht der ethische Unterschied zwischen somatischer Therapie und Keimbahn-Editing im Blick auf die Zustimmung?",
+        "accept": [
+          "bei somatischer Therapie entscheidet die betroffene Person über ihren eigenen Körper",
+          "beim Keimbahn-Editing entscheidet jemand über zukünftige Menschen, die nicht zustimmen können",
+          "die Betroffenen des Keimbahn-Eingriffs existieren noch nicht und können nicht befragt werden"
+        ],
+        "distractors": [
+          "somatische Therapie ist ethisch unbedenklich, weil sie technisch einfacher ist",
+          "beide Eingriffe erfordern dieselbe Zustimmung der Betroffenen"
+        ],
+        "id": "topup-ex-5-free-text", "stable_id": "ex-msfxntkd0088x"
+      },
+      "theory_ref": "theory-2"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

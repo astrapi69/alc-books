@@ -1,0 +1,108 @@
+{
+  "id": "02-teil-1-der-code",
+  "title": "Teil 1: Der Code",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 8,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "CRISPR verstehen: Eine bahnbrechende Biotechnologie",
+      "body": "CRISPR ist eine molekulare Technik, die es ermöglicht, das Erbgut von Lebewesen gezielt zu verändern. Um die rechtlichen und ethischen Fragen rund um diese Technologie zu verstehen, muss man zunächst erfassen, was CRISPR eigentlich ist und wie es funktioniert. Die Grundlagen dieser Technologie bilden das Fundament für alle weiteren Überlegungen."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Die praktischen Fähigkeiten von CRISPR",
+      "body": "CRISPR ermöglicht es, Krankheitsverursacher auf genetischer Ebene zu bekämpfen, neue Eigenschaften in Organismen einzuführen und landwirtschaftliche Kulturen zu verbessern. Diese Anwendungsmöglichkeiten zeigen das enorme Potenzial der Technologie, haben aber auch weitreichende Konsequenzen für Gesellschaft, Medizin und Umwelt."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Die universelle Bedeutung: Warum CRISPR jeden betrifft",
+      "body": "Die Auswirkungen von CRISPR gehen über Laboratorien hinaus und beeinflussen jeden Menschen auf dem Planeten. Ob durch medizinische Anwendungen, Lebensmittelproduktion oder zukünftige evolutionäre Veränderungen – diese Technologie wird die Welt grundlegend prägen. Dies macht es notwendig, sich mit den grundlegenden Fragen auseinanderzusetzen, wer über diese Macht verfügt und wie sie verantwortungsvoll eingesetzt wird."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "CRISPR ist eine molekulare Technik, die es ermöglicht, das ___ von Lebewesen gezielt zu verändern.",
+        "blanks": [
+          {
+            "accept": [
+              "Erbgut"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Verhalten",
+          "Aussehen",
+          "Stoffwechsel"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfxg43o00464"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie jede Anwendung von CRISPR dem richtigen Bereich zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Krankheitsverursacher auf genetischer Ebene bekämpfen",
+            "right": "Medizin"
+          },
+          {
+            "left": "Landwirtschaftliche Kulturen verbessern",
+            "right": "Landwirtschaft"
+          },
+          {
+            "left": "Neue Eigenschaften in Organismen einführen",
+            "right": "Biotechnologie"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-2-matching", "stable_id": "ex-msfxg43o005dq"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Warum wird in der Theorie betont, dass CRISPR jeden Menschen auf dem Planeten betrifft?",
+        "card_ids": [],
+        "accept": [
+          "Weil die Auswirkungen über Laboratorien hinausgehen und medizinische Anwendungen, Lebensmittelproduktion und zukünftige evolutionäre Veränderungen beeinflussen",
+          "Weil CRISPR die Welt grundlegend prägen wird durch medizinische und landwirtschaftliche Anwendungen",
+          "Weil die Technologie Gesellschaft, Medizin und Umwelt beeinflusst"
+        ],
+        "distractors": [
+          "Weil CRISPR in jedem Labor der Welt verwendet wird",
+          "Weil jeder Mensch die gleiche genetische Veränderung erhält"
+        ],
+        "id": "ai-ex-3-free-text", "stable_id": "ex-msfxg43o0066h"
+      },
+      "theory_ref": "theory-3"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}
