@@ -1,6 +1,6 @@
 {
-  "repo": "astrapi69/adaptive-learner-content-template",
-  "generated": "2026-08-01T12:33:26Z",
+  "repo": "astrapi69/alc-books",
+  "generated": "2026-08-05T09:54:44Z",
   "schema_version": "1.0",
   "sets": [
     {
@@ -23,7 +23,7 @@
       "ai_validated": false,
       "trust_level": 1,
       "book": null,
-      "updated_at": "2026-07-31T17:45:25+02:00"
+      "updated_at": "2026-08-05T11:54:25+02:00"
     }
   ],
   "total_lessons": 1,
