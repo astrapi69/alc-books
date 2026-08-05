@@ -1,0 +1,161 @@
+{
+  "id": "07-kapitel-7",
+  "title": "KAPITEL 7",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 8,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Das Grundgesetz als Provisorium mit eingebautem Verfallsdatum",
+      "body": "Das deutsche Grundgesetz versteht sich selbst nicht als endgültige Verfassung. Artikel 146 erklärt ausdrücklich, dass das Grundgesetz seine Gültigkeit verliert, sobald das deutsche Volk sich eine neue Verfassung durch freie, direkte Entscheidung selbst gibt. Das Grundgesetz ist daher kein Schlusspunkt, sondern ein übergangsweises Dokument – es wartet bewusst auf seine eigene Ablösung. Dies unterscheidet sich grundlegend davon, dass das Grundgesetz *könnte* ersetzt werden: Es *muss* ersetzt werden, sobald das Volk selbst entscheidet. Der Artikel selbst enthält also den Auftrag zur künftigen Vollendung durch Volkssouveränität."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Das uneingelöste Versprechen: Warum die Wiedervereinigung ein historisches Verfassungsdefizit schuf",
+      "body": "Bei der deutschen Wiedervereinigung 1990 hätte der Moment gekommen sein können, Artikel 146 einzulösen: Das Volk hätte selbst in freier Abstimmung entscheiden können, unter welcher Verfassung es leben möchte. Stattdessen wurde das Grundgesetz einfach auf die neuen Bundesländer ausgedehnt – ohne Volksentscheid, ohne verfassungsgebende Versammlung. Zwar waren die damaligen Argumente (Zeitdruck, internationale Stabilität) nachvollziehbar, doch verdeckten sie eine tiefere Wahrheit: Die etablierte politische Klasse hatte kein Interesse daran, ihre bestehenden Machtstrukturen durch eine echte Verfassungsdebatte in Frage stellen zu lassen. Das Versprechen von Artikel 146 blieb unerfüllt – die Tür zur Volkssouveränität bei der Verfassunggebung wurde geschlossen."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Legitimitätslücke und die Vollendung demokratischer Souveränität",
+      "body": "Ein fundamentaler Unterschied besteht zwischen einer von Experten geschriebenen und von Parlamenten ratifizierten Verfassung und einer, die das Volk selbst in direkter Entscheidung beschlossen hat. Während das Grundgesetz sich bewährt hat und Stabilität schafft, fehlt ihm die direkte demokratische Legitimation durch den Volkssouverän. Demokratie bedeutet nicht nur, dass das Volk herrscht, sondern dass es auch die grundlegenden Spielregeln selbst bestimmt. Solange das Volk nie selbst über seine Verfassung abstimmt, bleibt seine politische Mündigkeit unvollständig. Artikel 146 bietet den verfassungsrechtlich vorgesehenen Weg, um diese Legitimitätslücke zu schließen – nicht durch Revolution oder Protest, sondern durch die institutionalisierte Rückkehr zur echten Volkssouveränität."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Artikel 146 erklärt, dass das Grundgesetz seine Gültigkeit verliert, sobald das deutsche Volk sich eine neue Verfassung durch ___ selbst gibt.",
+        "blanks": [
+          {
+            "accept": [
+              "freie, direkte Entscheidung"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "parlamentarische Abstimmung",
+          "internationale Vereinbarung",
+          "richterliche Anordnung"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfyf6t700vty"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie die Begriffe ihrer Erklärung zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Provisorium",
+            "right": "Das Grundgesetz als übergangsweises Dokument, das auf seine eigene Ablösung wartet"
+          },
+          {
+            "left": "Legitimitätslücke",
+            "right": "Fehlen der direkten demokratischen Legitimation durch den Volkssouverän bei der Verfassunggebung"
+          },
+          {
+            "left": "Volkssouveränität",
+            "right": "Das Recht des Volkes, die grundlegenden Spielregeln selbst zu bestimmen"
+          },
+          {
+            "left": "Verfassungsdefizit",
+            "right": "Historisches Problem, das bei der Wiedervereinigung 1990 entstand, als Artikel 146 nicht eingelöst wurde"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-2-matching", "stable_id": "ex-msfyf6t700w2a"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Erklären Sie, warum die Wiedervereinigung 1990 einen Moment dargestellt hätte, Artikel 146 einzulösen.",
+        "card_ids": [],
+        "accept": [
+          "Das Volk hätte selbst in freier Abstimmung über eine neue Verfassung entscheiden können",
+          "Es wäre die Gelegenheit gewesen, dass das Volk selbst seine Verfassung bestimmt",
+          "Das deutsche Volk hätte die Möglichkeit gehabt, sich eine neue Verfassung durch direkte Entscheidung zu geben"
+        ],
+        "distractors": [
+          "Weil das Grundgesetz obsolet geworden war",
+          "Weil internationale Stabilität nicht mehr wichtig war"
+        ],
+        "id": "ai-ex-3-free-text", "stable_id": "ex-msfyf6t700xtx"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-topup-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "card_ids": [],
+        "prompt": "Fülle das fehlende Wort ein.",
+        "sentence": "Artikel ___ erklärt, dass das Grundgesetz seine Gültigkeit verliert, sobald das Volk sich in freier Entscheidung eine neue Verfassung gibt.",
+        "blanks": [
+          {
+            "accept": [
+              "146"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "1",
+          "20",
+          "79"
+        ],
+        "id": "topup-ex-4-cloze", "stable_id": "ex-msfyf6t700yot"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-topup-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "card_ids": [],
+        "prompt": "Warum spricht der Text bei der Wiedervereinigung 1990 von einem Verfassungsdefizit?",
+        "accept": [
+          "weil das Grundgesetz ohne Volksentscheid auf die neuen Bundesländer ausgedehnt wurde",
+          "weil es keine verfassungsgebende Versammlung gab, obwohl Artikel 146 den Weg vorsah",
+          "weil die politische Klasse kein Interesse hatte, ihre Machtstrukturen zur Debatte zu stellen"
+        ],
+        "distractors": [
+          "weil das Grundgesetz danach in den neuen Ländern nicht galt",
+          "weil die internationale Gemeinschaft der Wiedervereinigung nicht zustimmte"
+        ],
+        "id": "topup-ex-5-free-text", "stable_id": "ex-msfyf6t700zfe"
+      },
+      "theory_ref": "theory-2"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

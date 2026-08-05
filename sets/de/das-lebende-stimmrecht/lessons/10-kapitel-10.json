@@ -1,0 +1,163 @@
+{
+  "id": "10-kapitel-10",
+  "title": "KAPITEL 10",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 11,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Pflege als Schutzraum statt Vermögensabbau",
+      "body": "Heute funktioniert das Pflegesystem als Rückholmechanismus: Der Staat prüft zunächst, was sich noch verwerten lässt – Häuser werden verkauft, Ersparnisse aufgezehrt, Angehörige haftbar gemacht. Das ist keine Fürsorge, sondern Enteignung unter dem Deckmantel von Solidarität. In einem gerechten System würde Pflege anders funktionieren: Die Lebensleistung eines Menschen wäre geschützt, automatische Leistungen würden an Familien gehen statt an anonyme Institutionen, und der Maßstab wäre menschliche Würde statt Kostenvermeidung. Dies hätte auch psychologische Folgen – eine Gesellschaft, in der Menschen im Alter geborgen statt verängstigt sind, ist fundamental gesünder."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Politik als Dienst statt als Karrieresystem",
+      "body": "Solange politische Ämter lukrative Karrieren darstellen, zieht das System nicht die Fähigsten, sondern jene an, die von der Macht profitieren möchten. Machterhalt wird wichtiger als Wahrheit, Systemloyalität wichtiger als Bürgerloyalität. Ein Bürgerstaat würde Politik grundlegend umgestalten: durch sofortiges Abwahlrecht (statt vier-jähriger Wartezeit), vollständige Transparenz aller Entscheidungen und Lobbykontakte, und persönliche rechtliche Haftung der Verantwortlichen für schwere Fehler. Damit Politik wieder Dienst statt Beute wird, muss sie schwerer zugänglich und persönlich riskanter werden – nicht attraktiver."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Technologie als Werkzeug für Kontrolle statt Überwachung",
+      "body": "Künstliche Intelligenz kann diese Transformation unterstützen, indem sie Transparenz und Rechenschaft erzwingt. In der Pflege könnte KI automatische Bedarfsanalysen ermöglichen statt zermürbender Gutachterkämpfe. In der Politik könnte sie alle Sitzungen protokollieren, Lobbyistenkontakte dokumentieren und Mittelvergaben nachvollziehbar machen. Der entscheidende Unterschied: Das ist keine Überwachung der Bürger, sondern Kontrolle der Macht. Technologie wird zum Werkzeug der Bürgersouveränität, indem Hinterzimmerlogik durch erzwungene Transparenz unmöglich wird."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Im heutigen Pflegesystem funktioniert der Staat als ___, indem er Häuser verkauft und Ersparnisse aufzehrt.",
+        "blanks": [
+          {
+            "accept": [
+              "Rückholmechanismus"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Fürsorgeinstitution",
+          "Schutzraum",
+          "Solidaritätssystem"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfyf6t801a2q"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "In einem Bürgerstaat könnte KI in der Politik alle Sitzungen ___ und Lobbyistenkontakte dokumentieren.",
+        "blanks": [
+          {
+            "accept": [
+              "protokollieren"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "zensieren",
+          "bewerten",
+          "vereinfachen"
+        ],
+        "id": "ai-ex-2-cloze", "stable_id": "ex-msfyf6t801bbq"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie die Probleme den aktuellen Systemen zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Pflegesystem",
+            "right": "Enteignung unter dem Deckmantel von Solidarität"
+          },
+          {
+            "left": "Politisches System",
+            "right": "Machterhalt wird wichtiger als Wahrheit"
+          },
+          {
+            "left": "Technologie heute",
+            "right": "Wird zur Überwachung der Bürger eingesetzt"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching", "stable_id": "ex-msfyf6t801cj2"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Der zentrale Unterschied bei der Technologienutzung ist: Das ist keine Überwachung der Bürger, sondern ___ der Macht.",
+        "blanks": [
+          {
+            "accept": [
+              "Kontrolle"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Beaufsichtigung",
+          "Dokumentation",
+          "Regulierung"
+        ],
+        "id": "ai-ex-4-cloze", "stable_id": "ex-msfyf6t801d8b"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Welche zwei Maßnahmen würden nach dieser Theorie die Politik weniger attraktiv für karriereorientierte Menschen machen?",
+        "card_ids": [],
+        "accept": [
+          "sofortiges Abwahlrecht und persönliche rechtliche Haftung",
+          "persönliche rechtliche Haftung und sofortiges Abwahlrecht",
+          "Abwahlrecht und Haftung der Verantwortlichen",
+          "unmittelbare Abwählbarkeit und persönliches Risiko"
+        ],
+        "distractors": [
+          "bessere Bezahlung und mehr Transparenz",
+          "Vier-Jahres-Amtszeit und Lobbyverbote"
+        ],
+        "id": "ai-ex-5-free-text", "stable_id": "ex-msfyf6t801ewf"
+      },
+      "theory_ref": "theory-3"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

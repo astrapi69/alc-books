@@ -1,0 +1,161 @@
+{
+  "id": "01-kapitel-1",
+  "title": "KAPITEL 1",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 11,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Der Staat als stiller Miteigentümer ohne Risiko",
+      "body": "Der Staat nimmt sich einen Anteil an allem, was Bürger und Unternehmen erwirtschaften – nicht als verhandelbarer Partner, sondern durch einseitige Verfügungsgewalt. Im Gegensatz zu echten Geschäftspartnern trägt der Staat kein Risiko, leistet keine direkte Gegenleistung für die konkrete Wertschöpfung und kann jederzeit Steuersätze, -formen und Zeitpunkte ändern. Der Bürger wird nicht gefragt, sondern informiert. Das bedeutet: Niemand ist wirklich Eigentümer seines Einkommens – man erhält nur das, was der Staat nach seinen Regeln übrig lässt. Was der Staat zurückgibt (Renten, Sozialleistungen, Infrastruktur), ist kein echtes Eigentum, sondern bedingter Zugriff auf Widerruf, der jederzeit verändert werden kann."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Asymmetrische Haftung: Der Bürger schuldet, der Staat verfügt",
+      "body": "Das Verhältnis zwischen Staat und Bürger ist strukturell unausgewogen. Der Bürger wird bei Nichtzahlung von Steuern mit Sanktionen, Strafen und im Extremfall Haft bedroht. Der Staat hingegen haftet nicht dafür, wenn er versprochene Leistungen kürzt, nicht erbringt oder schlecht ausführt. Es gibt keine Rückerstattung bei Fehlleistung, keine persönliche Haftung von Verantwortlichen. Ein privates Unternehmen mit dieser Struktur würde verklagt – der Staat definiert selbst, was als Leistung gilt und wann sie erfüllt ist. Er sitzt damit als Richter in eigener Sache."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Der Staat als Selbstzweck statt Dienstleister",
+      "body": "Der moderne Staat wächst nicht primär, weil mehr Leistung für Bürger erbracht wird, sondern weil Verwaltung sich selbst reproduziert: Behörden überwachen Behörden, Ausschüsse koordinieren Ausschüsse, jedes neue Gesetz schafft neue Stellen und Kontrollinstanzen. Der Bürger ist in diesem System nicht Auftraggeber, sondern Finanzierungsquelle. Es gibt keine Gegenleistungsgarantie, keine echte Rechenschaftspflicht und keine Kündigungsmöglichkeit – der Bürger bleibt zur Zahlung verpflichtet, egal wie schlecht die Leistung ist. Das ist das Kernproblem: Ein Staat, der sich selbst erhält, statt dem Bürger zu dienen, nutzt ihn als Treibstoff für seinen eigenen Apparat."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Der Staat nimmt sich einen Anteil an allem, was Bürger und Unternehmen erwirtschaften, nicht als verhandelbarer Partner, sondern durch ___.",
+        "blanks": [
+          {
+            "accept": [
+              "einseitige Verfügungsgewalt"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "demokratische Abstimmung",
+          "vertragliche Vereinbarung",
+          "freiwillige Beteiligung"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfyf6t1001ka"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Was der Staat dem Bürger zurückgibt (Renten, Sozialleistungen, Infrastruktur), ist kein echtes Eigentum, sondern ___.",
+        "blanks": [
+          {
+            "accept": [
+              "bedingter Zugriff auf Widerruf"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "unverrückbares Anrecht",
+          "vertragliche Gegenleistung",
+          "Kompensation für Steuern"
+        ],
+        "id": "ai-ex-2-cloze", "stable_id": "ex-msfyf6t1002gd"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie die Merkmale der asymmetrischen Haftung ihren Beschreibungen zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Bürger bei Nichtzahlung",
+            "right": "Mit Sanktionen, Strafen und Haft bedroht"
+          },
+          {
+            "left": "Staat bei Fehlleistung",
+            "right": "Haftet nicht und zahlt keine Rückerstattung"
+          },
+          {
+            "left": "Privates Unternehmen mit dieser Struktur",
+            "right": "Würde verklagt werden"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching", "stable_id": "ex-msfyf6t10031i"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Im staatlichen System ist der Bürger nicht Auftraggeber, sondern ___.",
+        "blanks": [
+          {
+            "accept": [
+              "Finanzierungsquelle"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Teilhaber",
+          "Vertragspartner",
+          "Entscheidungsträger"
+        ],
+        "id": "ai-ex-4-cloze", "stable_id": "ex-msfyf6t10040b"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Erklären Sie, warum der Staat gemäß der Theorie als Selbstzweck und nicht als Dienstleister wächst.",
+        "card_ids": [],
+        "accept": [
+          "Weil sich die Verwaltung selbst reproduziert und neue Gesetze neue Stellen schaffen",
+          "Weil Behörden Behörden überwachen und Ausschüsse Ausschüsse koordinieren",
+          "Weil der Staat seinen eigenen Apparat erhält statt dem Bürger zu dienen"
+        ],
+        "distractors": [
+          "Weil die Bürger immer mehr Leistungen fordern"
+        ],
+        "id": "ai-ex-5-free-text", "stable_id": "ex-msfyf6t1005mf"
+      },
+      "theory_ref": "theory-3"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

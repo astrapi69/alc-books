@@ -1,0 +1,161 @@
+{
+  "id": "03-kapitel-3",
+  "title": "KAPITEL 3",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 11,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Die asymmetrische Logik von Leistung und Eigentum",
+      "body": "In unserem Sozialsystem zahlst du über Jahrzehnte ein, ohne je echten Besitz über deine Beiträge zu erhalten. Deine Rentenbeiträge sind rechtlich kein Vermögen, das dir gehört – sie sind nur eine zeitlich begrenzte Berechtigung, die mit deinem Tod endet. Das ist ein fundamentaler Unterschied: Während du ein Haus oder Ersparnisse an deine Kinder vererben kannst, verfallen deine eingezahlten Rentenbeiträge komplett. Der Staat behandelt deine Lebensleistung wie sein Eigentum, das er dir leihweise zurückgibt. Deine Verpflichtungen dagegen – etwa Schulden gegenüber dem Staat – werden durchaus an deine Familie weitergegeben. Diese Ungleichheit entsteht nicht durch Zufall, sondern durch bewusste Systemgestaltung. Andere Länder zeigen, dass Rentensysteme auch anders funktionieren können, bei denen deine Einzahlungen echtes, vererbares Vermögen bleiben."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Rente als verwaltetes Versprechen statt echte Sicherheit",
+      "body": "Die Rente wird dir als verdiente Altersabsicherung verkauft – das Narrativ verspricht Ruhe und Anerkennung nach einem langen Arbeitsleben. Rechtlich ist sie aber nur ein Versprechen ohne Garantie. Du zahlst in ein Umlageverfahren ein, bei dem dein Geld direkt die heutigen Rentner finanziert, während deine eigene Zukunft völlig von kommenden Generationen abhängt. Der Staat kann die Regeln jederzeit ändern: Das Renteneintrittsalter erhöhen, die Berechnungsformeln anpassen oder durch Inflation die Kaufkraft senken. Du hast keine echte Mitsprache und keinen Schutz dagegen, weil du nie Eigentümer warst. Das System behandelt dein Geld als etwas, das der Staat dir notfalls wieder kürzen darf – nicht als dein rechtmäßiges Eigentum, über das nur du verfügst."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Pflege als letzte Verwertungsphase statt Fürsorge",
+      "body": "Im Alter und besonders im Pflegefall zeigt sich die volle Logik dieser Asymmetrie: Der Staat fragt nicht, was du brauchst, sondern was er sich noch von dir holen kann. Dein Haus, deine Ersparnisse, deine Rücklagen – alles wird überprüft und herangezogen, um Pflegekosten zu bezahlen. Deine Familie erbt nicht deine Sicherheit, sondern dein Risiko und die Bürokratie der Rückforderung. Das ist nicht Fürsorge, sondern administrierte Vermögensabschöpfung. Ein echtes Fürsorgesystem würde Pflege als Grundrecht verankern, unabhängig davon, was jemand besitzt – ähnlich wie andere Länder es vorzeigen. Solange Pflege an Vermögensprüfungen gebunden ist, dient sie nicht der Würde des Menschen, sondern der Entlastung des Staatshaushalts auf deine Kosten."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Im deutschen Rentensystem sind deine eingezahlten Rentenbeiträge rechtlich kein ___, sondern nur eine zeitlich begrenzte Berechtigung.",
+        "blanks": [
+          {
+            "accept": [
+              "Vermögen"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Einkommen",
+          "Versprechen",
+          "Schuld"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfyf6t200bxw"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Das deutsche Rentensystem funktioniert nach dem ___, bei dem dein Geld direkt die heutigen Rentner finanziert.",
+        "blanks": [
+          {
+            "accept": [
+              "Umlageverfahren"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Kapitaldeckungssystem",
+          "Versicherungsprinzip",
+          "Sparplan"
+        ],
+        "id": "ai-ex-2-cloze", "stable_id": "ex-msfyf6t200czw"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jedes Element der asymmetrischen Logik seiner Beschreibung zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Rentenbeiträge des Arbeiters",
+            "right": "Verfallen komplett beim Tod, nicht vererbbar"
+          },
+          {
+            "left": "Schulden gegenüber dem Staat",
+            "right": "Werden an die Familie weitergegeben"
+          },
+          {
+            "left": "Pflegekosten im Alter",
+            "right": "Werden durch Vermögensprüfung und Heranziehung von Haus und Ersparnissen bezahlt"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching", "stable_id": "ex-msfyf6t200dlf"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Nach der Theorie des Textes wird Pflege nicht als Grundrecht verankert, sondern an ___ gebunden, was einer administrierten Vermögensabschöpfung entspricht.",
+        "blanks": [
+          {
+            "accept": [
+              "Vermögensprüfungen"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Einkommensverhältnisse",
+          "Familienstand",
+          "Arbeitsfähigkeit"
+        ],
+        "id": "ai-ex-4-cloze", "stable_id": "ex-msfyf6t200eep"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Welche zwei Unterschiede zeigen die asymmetrische Logik zwischen deinen Rentenbeiträgen und deinen Schulden gegenüber dem Staat?",
+        "card_ids": [],
+        "accept": [
+          "Rentenbeiträge sind nicht vererbbar, Schulden schon. Rentenbeiträge gehören dir rechtlich nicht, Schulden sind Verpflichtungen gegenüber dem Staat.",
+          "Du kannst Rentenbeiträge nicht vererben, aber Schulden werden an deine Familie weitergegeben. Rentenbeiträge sind keine echten Vermögenswerte.",
+          "Rentenbeiträge verfallen beim Tod, Schulden bleiben bestehen und werden weitergegeben."
+        ],
+        "distractors": [
+          "Rentenbeiträge sind höher als Schulden."
+        ],
+        "id": "ai-ex-5-free-text", "stable_id": "ex-msfyf6t200fq8"
+      },
+      "theory_ref": "theory-1"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

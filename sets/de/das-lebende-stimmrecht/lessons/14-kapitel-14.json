@@ -1,0 +1,189 @@
+{
+  "id": "14-kapitel-14",
+  "title": "KAPITEL 14",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 12,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Warum Demokratien zerfallen: Von der Kontrolle zur Verselbstständigung",
+      "body": "Demokratien scheitern nicht weil Menschen falsch wählen, sondern weil sich Institutionen allmählich von ihrer Aufgabe entfernen. Verwaltungen, Parteien und Behörden entwickeln einen natürlichen Drang zur Selbsterhaltung und Machtkonzentration. Ohne ständige Gegenkräfte verwandeln sie sich schleichend in Machtapparate, die für sich selbst statt für Bürger arbeiten. Der Bürger wird dabei von Souverän zum Zuschauer – nicht durch plötzliche Umbruch, sondern durch strukturelle Dynamik über Jahre hinweg. Die zentrale Einsicht: Fehlende Rückbindung an die Bürger ist das Kippproblem, nicht mangelnde Wahlen."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Unkippbarkeit durch verteilte Macht und Dauerkontrolle",
+      "body": "Ein Staat wird widerstandsfähig gegen Machtkonzentration, wenn er auf mehreren Ebenen so gestaltet wird, dass Entartung strukturell unmöglich wird. Dazu gehört: Macht wird verteilt statt zentral gesammelt, sodass es kein Zentrum zum Erobern gibt. Transparenz wird zum Standard, was verborgene Reorganisation erschwert. Bürger erhalten echte Kontrollmechanismen, die dauerhaft aktiv bleiben. Institutionen müssen sich ihren Bürgern rechtfertigen und nicht umgekehrt – ihre Existenz hängt an ihrer Leistung. Moderne Technologie kann automatisiert überwachen und Korruption sichtbar machen. Zusammen bilden diese Ebenen ein System, das gegen Machtmissbrauch immun ist – nicht durch guten Willen, sondern durch Mechanismen."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Der mentale Wandel: Vom Untertan zum Auftraggeber",
+      "body": "Strukturelle Veränderungen allein genügen nicht – Menschen müssen sich selbst als Souveräne verstehen, nicht als verwaltete Objekte. Dieser Wandel erfolgt in drei Schritten: Zunächst Erkennen, dass man nicht wirklich souverän war. Dann Zurückholen der eigenen Stimme, die nicht alle vier Jahre abgegeben werden muss, sondern ständig wirksam bleibt. Schließlich Einsetzen dieser Stimme durch aktive Gestaltung. Der tiefere Schritt ist eine Verschiebung von Bittstellung zu Verantwortung: nicht 'man sollte etwas tun', sondern 'ich bin Teil der Lösung'. Echter Wandel kommt nicht von oben durch bessere Politiker, sondern von unten durch Bürger, die andere Ansprüche stellen und sich als Auftraggeber des Staates begreifen – nicht als Empfänger seiner Gnade."
+    },
+    {
+      "id": "step-ex-0-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Demokratien scheitern nicht weil Menschen falsch wählen, sondern weil sich ___ allmählich von ihrer Aufgabe entfernen.",
+        "blanks": [
+          {
+            "accept": [
+              "Institutionen"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Wahlen",
+          "Bürger",
+          "Parteivorsitzende"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfyf6ta01us0"
+      }
+    },
+    {
+      "id": "step-ex-1-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Der mentale Wandel verlangt, dass Bürger sich selbst als ___ verstehen, nicht als verwaltete Objekte.",
+        "blanks": [
+          {
+            "accept": [
+              "Souveräne"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Wähler",
+          "Steuerzahler",
+          "Untertanen"
+        ],
+        "id": "ai-ex-2-cloze", "stable_id": "ex-msfyf6ta01v5j"
+      }
+    },
+    {
+      "id": "step-ex-2-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie die Ebenen der Unkippbarkeit ihren Beschreibungen zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Verteilte Macht",
+            "right": "Es gibt kein zentrales Zentrum zum Erobern"
+          },
+          {
+            "left": "Transparenz",
+            "right": "Verborgene Reorganisation wird erschwert"
+          },
+          {
+            "left": "Kontrollmechanismen der Bürger",
+            "right": "Bleiben dauerhaft aktiv und wirksam"
+          },
+          {
+            "left": "Rechtfertigungspflicht",
+            "right": "Institutionen müssen sich ihren Bürgern rechtfertigen, nicht umgekehrt"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching", "stable_id": "ex-msfyf6ta01wtz"
+      }
+    },
+    {
+      "id": "step-ex-3-ai-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Die zentrale Einsicht des Textes ist: ___ an die Bürger ist das Kippproblem, nicht mangelnde Wahlen.",
+        "blanks": [
+          {
+            "accept": [
+              "Fehlende Rückbindung"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Fehlende Schulbildung",
+          "Mangelnde Polizei",
+          "Zu viele Wahlen"
+        ],
+        "id": "ai-ex-4-cloze", "stable_id": "ex-msfyf6ta01xj9"
+      }
+    },
+    {
+      "id": "step-ex-4-ai-ex-5-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie die drei Schritte des mentalen Wandels ihrer Reihenfolge nach.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Erster Schritt",
+            "right": "Erkennen, dass man nicht wirklich souverän war"
+          },
+          {
+            "left": "Zweiter Schritt",
+            "right": "Zurückholen der eigenen Stimme, die ständig wirksam bleibt"
+          },
+          {
+            "left": "Dritter Schritt",
+            "right": "Einsetzen dieser Stimme durch aktive Gestaltung"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-5-matching", "stable_id": "ex-msfyf6ta01yrq"
+      }
+    },
+    {
+      "id": "step-ex-5-ai-ex-6-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Beschreiben Sie, wie sich die Rolle des Bürgers nach dem mentalen Wandel verändert – von welcher zu welcher Position?",
+        "card_ids": [],
+        "accept": [
+          "vom Untertan zum Auftraggeber",
+          "von verwaltetes Objekt zu Souverän",
+          "von Empfänger der Gnade zu Auftraggeber des Staates",
+          "von Zuschauer zu aktiv Gestaltender"
+        ],
+        "distractors": [
+          "von Wähler zu Politiker",
+          "von arm zu reich"
+        ],
+        "id": "ai-ex-6-free-text", "stable_id": "ex-msfyf6ta01zhd"
+      }
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

@@ -13,6 +13,22 @@ description: >-
   Lernsets zu Buechern: je Buch ein Set, dessen Lektionen der Gliederung
   des Buches folgen.
 sets:
+  - id: das-lebende-stimmrecht
+    title: Das lebende Stimmrecht
+    title_native: Das lebende Stimmrecht
+    target_language: de
+    source_language: de
+    domain: knowledge
+    level: fortgeschritten
+    path: sets/de/das-lebende-stimmrecht
+    version: '1.0.0'
+    lesson_count: 15
+    review_status: generated
+    tags:
+      - buch
+      - demokratie
+      - mitbestimmung
+      - politik
   - id: biologische-souveranitat
     title: Biologische Souveränität
     title_native: Biologische Souveränität

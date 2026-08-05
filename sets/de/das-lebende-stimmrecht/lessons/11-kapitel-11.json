@@ -1,0 +1,167 @@
+{
+  "id": "11-kapitel-11",
+  "title": "KAPITEL 11",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 11,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Die versteckte Asymmetrie: Wer trägt das Risiko?",
+      "body": "In modernen Staaten gibt es ein grundlegendes Ungleichgewicht bei der Verteilung von Risiken und Folgen. Bürger verlieren unmittelbar, wenn Entscheidungen schiefgehen – sie können ihre Arbeit, ihr Vermögen oder ihre Sicherheit einbüßen. Der Staat dagegen funktioniert weiter, egal wie sehr seine Verantwortlichen fehlentscheiden. Politiker tragen persönlich kaum Konsequenzen für teure Fehler; die Kosten werden verteilt und unsichtbar gemacht. Dies führt zu falschen Anreizen: Wer nichts zu verlieren hat, handelt riskanter und oberflächlicher. Ein funktionierendes System müsste diese Asymmetrie aufheben, indem Amtsträger selbst für ihre Entscheidungen einstehen und echte Rechenschaft ablegen – nicht aus moralischen Gründen, sondern weil Konsequenzen zu sorgfältigerem Handeln führen."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Echte Demokratie statt Wahlritual alle vier Jahre",
+      "body": "Heutige Demokratie ist eher ein Ereignis als ein funktionierendes System: Bürger wählen einmal, geben dann ihre Mitsprache ab und können Jahre lang nicht eingreifen, selbst wenn grundlegend falsche Entscheidungen getroffen werden. Das ist eine Fassade von Beteiligung. Echte Demokratie würde bedeuten, dass Kontrolle permanent wirkt – nicht nur beim Wahltermin, sondern täglich. Bürger könnten fehlerhafte Entscheidungen korrigieren, unfähige Amtsträger jederzeit abberufen und Transparenz einfordern, ohne Antragsverfahren. Ein solches System erfordert konkrete Mechanismen: Abwahlrecht ohne Wartezeit, ständige Einsicht in Regierungsentscheidungen, Bürgerveto bei Widerspruch, kontinuierliche Überprüfung von Erfolgen statt bloßer Versprechen. Nur dauerhaft wirksame Kontrolle macht Bürger zu echten Souveränen statt zu gelegentlichen Beobachtern."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Haftung, Transparenz und Technologie als Fundament",
+      "body": "Für ein System mit echter Verantwortung müssen drei Elemente zusammenwirken: Erstens Haftung – wer entscheidet, muss für Folgen einstehen. Zweitens Transparenz – Bürger müssen sehen, wer was entscheidet und warum, ohne erst fragen zu müssen. Drittens Nachweisbarkeit – Dokumentation macht Fehler später nachvollziehbar und Verantwortliche zur Rechenschaft fähig. Moderne Technologie ermöglicht dies praktisch: sichere Online-Abstimmungen, automatische Offenlegung von Einflussnahme, einsehbare Entscheidungsprotokolle und KI, die Transparenz schafft statt Kontrolle auszuüben. Diese Werkzeuge existieren bereits; es fehlt nur der politische Wille. Aber dieser Wille muss von unten kommen, von Bürgern, die ihre echte Mitsprache einfordern, denn von oben wird eine Machtelite nie freiwillig ihre Privilegien aufgeben."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "In modernen Staaten gibt es ein grundlegendes Ungleichgewicht: Bürger verlieren unmittelbar bei Entscheidungsfehlern, während der Staat und seine Verantwortlichen ___ tragen.",
+        "blanks": [
+          {
+            "accept": [
+              "persönlich kaum Konsequenzen"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "volle finanzielle Haftung",
+          "sofortige Amtsenthebung"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfyf6t901fus"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Echte Demokratie würde bedeuten, dass unfähige Amtsträger ___ abberufen werden können, nicht erst nach mehreren Jahren.",
+        "blanks": [
+          {
+            "accept": [
+              "jederzeit"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "nach Antragsverfahren",
+          "bei der nächsten Wahl"
+        ],
+        "id": "ai-ex-2-cloze", "stable_id": "ex-msfyf6t901gqu"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie die drei Elemente eines Systems mit echter Verantwortung ihren Beschreibungen zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Haftung",
+            "right": "Wer entscheidet, muss für Folgen einstehen"
+          },
+          {
+            "left": "Transparenz",
+            "right": "Bürger müssen sehen, wer was entscheidet und warum, ohne erst fragen zu müssen"
+          },
+          {
+            "left": "Nachweisbarkeit",
+            "right": "Dokumentation macht Fehler später nachvollziehbar und Verantwortliche zur Rechenschaft fähig"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching", "stable_id": "ex-msfyf6t901hqf"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Was ist der Unterschied zwischen heutiger Demokratie als Wahlritual und echter Demokratie gemäß der Theorie?",
+        "card_ids": [],
+        "accept": [
+          "Heutige Demokratie erlaubt Mitsprache nur beim Wahltermin, echte Demokratie bedeutet permanente Kontrolle ohne Wartezeit",
+          "Bürger können nur alle vier Jahre wählen, statt kontinuierlich Entscheidungen zu korrigieren und Amtsträger abzuberufen",
+          "Wahlen sind ein einmaliges Ereignis, echte Demokratie erfordert tägliche Kontrolle und ständige Einsicht in Regierungsentscheidungen"
+        ],
+        "distractors": [
+          "Der Unterschied liegt nur in der Häufigkeit der Wahlen"
+        ],
+        "id": "ai-ex-4-free-text", "stable_id": "ex-msfyf6t901ie3"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-word-tiles",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "word_tiles",
+        "prompt": "Rekonstruieren Sie den Satz über die Quelle des politischen Willens für echte Mitsprache.",
+        "card_ids": [],
+        "tiles": [
+          "Dieser",
+          "Wille",
+          "muss",
+          "von",
+          "unten",
+          "kommen",
+          "von",
+          "Bürgern",
+          "denn",
+          "von",
+          "oben",
+          "wird",
+          "eine",
+          "Machtelite",
+          "nie",
+          "freiwillig",
+          "ihre",
+          "Privilegien",
+          "aufgeben"
+        ],
+        "distractors": [],
+        "id": "ai-ex-5-word-tiles", "stable_id": "ex-msfyf6t901jv0"
+      },
+      "theory_ref": "theory-2"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

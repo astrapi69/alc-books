@@ -1,0 +1,54 @@
+# Set-Manifest: Das lebende Stimmrecht (Buch-Set).
+#
+# Zweites Set dieses Repositories, gleiche Struktur wie
+# sets/de/biologische-souveranitat: sets/<Quellsprache>/<Set-Id>/lessons/.
+#
+# Reihenfolge: die Anzeigereihenfolge ist die lexikografische Sortierung
+# der Lektions-Ids (learn-content-engine#106). Der Export trug KEINE
+# NN-Prefixe - unveraendert uebernommen haette das Set als epilog,
+# kapitel-1, kapitel-10..14, kapitel-2..9 anzeigt. Prefixe wurden vor der
+# Veroeffentlichung vergeben, solange die Ids noch keine Identitaet
+# tragen (keine stable_ids gepraegt, kein Lernfortschritt vorhanden).
+schema_version: "1.5"
+name: Das lebende Stimmrecht
+description: >-
+  Begleitendes Lernset zum Buch "Das lebende Stimmrecht": 14 Kapitel und
+  ein Epilog zur Frage, wie demokratische Mitbestimmung lebendig bleibt.
+sets:
+  - id: das-lebende-stimmrecht
+    title: Das lebende Stimmrecht
+    title_native: Das lebende Stimmrecht
+    target_language: de
+    source_language: de
+    domain: knowledge
+    level: fortgeschritten
+    path: sets/de/das-lebende-stimmrecht
+    version: "1.0.0"
+    lesson_count: 15
+    # Aus einem Buch erzeugt und noch nicht fachlich geprueft: review_status
+    # richtet sich nach der HERKUNFT, nicht nach der Qualitaet.
+    review_status: generated
+    tags:
+      - buch
+      - demokratie
+      - mitbestimmung
+      - politik
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-kapitel-1.json
+    - 02-kapitel-2.json
+    - 03-kapitel-3.json
+    - 04-kapitel-4.json
+    - 05-kapitel-5.json
+    - 06-kapitel-6.json
+    - 07-kapitel-7.json
+    - 08-kapitel-8.json
+    - 09-kapitel-9.json
+    - 10-kapitel-10.json
+    - 11-kapitel-11.json
+    - 12-kapitel-12.json
+    - 13-kapitel-13.json
+    - 14-kapitel-14.json
+    - 15-epilog.json

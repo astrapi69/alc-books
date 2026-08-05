@@ -1,0 +1,162 @@
+{
+  "id": "08-kapitel-8",
+  "title": "KAPITEL 8",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 9,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Der Unterschied zwischen Macht delegieren und Macht behalten",
+      "body": "In modernen Demokratien geben Bürger ihre politische Macht an Regierungen ab und erhalten sie nur bei Wahlen zurück – das nennt man Delegation. Ein echter Bürgerstaat würde anders funktionieren: Bürger würden ihre Macht behalten und den Staat als Werkzeug kontrollieren, den sie jederzeit korrigieren oder stoppen können. Der entscheidende Unterschied liegt darin, dass echte Souveränität nicht bedeutet \"wir dürfen wählen\", sondern \"wir können eingreifen, wenn etwas schiefläuft\". Ohne die Möglichkeit, Entscheidungen rückgängig zu machen oder Amtsträger abzuberufen, ist der Bürger kein Souverän, sondern ein Zuschauer mit Wahlrecht."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Wie Machtfluss die Struktur des Staates bestimmt",
+      "body": "Macht hat eine Richtung: Sie fließt entweder von oben nach unten oder von unten nach oben. Im gegenwärtigen System definiert der Staat die Regeln, und der Bürger muss sich daran anpassen – die Macht kommt von oben. In einem Bürgerstaat würde der umgekehrte Weg gelten: Die Bürger als Quelle der Macht würden bestimmen, was der Staat tun darf. Diese Richtung ist nicht nur ein technisches Detail – sie entscheidet darüber, ob Menschen Subjekte (Handelnde) oder Objekte (Verwaltete) sind. Ein Mensch, der nur zustimmt und wartet, ist psychologisch ein anderer als einer, der aktiv kontrolliert und entscheidet."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Warum echte Souveränität mehr erfordert als periodisches Wählen",
+      "body": "Wahlen alle paar Jahre schaffen nur episodische Beteiligung – zwischendurch hat der Bürger keine Kontrolle. Echte Souveränität erfordert dauerhafte Werkzeuge: das Recht, Amtsträger jederzeit abzuberufen, Mitsprache bei Budgetentscheidungen, automatische Transparenzpflicht des Staates, digitale Beteiligungsmöglichkeiten und Verfassungsschutz für diese Rechte. Der entscheidende juristische Unterschied ist: Beteiligung darf kein Gnadenrecht sein (das der Staat einschränken kann), sondern muss ein unveräußerlicher Rechtsanspruch sein, der dem Staat vorgelagert ist. Nur dann kann der Bürger tatsächlich Macht halten statt sie zu verleihen."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "In modernen Demokratien geben Bürger ihre politische Macht an Regierungen ab und erhalten sie nur bei ___ zurück.",
+        "blanks": [
+          {
+            "accept": [
+              "Wahlen"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Referenden",
+          "Abstimmungen",
+          "Debatten"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfyf6t70107f"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Beteiligung darf kein ___ sein, das der Staat einschränken kann, sondern muss ein unveräußerlicher Rechtsanspruch sein.",
+        "blanks": [
+          {
+            "accept": [
+              "Gnadenrecht"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Wahlrecht",
+          "Grundrecht",
+          "Privileg"
+        ],
+        "id": "ai-ex-2-cloze", "stable_id": "ex-msfyf6t7011i8"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie die Merkmale dem entsprechenden Machtsystem zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Gegenwärtiges System",
+            "right": "Macht fließt von oben nach unten; der Staat definiert die Regeln"
+          },
+          {
+            "left": "Echter Bürgerstaat",
+            "right": "Macht fließt von unten nach oben; Bürger bestimmen, was der Staat darf"
+          },
+          {
+            "left": "Echte Souveränität",
+            "right": "Recht auf Abberufung von Amtsträgern, dauerhafte Kontrolle, nicht nur Wahlrecht"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching", "stable_id": "ex-msfyf6t70121c"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Erkläre, warum der Unterschied zwischen Wahlen und echtem Bürgerstaat psychologisch relevant ist.",
+        "card_ids": [],
+        "accept": [
+          "Wer nur wählt ist ein Zuschauer, wer kontrolliert ist handelndes Subjekt",
+          "Ein Mensch der aktiv kontrolliert und entscheidet ist psychologisch anders als einer der nur zustimmt",
+          "Episodische Beteiligung macht Menschen zu Objekten statt zu Subjekten",
+          "Nur dauerhafte Kontrolle macht den Bürger zum aktiven Handelnden"
+        ],
+        "distractors": [
+          "Wahlen sind psychologisch anstrengender als kontinuierliche Teilhabe"
+        ],
+        "id": "ai-ex-4-free-text", "stable_id": "ex-msfyf6t70131g"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-topup-ex-5-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "card_ids": [],
+        "prompt": "Fülle das fehlende Wort ein.",
+        "sentence": "Beteiligung darf kein ___ sein, das der Staat einschränken kann, sondern muss ein unveräußerlicher Rechtsanspruch sein.",
+        "blanks": [
+          {
+            "accept": [
+              "Gnadenrecht"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Wahlrecht",
+          "Grundrecht",
+          "Sonderrecht"
+        ],
+        "id": "topup-ex-5-cloze", "stable_id": "ex-msfyf6t7014ye"
+      },
+      "theory_ref": "theory-3"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}
