@@ -22,6 +22,15 @@ count until someone has read it.
 
 ## Adding the next book
 
+**New books come here.** One earlier book, *Die Währung des Geistes*, lives
+in its own repository
+([`alc-die-waehrung-des-geistes`](https://github.com/astrapi69/alc-die-waehrung-des-geistes))
+because it predates this one. It stays there: moving a published set would
+change the lesson identity that learner progress hangs on, which is a real
+cost for a tidier layout. So there are two shapes in the ecosystem by
+history, not by design, and the rule going forward is the simple one - a new
+book becomes a set in this repository.
+
 The layout is one directory per book, as siblings:
 
 ```
