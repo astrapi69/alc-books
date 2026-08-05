@@ -1,0 +1,157 @@
+{
+  "id": "06-kapitel-6",
+  "title": "KAPITEL 6",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 11,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Sanfte Entmachtung statt offene Unterdrückung",
+      "body": "Moderne Systeme entziehen Menschen nicht offen ihre Rechte, sondern machen diese Rechte wirkungslos. Ein Bürger behält formal seine Stimme, sein Eigentum und seine Freiheit – doch die Möglichkeit, diese tatsächlich durchzusetzen, wird ihm genommen. Das schafft eine subtile Form der Kontrolle: Der Mensch bleibt rechtlich frei, kann aber praktisch nicht handeln. Dies funktioniert auf drei Ebenen gleichzeitig – beim Eigentum (das jederzeit besteuert werden kann), bei Rechten (die nur wirken, wenn man sie selbst erkämpft) und bei der Würde (die zwar verfassungsrechtlich garantiert, aber nicht durchgesetzt wird). Dieser Prozess erzeugt keine sichtbare Unterdrückung, sondern allmähliche Lähmung."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Verwaltbarkeit als Machtinstrument",
+      "body": "Menschen werden entmachtet, indem sie zu verwaltbaren Objekten werden – als Nummern in Akten, Kategorien in Statistiken oder Variablen in Systemen. Ein System, das Menschen verwalten kann, braucht sie nicht als eigenmächtige Akteure. Echte Eigenmacht würde bedeuten, dass ein Nein Konsequenzen hat, Widerspruch gehört wird und Forderungen erfüllt werden müssen. Im gegenwärtigen System geschieht das Gegenteil: Einsprüche versanden in Verfahren, Forderungen werden gegen andere Interessen abgewogen und verlieren. Die Unangreifbarkeit derjenigen, die dieses System verwalten, entsteht gerade dadurch, dass sie über die Prozesse selbst entscheiden – nicht durch offene Regelbrüche, sondern durch Kontrolle über Wartezeiten, Verzögerungen und Zugangsmonopole."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Delegierte Souveränität ist keine echte Souveränität",
+      "body": "Der Bürger besitzt heute nur eine geliehene Macht: Er wählt Vertreter, verliert dann aber die Kontrolle bis zur nächsten Wahl. Diese delegierte Souveränität ist eine Illusion – echte Souveränität bedeutet, nicht entmachtet werden zu können. Historisch war das anders: Beamte, die das Vertrauen der Bürger brachen, verloren Ehre, Vermögen und soziale Stellung. Heute ist diese moralische Bindung verschwunden – Missbrauch von Macht ist nur noch ein administrativer Verstoß, den das System selbst verwaltet und verzeiht. Der Bürger wird zum Beobachter statt zur Partei. Das System schützt seine eigenen Mitglieder vor Konsequenzen, während es die Bürger ihrer Durchsetzungskraft beraubt."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Nach der Theorie werden Menschen entmachtet, indem sie zu ___ werden – als Nummern in Akten oder Variablen in Systemen.",
+        "blanks": [
+          {
+            "accept": [
+              "verwaltbaren Objekten"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "statistischen Ausreißern",
+          "autonomen Akteuren",
+          "rechtlichen Subjekten"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfyf6t700qr1"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Welcher Unterschied besteht nach der Theorie zwischen echter Eigenmacht und dem gegenwärtigen System?",
+        "card_ids": [],
+        "accept": [
+          "Bei echter Eigenmacht hat ein Nein Konsequenzen und Forderungen werden erfüllt, im gegenwärtigen System versanden Einsprüche in Verfahren",
+          "Echte Eigenmacht bedeutet, dass Widerspruch gehört wird und Forderungen durchgesetzt werden, doch heute werden Forderungen gegen andere Interessen abgewogen und verlieren",
+          "In einem System mit echter Eigenmacht müssen Forderungen erfüllt werden, aktuell aber verschwinden Einsprüche in Verfahren"
+        ],
+        "distractors": [
+          "Menschen hatten früher weniger Rechte als heute",
+          "Das gegenwärtige System erlaubt mehr Partizipation als früher"
+        ],
+        "id": "ai-ex-2-free-text", "stable_id": "ex-msfyf6t700re1"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Der Bürger besitzt heute nur eine ___ Macht: Er wählt Vertreter, verliert dann aber die Kontrolle bis zur nächsten Wahl.",
+        "blanks": [
+          {
+            "accept": [
+              "geliehene"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "vererbte",
+          "angeborene",
+          "unbegrenzte"
+        ],
+        "id": "ai-ex-3-cloze", "stable_id": "ex-msfyf6t700s6m"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie jede Ebene der subtilen Kontrolle ihrem Beispiel zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Eigentum",
+            "right": "kann jederzeit besteuert werden"
+          },
+          {
+            "left": "Rechte",
+            "right": "wirken nur, wenn man sie selbst erkämpft"
+          },
+          {
+            "left": "Würde",
+            "right": "ist verfassungsrechtlich garantiert, wird aber nicht durchgesetzt"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-4-matching", "stable_id": "ex-msfyf6t700thu"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Wie unterscheidet sich die historische Bindung von Beamten an Bürger von der heutigen Situation?",
+        "card_ids": [],
+        "accept": [
+          "Beamte, die das Vertrauen brachen, verloren Ehre und Vermögen, heute ist diese moralische Bindung verschwunden",
+          "Historisch führte Machtmissbrauch zu Verlust von Ehre und sozialer Stellung, heute ist es nur noch ein administrativer Verstoß",
+          "Früher gab es eine moralische Bindung mit realen Konsequenzen, jetzt regelt das System Verstöße selbst und verzeiht ihnen"
+        ],
+        "distractors": [
+          "Beamte wurden früher häufiger bestraft als heute",
+          "Heute haben Bürger mehr Kontrolle über Beamte"
+        ],
+        "id": "ai-ex-5-free-text", "stable_id": "ex-msfyf6t700uz6"
+      },
+      "theory_ref": "theory-3"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

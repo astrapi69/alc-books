@@ -1,0 +1,162 @@
+{
+  "id": "02-kapitel-2",
+  "title": "KAPITEL 2",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 11,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Regulierung als versteckte Finanzierungsmechanik",
+      "body": "Der Staat erhebt Abgaben nicht immer direkt als Steuer. Stattdessen nutzt er Genehmigungen, Lizenzen, Zertifikate und Registrierungen, um Zahlungsströme zu etablieren – ohne öffentliche Debatten oder parlamentarische Abstimmungen. Diese Gebühren, Auflagen und Verfahrenskosten wirken wie Steuern, werden aber nicht so genannt. Der entscheidende Unterschied zur klassischen Steuer liegt in der Transparenz: Während eine Einkommensteuer sichtbar ist und kritisiert werden kann, funktioniert Regulierung subtil. Sie präsentiert sich als schützende Ordnung für Sicherheit und Qualität, nicht als Abgabe. Dadurch entsteht systematische Finanzierung ohne explizite demokratische Legitimation."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Die Rationierung von Freiheit als Kernmechanismus",
+      "body": "Regulierung funktioniert nach einem grundlegenden Prinzip: Der Staat nimmt Freiheit weg und verkauft sie dann in kontrollierten Portionen zurück. In einem unregulierten Zustand wäre Handlungsfreiheit der Normalfall – man darf tun, was einen nicht schadet. Im regulierten System ist das Verbot Standard, und Freiheit wird zur Ausnahme, die beantragt werden muss. Das bedeutet eine fundamentale Verschiebung der Machtverhältnisse: Der Bürger wird vom Rechteinhaber zum Antragsteller. Er besitzt seine Freiheit nicht, sondern erhält sie als zeitlich begrenzte Genehmigung. Jede Erlaubnis hat einen Preis – in Form von Gebühren, Zeit und Komplexität. Das System macht Menschen dadurch berechenbar und kontrollierbar, was wiederum die Existenz von Verwaltungsstrukturen rechtfertigt."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Strukturelle Anreize für wachsende Regulierung",
+      "body": "Bürokratische Systeme folgen eigenen Logiken, die zu ständiger Regulierungsvermehrung führen. Neue Vorschriften schaffen neue Zuständigkeiten, Stellen und Budgets – der Staat wird größer, nicht kleiner. Wer eine Regel einführt, wirkt aktiv und problemlösend; wer eine abschafft, wirkt fahrlässig. Dadurch entstehen strukturelle Anreize, die Regulierung auszudehnen, nicht zu reduzieren. Die versteckten Kosten dieser Entwicklung sind erheblich: Unternehmen tragen zweistellige Milliardenbeträge jährlich an Bürokratiekosten. Hinzu kommen indirekte Kosten – ungegründete Unternehmen, nicht realisierte Innovationen, gescheiterte Ideen wegen zu hoher Zulassungshürden. Legitime Schutzfunktionen werden dabei mit reiner Verwaltungskontrolle vermischt, sodass jede Kritik an Überregulierung als Angriff auf notwendigen Schutz wirkt."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Der Staat nutzt Genehmigungen, Lizenzen, Zertifikate und Registrierungen, um Zahlungsströme zu etablieren, ohne diese als ___ zu bezeichnen.",
+        "blanks": [
+          {
+            "accept": [
+              "Steuern"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Gebühren",
+          "Auflagen",
+          "Abgaben"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfyf6t1006g7"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Im regulierten System wird der Bürger vom Rechteinhaber zum ___, der seine Freiheit nicht besitzt, sondern als zeitlich begrenzte Genehmigung erhält.",
+        "blanks": [
+          {
+            "accept": [
+              "Antragsteller"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Steuerzahler",
+          "Konsument",
+          "Wähler"
+        ],
+        "id": "ai-ex-2-cloze", "stable_id": "ex-msfyf6t1007p8"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie die Konzepte ihren Beschreibungen zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Unregulierten Zustand",
+            "right": "Handlungsfreiheit ist der Normalfall"
+          },
+          {
+            "left": "Reguliertes System",
+            "right": "Verbot ist Standard, Freiheit wird zur beantragten Ausnahme"
+          },
+          {
+            "left": "Strukturelle Anreize",
+            "right": "Neue Regeln rechtfertigen neue Stellen und Budgets, führen zu mehr Regulierung"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching", "stable_id": "ex-msfyf6t1008yc"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Wer eine neue Regel einführt, wirkt aktiv und ___; wer eine abschafft, wirkt fahrlässig – das schafft Anreize zur Regulierungsvermehrung.",
+        "blanks": [
+          {
+            "accept": [
+              "problemlösend"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "kostenbewusst",
+          "innovativ",
+          "verantwortungsvoll"
+        ],
+        "id": "ai-ex-4-cloze", "stable_id": "ex-msfyf6t10093o"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Beschreiben Sie, warum der Staat Regulierung als Schutzordnung präsentiert, obwohl sie auch eine versteckte Finanzierungsmechanik darstellt.",
+        "card_ids": [],
+        "accept": [
+          "Sie wirkt dann nicht als Abgabe, sondern als Ordnung für Sicherheit und Qualität, was Kritik erschwert",
+          "Dadurch entsteht Finanzierung ohne explizite demokratische Legitimation und Transparenz",
+          "Schutz legitimiert die Regulierung, obwohl sie auch Kontrolle und Einnahmequelle ist"
+        ],
+        "distractors": [
+          "Weil Regulierung ausschließlich der Sicherheit dient und keine Einnahmen erzeugt",
+          "Weil die Einnahmen aus Regulierung im Haushalt gesondert ausgewiesen werden"
+        ],
+        "id": "ai-ex-5-free-text", "stable_id": "ex-msfyf6t100akd"
+      },
+      "theory_ref": "theory-1"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

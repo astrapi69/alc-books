@@ -1,0 +1,162 @@
+{
+  "id": "12-kapitel-12",
+  "title": "KAPITEL 12",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 11,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Das Problem der sterblichen Stimme",
+      "body": "In modernen Demokratien verliert der Bürger die Kontrolle über seine politische Stimme unmittelbar nach der Wahl. Er gibt seine Stimme ab – und sie gehört ihm dann nicht mehr. Zwischen den Wahltermine (oft Jahre später) kann er nicht eingreifen, auch wenn die gewählten Vertreter gegen seinen Willen handeln. Die Stimme existiert nur für einen Moment und \"stirbt\" danach. Das bedeutet: Der Souverän ist nur alle paar Jahre Souverän, ansonsten ist er Zuschauer eines Prozesses, den er nicht beeinflussen kann. Dies ist das Kernproblem des aktuellen demokratischen Systems."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Das lebende Stimmrecht als Lösung: Stimme behalten statt abgeben",
+      "body": "Beim lebenden Stimmrecht gibt der Bürger seine Stimme nicht ab, sondern behält die Kontrolle darüber. Das Kernwerkzeug dafür ist ein persönliches politisches Profil, das der Bürger selbst gestaltet und das aus drei Ebenen besteht:\n\n* **Grundwerte** definieren, welche Staatsphilosophie ihm wichtig ist (z.B. Freiheit vs. Sicherheit, starker oder schlanker Staat)\n* **Prioritäten** legen fest, wohin Steuermittel fließen sollen (Bildung, Gesundheit, Infrastruktur, etc.)\n* **Entscheidungsmodus** bestimmt, wie sein Profil handelt, wenn er nicht persönlich abstimmt\n\nDieses Profil wirkt kontinuierlich und automatisch, ohne dass der Bürger bei jeder Entscheidung selbst anwesend sein muss. Er kann es jederzeit ändern, und die Änderung wirkt sofort – nicht erst zur nächsten Wahl. Seine Stimme lebt, weil sie nicht verbraucht wird, sondern andauernd präsent bleibt."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Privatsphäre und dezentrale Technologie als Verfassungsprinzip",
+      "body": "Das System funktioniert nur, wenn der Staat niemals sehen kann, wie der Einzelne denkt – sonst wird es zum Überwachungsinstrument. Deshalb sind Datenschutz und dezentrale Technologie nicht optional, sondern das Fundament des Systems.\n\nTechnisch wird dies durch kryptographische Verfahren (Zero-Knowledge-Proofs) gelöst: Die Stimmen werden lokal signiert, verschlüsselt übertragen und in verteilten Netzwerken aggregiert, sodass Ergebnisse verifizierbar sind, aber keine zentrale Stelle die individuellen Profile kennt. Rechtlich muss die Verfassung garantieren, dass individuelle politische Profile dem Staat inhaltlich unzugänglich bleiben und jede Erfassung strafbar ist.\n\nDer Gedanke dahinter: Ein Staat, der nicht weiß, wie du denkst, ist gezwungen, dir zu dienen. Ein Staat, der es weiß, kann dich kontrollieren. Echte Demokratie braucht strategische Unsichtbarkeit des Einzelnen."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Das Kernproblem der modernen Demokratie ist, dass der Bürger nur ___ Souverän ist, ansonsten ist er Zuschauer eines Prozesses, den er nicht beeinflussen kann.",
+        "blanks": [
+          {
+            "accept": [
+              "alle paar Jahre"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "einmal im Leben",
+          "ständig",
+          "nie"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfyf6t901ky2"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Das lebende Stimmrecht funktioniert nur, wenn ___ niemals sehen kann, wie der Einzelne denkt.",
+        "blanks": [
+          {
+            "accept": [
+              "der Staat"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "die Öffentlichkeit",
+          "das Parlament",
+          "andere Bürger"
+        ],
+        "id": "ai-ex-2-cloze", "stable_id": "ex-msfyf6t901lvt"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie jede Ebene des persönlichen politischen Profils ihrer Beschreibung zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Grundwerte",
+            "right": "definieren, welche Staatsphilosophie dem Bürger wichtig ist"
+          },
+          {
+            "left": "Prioritäten",
+            "right": "legen fest, wohin Steuermittel fließen sollen"
+          },
+          {
+            "left": "Entscheidungsmodus",
+            "right": "bestimmt, wie das Profil handelt, wenn der Bürger nicht persönlich abstimmt"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching", "stable_id": "ex-msfyf6t901mao"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Zero-Knowledge-Proofs ermöglichen es, dass Stimmen verschlüsselt übertragen werden und Ergebnisse verifizierbar sind, aber ___ die individuellen Profile kennt.",
+        "blanks": [
+          {
+            "accept": [
+              "keine zentrale Stelle"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "jeder Bürger",
+          "das Wahlamt",
+          "das Internet"
+        ],
+        "id": "ai-ex-4-cloze", "stable_id": "ex-msfyf6t901nlk"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Welcher Unterschied besteht zwischen der sterblichen Stimme in modernen Demokratien und dem lebenden Stimmrecht?",
+        "card_ids": [],
+        "accept": [
+          "Bei der sterblichen Stimme gibt der Bürger sie ab und verliert die Kontrolle, beim lebenden Stimmrecht behält er die Kontrolle und kann sie ändern",
+          "Die sterbliche Stimme wirkt nur einen Moment, das lebende Stimmrecht wirkt kontinuierlich",
+          "Das lebende Stimmrecht ermöglicht zwischen Wahlen Einfluss, die sterbliche Stimme nicht"
+        ],
+        "distractors": [
+          "Das lebende Stimmrecht ist teurer und komplizierter",
+          "Die sterbliche Stimme kommt nur in Monarchien vor"
+        ],
+        "id": "ai-ex-5-free-text", "stable_id": "ex-msfyf6t901odu"
+      },
+      "theory_ref": "theory-1"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

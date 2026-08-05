@@ -1,0 +1,134 @@
+{
+  "id": "15-epilog",
+  "title": "EPILOG",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 9,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Der Bürger als Quelle der Macht, nicht als Verwaltungsobjekt",
+      "body": "Der zentrale Gedanke ist eine Umkehrung der Machtverhältnisse: Bisher wurden Menschen von staatlichen Systemen verwaltet, kontrolliert und kategorisiert – als wären sie Ressourcen, die man handhaben muss. Stattdessen sollte der Bürger als der eigentliche Ursprung verstanden werden. Der Staat ist nicht der Herr, der Rechte verteilt, sondern ein Werkzeug, das der Bürger beauftragt. Diese Umkehrung beginnt nicht mit neuen Gesetzen, sondern mit dem Selbstverständnis jedes Einzelnen: Erkenne dich als Auftraggeber an, nicht als Bittsteller."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Freiheit und Würde als unverhandelbare Grundlage",
+      "body": "Freiheit ist keine Genehmigung, die man vom Staat erhält, und auch kein Kompromiss zwischen persönlichen Wünschen und staatlichen Vorgaben. Sie ist vielmehr eine Rückgabe dessen, was dem Menschen immer gehörte: seine Souveränität über sich selbst. Würde ist nicht nur ein schönes Wort in einer Verfassung, sondern das Fundament, auf dem alles Zusammenleben aufbaut. Sie bedeutet konkret: Du kannst nicht verfügt werden, deine Stimme erlischt nicht nach einer Wahl, und du darfst Nein sagen. Diese Grundlagen müssen wieder lebendige Wirklichkeit werden statt leere Versprechen."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Die persönliche Entscheidung als Anfang der Veränderung",
+      "body": "Der Wandel beginnt nicht mit Revolution oder politischen Umbrüchen, sondern mit einer inneren Haltungsänderung jedes Einzelnen. In alltäglichen Momenten – beim Amt, bei Formularen, in Begegnungen mit Behörden – entscheidest du, ob du dich als Untertan akzeptierst oder als Souverän aufrichtest. Diese Entscheidung ist eine Frage der Selbstachtung: Erkennst du an, dass du dir selbst gehörst und über dein Leben bestimmst? Wenn genug Menschen diese innere Entscheidung treffen, setzt sich diese Haltung nach außen fort und verändert das System von innen heraus."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Nach dem Text ist der Bürger nicht ein Verwaltungsobjekt, sondern die ___ der Macht.",
+        "blanks": [
+          {
+            "accept": [
+              "Quelle"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Begrenzung",
+          "Folge",
+          "Kontrolle"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfyf6ta020sr"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Der Wandel beginnt nicht mit Revolution, sondern mit einer inneren ___ jedes Einzelnen.",
+        "blanks": [
+          {
+            "accept": [
+              "Haltungsänderung"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Gesetzesänderung",
+          "Behördenreform",
+          "Abstimmung"
+        ],
+        "id": "ai-ex-2-cloze", "stable_id": "ex-msfyf6ta0218q"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne die Konzepte ihren Erklärungen zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Souveränität",
+            "right": "Die Rückgabe dessen, was dem Menschen immer gehörte – seine Kontrolle über sich selbst"
+          },
+          {
+            "left": "Würde",
+            "right": "Das Fundament des Zusammenlebens; bedeutet konkret, dass man nicht verfügt werden kann und Nein sagen darf"
+          },
+          {
+            "left": "Der Staat",
+            "right": "Ein Werkzeug, das der Bürger beauftragt"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching", "stable_id": "ex-msfyf6ta022d1"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Beschreibe, wie persönliche Entscheidungen im Umgang mit Behörden laut Text zu Systemveränderung führen können.",
+        "card_ids": [],
+        "accept": [
+          "Wenn genug Menschen sich als Souverän aufrichtet statt als Untertan zu akzeptieren, setzt sich diese Haltung nach außen fort und verändert das System von innen",
+          "Durch alltägliche Entscheidungen, sich selbst als Auftraggeber anzuerkennen, verändert sich das System langfristig",
+          "Wenn viele Menschen ihre innere Haltung ändern und sich nicht als Objekte verwalten lassen, breitet sich diese Einstellung aus und transformiert das System"
+        ],
+        "distractors": [
+          "Durch Petitionen und offizielle Beschwerdeverfahren"
+        ],
+        "id": "ai-ex-4-free-text", "stable_id": "ex-msfyf6ta023wt"
+      },
+      "theory_ref": "theory-3"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

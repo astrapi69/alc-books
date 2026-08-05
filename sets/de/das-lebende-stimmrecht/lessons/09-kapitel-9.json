@@ -1,0 +1,165 @@
+{
+  "id": "09-kapitel-9",
+  "title": "KAPITEL 9",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 11,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Verwaltung als Kontrolle statt Dienstleistung",
+      "body": "Die heutige Verwaltung funktioniert nach einem Misstrauenprinzip: Sie prüft zunächst, ob ein Bürger berechtigt ist, bevor sie hilft. Das schafft ein Machtungleichgewicht, bei dem der Bürger um etwas bitten muss, das ihm eigentlich zusteht, während der Staat über den Zugang entscheidet. Dies unterscheidet sich grundlegend von echter Dienstleistung, die mit der Frage beginnt: \"Wie kann ich dir helfen?\" statt \"Erfüllst du die Bedingungen?\" Der Bürger muss Nachweise erbringen, obwohl der Staat diese Daten längst besitzt. Dieses System belastet den Bürger statt ihn zu entlasten und drückt aus, wer die Macht hat – nicht um Missbrauch zu verhindern, sondern um Dominanz zu zeigen."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Neugestaltung: Vertrauen, Anspruch und Rechenschaftspflicht",
+      "body": "Ein bürgerzentriertes Verwaltungssystem würde drei Grundsätze umkehren. Erstens: Anstatt zu misstrauen, würde es von Vertrauen ausgehen und nur bei konkretem Verdacht nachprüfen. Zweitens: Der Bürger könnte seinen Anspruch direkt abrufen, ohne Antrag zu stellen – schnell, digital, automatisiert. Drittens: Der Staat hätte die Bringschuld: Er müsste Lösungen finden, Entscheidungen rechtzeitig treffen und Transparenz bieten. Diese Umkehrung bedeutet nicht Verzicht auf Kontrolle, sondern deren Umgestaltung – weg von präventiver Verdächtigung hin zu gezielter Überprüfung. Psychologisch ändert sich auch etwas: Unterstützte Menschen können Verantwortung übernehmen, während behinderte Menschen abhängig oder erschöpft werden."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Vorsorge als Eigentum statt verwalteter Anspruch",
+      "body": "Rentenbeiträge und Sozialversicherung sollten nicht als Staatskassen behandelt werden, sondern als Eigentum des Bürgers. Das bedeutet: Der Bürger könnte jederzeit sehen, was er eingezahlt hat und was es wert ist (Echtzeit-Transparenz). Vor allem aber: Sein Vermögen wäre vererbbar. Wenn er stirbt, bevor die Rente aufgebraucht ist, geht der Rest an seine Familie – nicht an den Staat. So wird die Lebensleistung nicht vernichtet, sondern bleibt als Familievermögen erhalten. Technologie (künstliche Intelligenz) macht das bereits heute möglich – durch automatische Verwaltung, digitale Verfügbarkeit und sofortige Übertragung ohne Bürokratie. Der Unterschied ist politisch, nicht technisch: Daten und Systeme können für den Bürger arbeiten oder gegen ihn. Im Bürgerstaat arbeiten sie für ihn."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Das heutige Verwaltungssystem funktioniert nach einem ___ -prinzip, bei dem der Staat zunächst prüft, ob ein Bürger berechtigt ist, bevor er hilft.",
+        "blanks": [
+          {
+            "accept": [
+              "Misstrauens"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Vertrauens",
+          "Kontroll",
+          "Dienst"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfyf6t8015s6"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Nach dem bürgerzentrierten Modell sollten Rentenbeiträge und Sozialversicherung als ___ des Bürgers behandelt werden, nicht als Staatskassen.",
+        "blanks": [
+          {
+            "accept": [
+              "Eigentum"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Schulden",
+          "Anrechte",
+          "Geschenke"
+        ],
+        "id": "ai-ex-2-cloze", "stable_id": "ex-msfyf6t8016yo"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie jedem Merkmal die passende Beschreibung zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Nachweispflicht heute",
+            "right": "Bürger muss Nachweise erbringen, obwohl der Staat die Daten besitzt"
+          },
+          {
+            "left": "Anspruch im bürgerzentrierten System",
+            "right": "Bürger kann seinen Anspruch direkt abrufen, ohne Antrag zu stellen"
+          },
+          {
+            "left": "Zweck der Kontrolle heute",
+            "right": "Kontrolle dient der Machtdemonstration, nicht nur der Missbrauchsprävention"
+          },
+          {
+            "left": "Bringschuld im bürgerzentrierten System",
+            "right": "Der Staat hat die Bringschuld und muss Lösungen finden"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching", "stable_id": "ex-msfyf6t8017c4"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Ein wichtiger psychologischer Unterschied ist: ___ Menschen können Verantwortung übernehmen, während behinderte Menschen abhängig oder erschöpft werden.",
+        "blanks": [
+          {
+            "accept": [
+              "Unterstützte"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Vertraute",
+          "Kontrollierte",
+          "Misstrauische"
+        ],
+        "id": "ai-ex-4-cloze", "stable_id": "ex-msfyf6t801833"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Welcher konkrete Unterschied entsteht in einem bürgerzentrierten System, wenn ein Bürger stirbt, bevor seine Rente aufgebraucht ist?",
+        "card_ids": [],
+        "accept": [
+          "Der Rest geht an die Familie, nicht an den Staat",
+          "Das verbleibende Vermögen wird an die Familie vererbt",
+          "Die Lebensleistung bleibt als Familievermögen erhalten"
+        ],
+        "distractors": [
+          "Der Staat verwaltet das Geld weiterhin"
+        ],
+        "id": "ai-ex-5-free-text", "stable_id": "ex-msfyf6t8019zi"
+      },
+      "theory_ref": "theory-3"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

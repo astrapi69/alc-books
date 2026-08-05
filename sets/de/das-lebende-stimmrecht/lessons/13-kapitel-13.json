@@ -1,0 +1,161 @@
+{
+  "id": "13-kapitel-13",
+  "title": "KAPITEL 13",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 9,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Vom Gefühl der Ohnmacht zur Handlungsfähigkeit",
+      "body": "Im bestehenden System erleben Bürger täglich, dass sie keine echte Kontrolle über staatliche Entscheidungen haben. Sie müssen um Leistungen bitten, Behörden entscheiden über ihre Ansprüche, und Parteien sprechen ihnen vor, was sie wollen – ohne sie zu fragen. Der Bürgerstaat dreht diese Beziehung um: Der Mensch wird zum Auftraggeber, der Staat zum Dienstleister. Statt \"Was erlaubt mir der Staat?\" wird die Frage \"Was beauftrage ich den Staat?\" Das zentrale Erlebnis ist nicht die Abwesenheit von Machtstrukturen, sondern die Abwesenheit von Hilflosigkeit. Rechte werden unmittelbar erlebbar – nicht durch Kämpfe um Anträge, sondern durch automatische Gewährung dessen, das jedem Bürger zusteht."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Warum Evolution statt Revolution zum Erfolg führt",
+      "body": "Revolutionen scheitern, weil sie alte Machtstrukturen zerstören, ohne die zugrundeliegende Logik von Herrschaft zu verändern. Wer die Macht ergreift, wird von ihr selbst umgeformt – neue Elite, alte Strukturen. Der Weg zum Bürgerstaat funktioniert anders: In einer ersten Phase erkennen Menschen, dass das System ihnen nicht dient. In einer zweiten Phase entstehen parallele Strukturen, die tatsächlich funktionieren und Bürgern Kontrolle geben – ohne das alte System zu attackieren. In der dritten Phase werden diese neuen Strukturen zum Standard, und das Alte wird schlicht überflüssig. Das ist kein Bruch, sondern gradueller Funktionswechsel: Macht wandert nicht zu einer neuen Gruppe, sondern zurück zu vielen einzelnen Bürgern."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Freiheit im Alltag – der echte Maßstab einer Demokratie",
+      "body": "Wahre Freiheit zeigt sich nicht in Verfassungstexten oder bei Wahlen, sondern an Schaltern, in Formularen und Wartezeiten. Ein Staat, in dem Menschen ihre Rechte täglich ausleben können ohne zu kämpfen oder zu bitten, ist frei – ein Staat, in dem dies nur theoretisch gilt, ist es nicht. Demokratie erweist sich am Montagmorgen, nicht am Feiertag. Die psychologische Dimension ist entscheidend: Ein Mensch, der weiß, dass er Macht besitzt, verändert sein Verhalten – er wird aktiver, verantwortungsvoller, selbstbestimmter. Der Bürgerstaat bringt daher nicht nur neue Institutionen, sondern neue Menschen hervor, die aufrecht stehen, weil sie verstehen, dass sie selbst der Souverän sind."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Im Bürgerstaat wird der Mensch zum ___, der Staat zum Dienstleister.",
+        "blanks": [
+          {
+            "accept": [
+              "Auftraggeber"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Bittsteller",
+          "Untertan",
+          "Wähler"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfyf6t901pi3"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Im Bürgerstaat wird die zentrale Frage nicht \"Was erlaubt mir der Staat?\", sondern ___.",
+        "blanks": [
+          {
+            "accept": [
+              "Was beauftrage ich den Staat?"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Was will der Staat von mir?",
+          "Wie kann ich den Staat kontrollieren?",
+          "Welche Pflichten habe ich?"
+        ],
+        "id": "ai-ex-2-cloze", "stable_id": "ex-msfyf6t901qib"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie jede Phase der Evolution zum Bürgerstaat ihrer Beschreibung zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Phase 1",
+            "right": "Menschen erkennen, dass das System ihnen nicht dient"
+          },
+          {
+            "left": "Phase 2",
+            "right": "Parallele Strukturen entstehen, die tatsächlich funktionieren"
+          },
+          {
+            "left": "Phase 3",
+            "right": "Neue Strukturen werden zum Standard, das Alte wird überflüssig"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching", "stable_id": "ex-msfyf6t901r13"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Erkläre, warum Revolutionen scheitern und warum Evolution stattdessen zum Erfolg führt.",
+        "card_ids": [],
+        "accept": [
+          "Revolutionen zerstören alte Strukturen, aber nicht die Logik von Herrschaft, daher entstehen neue Machteliten. Evolution wandelt die Macht schrittweise zu vielen Bürgern, ohne das alte System anzugreifen.",
+          "Revolutionen werden von neuen Eliten vereinnahmt, die wieder Macht konzentrieren. Evolution schafft parallele Strukturen, die funktionieren, und macht das alte System überflüssig.",
+          "Revolution schafft neue Machtzentren. Evolution verteilt Macht an viele einzelne Bürger durch funktionsfähige Alternativen."
+        ],
+        "distractors": [
+          "Revolutionen sind zu gewalttätig, Evolution ist friedlicher."
+        ],
+        "id": "ai-ex-4-free-text", "stable_id": "ex-msfyf6t901ss8"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-topup-ex-5-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "card_ids": [],
+        "prompt": "Fülle das fehlende Wort ein.",
+        "sentence": "Im Bürgerstaat wird der Mensch zum Auftraggeber und der Staat zum ___.",
+        "blanks": [
+          {
+            "accept": [
+              "Dienstleister"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Vormund",
+          "Kontrolleur",
+          "Eigentümer"
+        ],
+        "id": "topup-ex-5-cloze", "stable_id": "ex-msfyf6t901tix"
+      },
+      "theory_ref": "theory-1"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

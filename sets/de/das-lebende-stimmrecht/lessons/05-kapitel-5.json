@@ -1,0 +1,157 @@
+{
+  "id": "05-kapitel-5",
+  "title": "KAPITEL 5",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 8,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Der Mensch als wirtschaftliche Ressource statt als Zweck",
+      "body": "Staaten präsentieren sich als Institutionen, die ihre Bürger schützen und deren Zusammenleben ermöglichen. Doch wenn man die tatsächlichen Strukturen analysiert statt der offiziellen Rhetorik zu folgen, zeigt sich ein anderes Bild: Menschen werden als verwertbare Rohstoffe behandelt, nicht als Subjekte mit unveräußerlicher Würde. Das System sortiert Menschen in vier Lebensphasen nach ihrer Nützlichkeit – in der Kindheit als zu formendes Potenzial, im Erwerbsleben als Steuerzahler und Produktivkraft, im Alter als teure Kostenstelle, und beim Tod als Abrechnungsmoment. Diese Logik ist nicht böse Absicht einzelner, sondern die strukturelle Folge eines Systems, das seine eigene Selbsterhaltung über das Wohlergehen seiner Bürger stellt."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Die Illusion von Kontrolle durch fehlende Außenmacht",
+      "body": "Ein funktionierendes System benötigt externe Kontrolle – jemanden von außen, der überprüft, korrigiert und notfalls eingreift. Der moderne Staat kontrolliert sich selbst: Regierung, Verwaltung, Parteien und Gerichte operieren alle innerhalb des bestehenden Systems und können es daher nur kosmetisch, nicht strukturell verändern. Der Bürger bleibt außerhalb dieser Kontrollkette – er darf wählen und kritisieren, kann aber nicht wirklich Konsequenzen durchsetzen. Im Gegensatz zu anderen Systemen (Kunde wechselt Unternehmen, Arbeitgeber entlässt Angestellten) gibt es für den Staat keine echte Sanktionsmöglichkeit. Wahlen sind rituelle Momente ohne dauerhafte Kontrollfunktion. Ohne diese externe Macht bleibt Korrektur eine Simulation."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Demokratische Form ohne funktionierende Substanz",
+      "body": "Die formale Demokratie behauptet, dass der Bürger souverän ist und der Staat ihm dient. Die funktionale Realität zeigt das Gegenteil: Der Bürger hat nur einen Moment echter Mitsprache – den Wahltag – danach verschwindet er aus dem politischen Prozess. Zwischen Wahlen entscheiden und handeln die Machthaber ohne kontinuierliche Kontrolle. Der Bürger ist kein Herr, sondern ein Antragsteller, der um Leistungen bittet und wartet, bis Behörden über ihn entscheiden. Dieser geschlossene Kreislauf der Macht schützt den Staat vor echten Konsequenzen und ermöglicht es ihm, sich selbst zu legitimieren. So wird Demokratie zur Oberfläche ohne Tiefe – ein Versprechen, das strukturell nicht eingelöst wird."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Nach der Theorie werden Menschen in vier Lebensphasen nach ihrer Nützlichkeit sortiert: Kindheit als zu formendes Potenzial, Erwerbsleben als Steuerzahler und Produktivkraft, Alter als teure Kostenstelle, und ___ als Abrechnungsmoment.",
+        "blanks": [
+          {
+            "accept": [
+              "Tod"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Ruhestand",
+          "Pensionierung",
+          "Erwerbslosigkeit"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfyf6t600ly8"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jede Kontrollinstanz ihrer Funktion im modernen Staat zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Externe Kontrolle",
+            "right": "Überprüfung und Korrektur durch jemanden außerhalb des Systems"
+          },
+          {
+            "left": "Interne Kontrolle des Staates",
+            "right": "Regierung, Verwaltung, Parteien und Gerichte operieren innerhalb desselben Systems"
+          },
+          {
+            "left": "Kontrolle durch den Bürger",
+            "right": "Darf wählen und kritisieren, kann aber keine echten Konsequenzen durchsetzen"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-2-matching", "stable_id": "ex-msfyf6t600m10"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Erläutere, warum die Theorie Wahlen als \"rituelle Momente ohne dauerhafte Kontrollfunktion\" beschreibt.",
+        "card_ids": [],
+        "accept": [
+          "Weil der Bürger nur am Wahltag Mitsprache hat, danach aber aus dem politischen Prozess verschwindet",
+          "Weil Wahlen keine kontinuierliche Kontrolle ermöglichen und zwischen Wahlen die Machthaber ohne Kontrolle entscheiden",
+          "Weil der Bürger nach der Wahl keinen realen Einfluss mehr hat"
+        ],
+        "distractors": [
+          "Weil zu wenige Menschen wählen gehen",
+          "Weil die Wahlergebnisse manipuliert werden"
+        ],
+        "id": "ai-ex-3-free-text", "stable_id": "ex-msfyf6t600n0c"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-topup-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "card_ids": [],
+        "prompt": "Fülle das fehlende Wort ein.",
+        "sentence": "Der moderne Staat kontrolliert sich ___: Regierung, Verwaltung, Parteien und Gerichte operieren alle innerhalb des bestehenden Systems.",
+        "blanks": [
+          {
+            "accept": [
+              "selbst"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "gegenseitig",
+          "extern",
+          "unabhängig"
+        ],
+        "id": "topup-ex-4-cloze", "stable_id": "ex-msfyf6t600opw"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-topup-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "card_ids": [],
+        "prompt": "Woran zeigt sich laut Text, dass die formale Demokratie ihre funktionale Substanz verloren hat?",
+        "accept": [
+          "der Bürger hat nur am Wahltag echte Mitsprache und verschwindet danach aus dem Prozess",
+          "zwischen den Wahlen handeln die Machthaber ohne kontinuierliche Kontrolle",
+          "der Bürger ist kein Herr, sondern ein Antragsteller, über den Behörden entscheiden"
+        ],
+        "distractors": [
+          "weil zu wenige Bürger überhaupt zur Wahl gehen",
+          "weil die Verfassung keine Wahlen mehr vorschreibt"
+        ],
+        "id": "topup-ex-5-free-text", "stable_id": "ex-msfyf6t600pn8"
+      },
+      "theory_ref": "theory-3"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

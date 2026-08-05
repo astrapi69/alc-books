@@ -1,0 +1,160 @@
+{
+  "id": "04-kapitel-4",
+  "title": "KAPITEL 4",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 8,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Die verborgene Zwei-Klassen-Struktur des Staates",
+      "body": "Der Staat schafft faktisch zwei unterschiedliche Sicherheitssysteme, obwohl dies formal nicht im Gesetz verankert ist. Während normale Bürger in die gesetzliche Rentenversicherung einzahlen und nur ein Versprechen erhalten, das zukünftige Regierungen ändern können, erhalten Beamte garantierte Pensionen mit gesicherten Prozentsätzen, Hinterbliebenenversorgung und echten Anspruchstiteln. Diese Unterscheidung offenbart ein tiefes Misstrauen des Staates gegenüber seinem eigenen System: Wenn der Staat seinem Rentensystem wirklich trauen würde, hätte jeder Beamte die gleiche Absicherung wie ein normaler Rentner. Die Tatsache, dass dies nicht der Fall ist, zeigt, dass der Staat sich selbst vor seinen Bürgern schützt – nicht den Bürger vor Unsicherheit."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Bürokratie als Kontrollmechanismus statt Ordnungssystem",
+      "body": "Bürokratische Verfahren präsentieren sich als notwendige Strukturen zur Schaffung von Ordnung und Gerechtigkeit. In Wirklichkeit funktionieren sie als Abwehrmechanismus zwischen Bürgern und ihren Ansprüchen. Durch Anträge, Nachweispflichten, lange Wartezeiten und undurchschaubare Zuständigkeiten entsteht ein System, das nicht hilft, sondern aufzehrt. Ein müder, erschöpfter Bürger fordert weniger, kontrolliert weniger und wehrt sich nicht. Dies ist keine zufällige Nebenwirkung, sondern strukturelle Absicht: Je komplexer die Verfahren bleiben, desto mehr Bürger verzichten auf ihre Ansprüche, und desto niedriger fallen die tatsächlichen Kosten des Staates aus. Wer das System kennt – wie Insider und Beamte – kann es leicht navigieren; wer es nicht kennt, wird von ihm aufgerieben."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Der historische Wandel der staatlichen Verantwortlichkeit",
+      "body": "Früher war der Beamte Stellvertreter des Herrschers oder Diener des frühen Verfassungsstaates – Vertrauensmissbrauch galt als persönlicher Verrat mit ernsten Konsequenzen für Ehre und Vermögen. Heute wurde dieser moralische Charakter aus der Definition entfernt: Was einst Verrat war, ist nun ein verwaltungstechnischer ‚Verstoß', der relativiert und verschoben werden kann. Parallel dazu verschob sich die Perspektive: Der Bürger war einst der Souverän, dessen Betrug das Fundament der Ordnung beschädigte. Heute ist der Staat selbst der Souverän, und Betrug gilt als internes Fehlverhalten – das Opfer (der Bürger) verschwindet aus der Definition. Diese Umkehrung ermöglicht es dem Staat, sich selbst statt seinen Bürgern zu schützen."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Beamte erhalten ___ mit gesicherten Prozentsätzen, während normale Bürger nur ein Versprechen erhalten.",
+        "blanks": [
+          {
+            "accept": [
+              "garantierte Pensionen"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "gesetzliche Rentenversicherung",
+          "Anspruchstitel"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfyf6t600gqt"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie die Rollen ihren historischen Merkmalen zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Beamte früher",
+            "right": "Vertrauensmissbrauch galt als persönlicher Verrat mit ernsten Konsequenzen"
+          },
+          {
+            "left": "Beamte heute",
+            "right": "Vertrauensmissbrauch gilt als verwaltungstechnischer Verstoß"
+          },
+          {
+            "left": "Der Bürger früher",
+            "right": "Wurde als Souverän betrachtet, dessen Betrug das Fundament beschädigte"
+          },
+          {
+            "left": "Der Bürger heute",
+            "right": "Verschwindet aus der Definition als Opfer von Fehlverhalten"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-2-matching", "stable_id": "ex-msfyf6t600h19"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Erklären Sie, wie bürokratische Verfahren nach dieser Theorie als Kontrollmechanismus funktionieren.",
+        "card_ids": [],
+        "accept": [
+          "Durch komplexe Verfahren, lange Wartezeiten und undurchschaubare Zuständigkeiten werden Bürger ermüdet und verzichten auf ihre Ansprüche",
+          "Anträge und Nachweispflichten erschöpfen den Bürger, sodass dieser weniger Ansprüche geltend macht und sich weniger wehrt",
+          "Das System ist absichtlich komplex gestaltet, um Bürger von ihren Ansprüchen abzuhalten und die Staatskosten zu senken"
+        ],
+        "distractors": [
+          "Sie schaffen Ordnung und Gerechtigkeit für alle Bürger gleichermaßen",
+          "Sie ermöglichen schnelle und einfache Lösungen für Bürgerbeschwerden"
+        ],
+        "id": "ai-ex-3-free-text", "stable_id": "ex-msfyf6t600ibq"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-topup-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "card_ids": [],
+        "prompt": "Fülle das fehlende Wort ein.",
+        "sentence": "Beamte erhalten garantierte ___ mit gesicherten Prozentsätzen, während normale Bürger nur ein Versprechen erhalten, das zukünftige Regierungen ändern können.",
+        "blanks": [
+          {
+            "accept": [
+              "Pensionen"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Zulagen",
+          "Darlehen",
+          "Beteiligungen"
+        ],
+        "id": "topup-ex-4-cloze", "stable_id": "ex-msfyf6t600jbz"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-topup-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "card_ids": [],
+        "prompt": "Warum beschreibt der Text bürokratische Verfahren als Abwehrmechanismus statt als Ordnungssystem?",
+        "accept": [
+          "weil Anträge, Nachweispflichten und Wartezeiten den Bürger aufzehren statt ihm zu helfen",
+          "weil ein erschöpfter Bürger weniger fordert, weniger kontrolliert und sich nicht wehrt",
+          "weil mit steigender Komplexität mehr Bürger auf ihre Ansprüche verzichten"
+        ],
+        "distractors": [
+          "weil die Verfahren technisch veraltet sind und modernisiert werden müssten",
+          "weil zu wenige Beamte für die Bearbeitung zur Verfügung stehen"
+        ],
+        "id": "topup-ex-5-free-text", "stable_id": "ex-msfyf6t600krf"
+      },
+      "theory_ref": "theory-2"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}
