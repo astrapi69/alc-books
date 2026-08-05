@@ -21,18 +21,28 @@ You need:
 > GitHub Actions CI check your commit: it runs the same validator. A bare
 > `pip install` fails on modern systems (PEP 668).
 
-### Start your own content repository
+### Clone this repository
 
-Create your repository from this template: **“Use this template” → Create
-a new repository** (not *Fork*), then clone your new repo:
+```bash
+git clone https://github.com/astrapi69/alc-books.git
+cd alc-books
+```
 
-> <https://github.com/astrapi69/adaptive-learner-content-template> → **Use
-> this template**. You get a fresh, independent repository (no fork
-> relationship, no inherited history).
+This repository holds book sets: one book, one set. Adding another book is
+described in the [README](../README.md#adding-the-next-book) - the short
+version is a new `sets/<lang>/<set-id>/` directory, one entry in the root
+manifest, and zero-padded `NN-` prefixes on the lesson files BEFORE the
+first publication.
 
-Everything you need ships in the copy: the domain **templates** under
-[`templates/`](../templates/), one small **example set** under
-[`sets/en/es-a1/`](../sets/en/es-a1/), the validator, and CI.
+Everything you need ships here: the domain **templates** under
+[`templates/`](../templates/), an inherited **example set** under
+[`sets/en/es-a1/`](../sets/en/es-a1/) (hidden, kept as a minimal valid
+reference), the validator, and CI.
+
+Starting a content repository of your own instead? Use
+<https://github.com/astrapi69/adaptive-learner-content-template> with
+**"Use this template"** (not *Fork*), which is where this repository came
+from.
 
 ## 1. Copy a template (1 min)
 

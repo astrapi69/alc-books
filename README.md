@@ -1,27 +1,70 @@
-# adaptive-learner-content-template
+# alc-books
 
-[![content validation](https://github.com/astrapi69/adaptive-learner-content-template/actions/workflows/validate-content.yml/badge.svg)](https://github.com/astrapi69/adaptive-learner-content-template/actions/workflows/validate-content.yml)
+[![content validation](https://github.com/astrapi69/alc-books/actions/workflows/validate-content.yml/badge.svg)](https://github.com/astrapi69/alc-books/actions/workflows/validate-content.yml)
 [![engine on npm](https://img.shields.io/npm/v/learn-content-engine?label=engine%20on%20npm)](https://www.npmjs.com/package/learn-content-engine)
 
-A **GitHub template** for building your own [Adaptive Learner](https://github.com/astrapi69/adaptive-learner)
-content: a Git repository of plain lesson files that the app loads
+Lesson sets **for books**: one book, one set, whose lessons follow the
+book's own structure. Plain lesson files that
+[Adaptive Learner](https://github.com/astrapi69/adaptive-learner) loads
 directly and no vendor can lock away.
 
-> Click **“Use this template” → Create a new repository** (not *Fork*) to
-> get a fresh, independent copy under your own account, then clone it.
+## The sets
 
-This template is the clean scaffold: schema, validator, CI, authoring
-templates, an AI generator, and **one** small example set. It ships **no**
-real content: you replace the example with your own.
+| Set | Lessons | Subject |
+|---|---|---|
+| [`biologische-souveranitat`](sets/de/biologische-souveranitat/) | 23 | CRISPR, germline editing, and who owns your genetic code |
+| [`das-lebende-stimmrecht`](sets/de/das-lebende-stimmrecht/) | 15 | how democratic participation stays alive |
+
+Both carry `review_status: generated`: they were produced from the book
+text and have not been reviewed by a domain expert yet. That field states
+ORIGIN, not quality, and it is what keeps a set out of the "reviewed"
+count until someone has read it.
+
+## Adding the next book
+
+The layout is one directory per book, as siblings:
+
+```
+sets/<source-language>/<set-id>/
+  manifest.yaml          # the set entry + metadata.lessons (the file list)
+  lessons/NN-slug.json   # NN zero-padded to a fixed width
+```
+
+Then one entry in the root `manifest.yaml`, and the lesson ids minted:
+
+```bash
+npx --no-install learn-content-engine mint-stable-ids sets/de/<set-id>/lessons/*.json --write
+# raise schema/stable-id-coverage.txt by one, then:
+make lint && make validate && python3 -m pytest tests -q
+```
+
+**Zero-pad the `NN-` prefix, and do it before the first publication.**
+Display order is the lexicographic sort of the lesson ids, so `kapitel-10`
+sorts between `kapitel-1` and `kapitel-2` without padding. Renaming later
+is not an option: the file name IS the lesson identity that learner
+progress hangs on, so the prefix has to be right while the set is still
+unpublished. Both sets here needed that fix on import; the second one
+arrived with no prefixes at all.
+
+Two rules this repository adds on top of the shared gates:
+
+- **Bridge lessons** (an introduction, a part divider, an interlude, an
+  epilogue) are exempt from the exercise minimum. They summarise and
+  connect rather than teach new material, so their text base cannot carry
+  the full floor. Chapter lessons are not exempt.
+- **`domain` must be a real content domain.** Book exports arrive with
+  `domain: "imported"`, which is the app's origin marker and not a domain
+  any consumer knows. It passed every other gate silently
+  (adaptive-learner#2376), so there is a check for it now.
 
 ## What's inside
 
-- `manifest.yaml`: the root manifest listing your sets (one example set to start).
-- `sets/en/es-a1/`: one minimal, valid example lesson + its set manifest.
+- `manifest.yaml`: the root manifest listing the sets.
+- `sets/`: one directory per book.
 - `schema/`: the pinned [`learn-content-engine`](https://github.com/astrapi69/learn-content-engine)
   schema mirror; [`engine-version.txt`](schema/engine-version.txt) holds the
-  pinned engine version and is the source of truth. This
-  is what your content is validated against, independent of the app.
+  pinned engine version and is the source of truth. Content is validated
+  against this, independent of the app.
 - `templates/`: starting-point lessons per domain (language / programming / knowledge).
 - `scripts/validate_content.py`: the local validator.
 - `scripts/generate_exercises.py`: an optional BYOK AI exercise generator.
@@ -32,39 +75,31 @@ real content: you replace the example with your own.
   format reference is the engine's
   [`docs/lesson-format.md`](https://github.com/astrapi69/learn-content-engine/blob/main/docs/lesson-format.md).
 
+There is also an inherited `example-set` (`sets/en/es-a1/`) from the
+template this repository was created from. It stays on
+`visibility: hidden` so it never reaches a learner, and the documentation
+and tests still reference it as a minimal valid example.
+
 ## Quick start
 
 You only need `make` and `python3`. The first `make validate` sets up a
 local environment for you (no manual `pip`, no virtualenv, no Poetry):
 
 ```bash
-# 1. Use this template -> your own repo -> clone it
-git clone https://github.com/<you>/<your-content-repo>.git
-cd <your-content-repo>
-
-# 2. Validate the example set. First run creates .venv and installs deps;
-#    later runs reuse it. Exit 0 == all sets pass.
-make validate
-
-# 3. Replace the example with your own lesson, then re-run make validate + commit.
+git clone https://github.com/astrapi69/alc-books.git
+cd alc-books
+make validate      # first run creates .venv and installs deps; exit 0 == all sets pass
+make lint          # the semantic engine gate CI also runs
+make lint-warnings # the same run, plus the W-* author warnings
 ```
 
-**One line to delete when you go live:** the example set carries
-`visibility: hidden` in `manifest.yaml`. A template is copied, so that
-setting is inherited by your repository, and it keeps the demo out of the
-Adaptive Learner "Discover" list until you replace it. When your own set is
-ready, delete the `visibility: hidden` line (and the comment above it) from
-its manifest entry, otherwise learners will not see your content. Hiding is
-the safe default; showing is the conscious act.
-
-Before you push, `make lint` runs the same semantic engine gate as CI
-(`Engine conformance`): it installs the engine release pinned in
+`make lint` installs the engine release pinned in
 `schema/engine-version.txt` into `node_modules/` (gitignored; needs Node.js
 and npm) and checks every lesson and manifest with the engine's rule ids
-(`E-CARD-REF` & co.). `make lint-warnings` additionally prints the engine gate's warnings (`W-*`).
+(`E-CARD-REF` and friends).
 
-No `make` (e.g. Windows without WSL)? Two options: run the validator in a
-virtualenv yourself:
+No `make` (e.g. Windows without WSL)? Run the validator in a virtualenv
+yourself:
 
 ```bash
 python3 -m venv .venv && . .venv/bin/activate     # Windows: .venv\Scripts\activate
@@ -72,10 +107,10 @@ pip install -r requirements.txt
 python3 scripts/validate_content.py
 ```
 
-Or just commit and let the GitHub Actions CI validate (it runs the same
-checks). Installing the deps globally with a bare `pip install` fails on
-modern Debian/Ubuntu/macOS (PEP 668, "externally-managed-environment");
-the virtualenv above is why.
+Or just commit and let CI validate; it runs the same checks. Installing
+the deps globally with a bare `pip install` fails on modern
+Debian/Ubuntu/macOS (PEP 668, "externally-managed-environment"); the
+virtualenv above is why.
 
 Full walkthrough: [docs/GETTING-STARTED.md](docs/GETTING-STARTED.md).
 
