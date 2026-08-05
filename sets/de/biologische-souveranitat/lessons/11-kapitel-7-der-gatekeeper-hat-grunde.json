@@ -1,0 +1,163 @@
+{
+  "id": "11-kapitel-7-der-gatekeeper-hat-grunde",
+  "title": "Kapitel 7: Der Gatekeeper hat Gründe",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 8,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Warum Regulierung entstanden ist: Das Prinzip der bewiesenen Sicherheit",
+      "body": "Arzneimittelzulassungen existieren, weil unkontrollierte Medikamentenentwicklung zu massiven Schäden führt. Das klassische Beispiel Contergan zeigt: Tausende Kinder wurden geschädigt, weil Behörden weltweit ein Medikament zuließen, das nicht ausreichend geprüft war. Die regulatorische Lösung lautet «Sicherheit vor Geschwindigkeit» – ein Hersteller muss nicht nur behaupten, dass ein Mittel sicher ist, sondern dies mit soliden Daten nachweisen. Dieser Grundsatz hat Millionen von Menschenleben bewahrt und bildet die Rechtfertigung für die heutigen Zulassungsprozesse, die Jahre dauern und Milliarden kosten."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Die Spannung zwischen Schutz und Zugang: Wenn Regulierung auch blockiert",
+      "body": "Das Zulassungssystem schützt zwar vor Schäden, erzeugt aber parallel ein Problem: Die hohen regulatorischen Kosten führen zu Monopolpreisen und beschränktem Zugang. Wenn eine Gentherapie 5 Milliarden Dollar kostet, um den Markt zu erreichen, können sich Pharmaunternehmen nur seltene Krankheiten leisten, bei denen wenige Patienten existieren. Patienten in kleineren Ländern oder Regionen erhalten diese Therapien oft nie. Das System wurde für seinen Notfall-Einsatz bei Baby KJ gelobt, doch gleichzeitig zeigt dieser Fall: Nur unter außergewöhnlichen Bedingungen (prominentes Krankenhaus, internationales Aufmerksamkeit) öffnet sich die Tür – für andere bleibt sie verschlossen."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Gatekeeper brauchen Verantwortlichkeit: Wem gegenüber sind sie rechenschaftspflichtig?",
+      "body": "Regulierungsbehörden sind notwendig, doch die entscheidende Frage lautet: Wem dienen sie? Wenn Gatekeeper vor allem der Industrie rechenschaftspflichtig sind, entstehen Strukturen, in denen Preis und Zugang stärker von Gewinn als von Patientenbedarf bestimmt werden. Das «Made-in-Canada»-Beispiel zeigt: Dieselbe Therapie kostet im öffentlichen kanadischen System ein Zehntel des US-amerikanischen Preises, weil andere finanzielle Anreize am Werk sind. Die zentrale Spannung liegt darin, dass Gatekeeper zwar legitim sind, aber deren Rechenschaftspflicht gegenüber Bürgern und Patienten – statt nur gegenüber Behörden und Industrie – neu definiert werden muss."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Das klassische Beispiel ___ zeigt, warum Arzneimittelzulassungen entstanden sind.",
+        "blanks": [
+          {
+            "accept": [
+              "Contergan"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Baby KJ",
+          "Made-in-Canada"
+        ],
+        "id": "ai-ex-1-cloze",
+        "stable_id": "ex-msfxg43r01b5l"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Das Prinzip «___ vor Geschwindigkeit» bedeutet, dass Hersteller Sicherheit mit soliden Daten nachweisen müssen, statt sie nur zu behaupten.",
+        "blanks": [
+          {
+            "accept": [
+              "Sicherheit"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Gewinn",
+          "Innovation"
+        ],
+        "id": "ai-ex-2-cloze",
+        "stable_id": "ex-msfxg43r01c6d"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie jedes Problem seiner Konsequenz zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Hohe regulatorische Kosten",
+            "right": "Monopolpreise und beschränkter Zugang zu Therapien"
+          },
+          {
+            "left": "Rechenschaftspflicht gegenüber der Industrie",
+            "right": "Preis und Zugang werden mehr vom Gewinn als vom Patientenbedarf bestimmt"
+          },
+          {
+            "left": "Unterschiedliche finanzielle Anreize in verschiedenen Ländern",
+            "right": "Dieselbe Therapie kostet in Kanada ein Zehntel des US-Preises"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching",
+        "stable_id": "ex-msfxg43r01dfe"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-topup-ex-4-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "card_ids": [],
+        "prompt": "Warum verlangt die Arzneimittelzulassung, dass ein Hersteller die Sicherheit mit Daten nachweist, statt sie nur zu behaupten?",
+        "accept": [
+          "weil unkontrollierte Medikamentenentwicklung zu massiven Schäden führt",
+          "wegen Contergan, wo Tausende Kinder durch ein unzureichend geprüftes Medikament geschädigt wurden",
+          "weil der Grundsatz Sicherheit vor Geschwindigkeit Millionen Menschenleben bewahrt hat"
+        ],
+        "distractors": [
+          "weil Hersteller sonst zu wenig Gewinn machen würden",
+          "weil Zulassungsverfahren gesetzlich Jahre dauern müssen"
+        ],
+        "id": "topup-ex-4-free-text", "stable_id": "ex-msfxntka002rp"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-topup-ex-5-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "card_ids": [],
+        "prompt": "Fülle das fehlende Wort ein.",
+        "sentence": "Dieselbe Therapie kostet im öffentlichen kanadischen System ein ___ des US-amerikanischen Preises, weil andere finanzielle Anreize am Werk sind.",
+        "blanks": [
+          {
+            "accept": [
+              "Zehntel"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Doppeltes",
+          "Fünffaches",
+          "Hundertstel"
+        ],
+        "id": "topup-ex-5-cloze", "stable_id": "ex-msfxntka003q3"
+      },
+      "theory_ref": "theory-3"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

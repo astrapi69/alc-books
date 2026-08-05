@@ -1,0 +1,62 @@
+# Set-Manifest: Biologische Souveränität (Buch-Set).
+#
+# Erstes Set dieses Repositories. Die Ordnerstruktur folgt der Konvention
+# sets/<Quellsprache>/<Set-Id>/lessons/NN-slug.json - weitere Buch-Sets
+# kommen als eigene Verzeichnisse daneben, nicht als Unterordner hier.
+#
+# Reihenfolge: die Anzeigereihenfolge ist die lexikografische Sortierung
+# der Lektions-Ids (learn-content-engine#106). Die NN-Prefixe sind damit
+# der Mechanismus, nicht Kosmetik, und alle auf zwei Stellen genullt.
+schema_version: "1.5"
+name: Biologische Souveränität
+description: >-
+  Begleitendes Lernset zum Buch "Biologische Souveränität": CRISPR,
+  Keimbahneingriffe und die Frage, wem der eigene genetische Code gehört.
+  23 Lektionen entlang der vier Buchteile, mit Interludium und Schluss.
+sets:
+  - id: biologische-souveranitat
+    title: Biologische Souveränität
+    title_native: Biologische Souveränität
+    target_language: de
+    source_language: de
+    domain: knowledge
+    level: grundlagen
+    path: sets/de/biologische-souveranitat
+    version: "1.0.0"
+    lesson_count: 23
+    # Aus einem Buch erzeugt und noch nicht fachlich geprueft: review_status
+    # richtet sich nach der HERKUNFT, nicht nach der Qualitaet. Auf
+    # "reviewed" heben, sobald jemand die Lektionen durchgesehen hat.
+    review_status: generated
+    tags:
+      - buch
+      - bioethik
+      - crispr
+      - genetik
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-einleitung.json
+    - 02-teil-1-der-code.json
+    - 03-kapitel-1-die-schere.json
+    - 04-kapitel-2-zwei-codes-ein-prinzip.json
+    - 05-kapitel-3-lulu-und-nana.json
+    - 06-kapitel-4-gattaca.json
+    - 07-interludium-der-korper-spricht.json
+    - 08-teil-2-der-stahlmann.json
+    - 09-kapitel-5-die-eugenische-versuchung.json
+    - 10-kapitel-6-komplexitat-als-argument.json
+    - 11-kapitel-7-der-gatekeeper-hat-grunde.json
+    - 12-teil-3-die-okonomie-des-korpers.json
+    - 13-kapitel-8-die-problem-industrie.json
+    - 14-kapitel-9-2-2-millionen-dollar.json
+    - 15-kapitel-10-die-meths-revisited.json
+    - 16-kapitel-11-die-stellvertreter.json
+    - 17-teil-4-die-souveranitat.json
+    - 18-kapitel-12-mein-korper-mein-code.json
+    - 19-kapitel-13-keimbahn-vs-soma.json
+    - 20-kapitel-14-crispr-als-demokratische-frage.json
+    - 21-kapitel-15-die-schnittstelle.json
+    - 22-kapitel-16-souveranitat-als-verantwortung.json
+    - 23-kapitel-17-der-code-der-uns-gehort.json

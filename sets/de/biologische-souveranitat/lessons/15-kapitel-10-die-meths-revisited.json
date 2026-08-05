@@ -1,0 +1,164 @@
+{
+  "id": "15-kapitel-10-die-meths-revisited",
+  "title": "Kapitel 10: Die Meths, revisited",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 8,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Unsterblichkeit ohne Tiefe: Das Paradoxon der Meths",
+      "body": "In Richard K. Morgans Roman werden die Meths unsterblich, indem sie sich neue Körper kaufen – nicht weil sie besser sind, sondern weil sie wohlhabend sind. Doch ihre jahrhundertelange Existenz bringt ihnen keine innere Erfüllung oder Weisheit. Sie sammeln mehr Zeit, mehr Geld, mehr Macht an, aber alles quantitativ, nicht qualitativ. Das zeigt ein wichtiges Prinzip: Technische Fähigkeit (den Tod überwinden) ist nicht dasselbe wie echte Erfüllung (das Leben vertiefen). Macht ohne Weisheit führt zu Tyrannei."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Die Sleeve-Ökonomie: Wenn der Körper zur Ware wird",
+      "body": "In Morgans Welt ist der eigene Körper kein Grundrecht, sondern ein Produkt, das vom Geldbeutel abhängt. Reiche kaufen sich junge, gesunde Körper; Arme bekommen alte oder kranke, oder landen auf Eis – bewusstlos gelagert, wartend. Diese Logik übersetzt sich auf unsere Realität: Gentechnologien wie CRISPR kosten Millionen Dollar. Wer sich die Therapie leisten kann, wird geheilt und gesünder; wer nicht, bleibt krank. Der Körper wird nicht direkt zur Ware, sondern der Zugang zu seiner Heilung wird es. Das Ergebnis ist eine Zwei-Klassen-Biologie, in der die Armen zurückbleiben."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Wie sich Ungerechtigkeit über Generationen aufbaut",
+      "body": "Der entscheidende Punkt: Vorteile sammeln sich an. Ein Kind, das durch Gentherapie geheilt wird, lebt länger, ist gesünder, lernt besser, verdient mehr – und wenn es um die Weitergabe genetischer Veränderungen (Keimbahn-Editing) geht, vererben Eltern diesen Vorteil biologisch an ihre Kinder. Jede Generation der Reichen wird gesünder und stärker, während jede Generation der Armen bei den alten Methoden bleibt. Der Abstand wächst nicht linear, sondern exponentiell. Irgendwann ist er so groß, dass er nicht mehr aufgeholt werden kann – aus einer ökonomischen Ungleichheit wird eine biologische Kaste."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "In Morgans Roman werden die Meths unsterblich, indem sie sich neue ___ kaufen, aber dies bringt ihnen keine innere Erfüllung oder Weisheit.",
+        "blanks": [
+          {
+            "accept": [
+              "Körper"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Technologien",
+          "Rechte",
+          "Fähigkeiten"
+        ],
+        "id": "ai-ex-1-cloze",
+        "stable_id": "ex-msfxg43t01rxn"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie die Konzepte ihren Beschreibungen zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Technische Fähigkeit",
+            "right": "Den Tod überwinden können"
+          },
+          {
+            "left": "Zwei-Klassen-Biologie",
+            "right": "Ungleicher Zugang zu genetischen Heilungstherapien schafft biologische Unterschiede zwischen Arm und Reich"
+          },
+          {
+            "left": "Keimbahn-Editing",
+            "right": "Genetische Veränderungen, die an die nächste Generation vererbt werden"
+          },
+          {
+            "left": "Sleeve-Ökonomie",
+            "right": "Der Körper wird zur Ware, deren Zugang vom Wohlstand abhängt"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-2-matching",
+        "stable_id": "ex-msfxg43t01sj5"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Warum führt das exponentielle Wachstum von Ungleichheit bei Gentechnologien zu einer biologischen Kaste statt nur zu wirtschaftlicher Ungleichheit?",
+        "card_ids": [],
+        "accept": [
+          "Weil Vorteile sich ansammeln und vererbt werden, wird der Abstand so groß, dass er nicht mehr aufgeholt werden kann",
+          "Die reichen Generationen werden biologisch besser, während arme Generationen zurückbleiben, bis der Unterschied nicht mehr überwindbar ist",
+          "Genetische Veränderungen sind erblich und wachsen exponentiell, wodurch biologische Unterschiede entstehen, die nicht mehr gleichzusetzen sind"
+        ],
+        "distractors": [
+          "Weil Gentechnologie alle Menschen gleichmäßig verbessert",
+          "Weil arme Menschen schneller reproduzieren als reiche"
+        ],
+        "id": "ai-ex-3-free-text",
+        "stable_id": "ex-msfxg43t01t7e"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-topup-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "card_ids": [],
+        "prompt": "Fülle das fehlende Wort ein.",
+        "sentence": "Der Abstand zwischen den Generationen wächst nicht linear, sondern ___, bis er nicht mehr aufgeholt werden kann.",
+        "blanks": [
+          {
+            "accept": [
+              "exponentiell"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "konstant",
+          "zufällig",
+          "rückläufig"
+        ],
+        "id": "topup-ex-4-cloze", "stable_id": "ex-msfxntkc0048w"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-topup-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "card_ids": [],
+        "prompt": "Was wird in der Sleeve-Ökonomie zur Ware, wenn man sie auf heutige Gentherapien überträgt?",
+        "accept": [
+          "nicht der Körper selbst, sondern der Zugang zu seiner Heilung",
+          "der Zugang zur Therapie, weil sie Millionen Dollar kostet",
+          "die Heilung wird zur Ware, der Körper bleibt formal keine"
+        ],
+        "distractors": [
+          "der Körper wird unmittelbar gekauft und verkauft wie im Roman",
+          "die Lebenszeit selbst wird gehandelt"
+        ],
+        "id": "topup-ex-5-free-text", "stable_id": "ex-msfxntkc005nu"
+      },
+      "theory_ref": "theory-2"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

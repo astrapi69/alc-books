@@ -1,0 +1,165 @@
+{
+  "id": "20-kapitel-14-crispr-als-demokratische-frage",
+  "title": "Kapitel 14: CRISPR als demokratische Frage",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 11,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Die vier Machtzentren bei Gentechnik-Entscheidungen",
+      "body": "Entscheidungen über den Zugang zu Gentechnik fallen heute in vier verschiedenen Bereichen: Im Parlament verabschieden Abgeordnete Gesetze, beeinflussen durch Lobbyisten und Parteizwang, oft ohne echte Fachkompetenz. Regulierungsbehörden wie die FDA treffen technisch fundierte Entscheidungen, sind aber nicht demokratisch legitimiert und anfällig für Einflussnahme durch die Industrie, die sie kontrollieren sollen. Ethikkommissionen beraten zwar die Regierung, ihre Empfehlungen sind jedoch unverbindlich und ihre Zusammensetzung spiegelt nicht die Vielfalt der Gesellschaft wider. Der Markt schließlich ist die mächtigste Arena – Konzerne entscheiden, welche Therapien entwickelt werden und zu welchem Preis, während Bürger nur als Konsumenten, nicht als Gestalter, fungieren. In keiner dieser vier Arenen haben Bürger eine direkte Stimme über Fragen, die ihr Leben unmittelbar betreffen."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Demokratische Entscheidungsfindung durch Bürgerbeteiligung",
+      "body": "Statt dass Gentechnik-Fragen in Haushaltsgesetzen versteckt oder hinter Behördentüren entschieden werden, sollten Bürger direkt mitentscheiden. Das Konzept des \"lebenden Stimmrechts\" ergänzt die repräsentative Demokratie: Komplexe Sachfragen werden in verständlicher Sprache formuliert – nicht in Fachjargon, sondern so, dass jeder Bürger weiß, worüber er entscheidet. Experten liefern dann sachliche Informationen als Grundlage, nicht als Empfehlung. Nach einer transparent geführten öffentlichen Debatte folgt eine bindende Abstimmung. Das Ergebnis ist nicht nur ein Gutachten, das in einer Schublade verschwindet, sondern ein echtes Mandat, das umgesetzt werden muss."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Die Kompetenzfrage als Machtfrage verstehen",
+      "body": "Der Einwand, dass Bürger Gentechnik zu kompliziert finden und nicht qualifiziert seien, ist nicht neu – dasselbe Argument wurde gegen Frauenwahlrecht, Arbeiterrechte und Selbstbestimmung kolonialisierter Völker vorgebracht. Es ist im Kern kein Argument über Fachkompetenz, sondern über Machtverteilung. Die Frage \"Soll die Keimbahn editierbar sein?\" ist keine molekularbiologische, sondern eine ethische und politische Frage über Werte: Welche Gesellschaft wollen wir? Solche Wertefragen können alle Bürger beantworten – ähnlich wie Schweizer Bürger 2017 kompetent über komplexe Energiepolitik abstimmten, obwohl Atomkraft technisch nicht weniger kompliziert ist als Gentechnik."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Das Konzept des \"lebenden Stimmrechts\" basiert darauf, dass komplexe Sachfragen in ___ formuliert werden, damit jeder Bürger versteht, worüber er entscheidet.",
+        "blanks": [
+          {
+            "accept": [
+              "verständlicher Sprache"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "wissenschaftlicher Terminologie",
+          "Fachjargon",
+          "parlamentarischen Dokumenten"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfxg43u029dv"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie die vier Machtzentren bei Gentechnik-Entscheidungen ihren Hauptmerkmalen zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Parlament",
+            "right": "Verabschiedet Gesetze, oft ohne echte Fachkompetenz"
+          },
+          {
+            "left": "Regulierungsbehörden (wie FDA)",
+            "right": "Treffen technisch fundierte Entscheidungen, sind aber nicht demokratisch legitimiert"
+          },
+          {
+            "left": "Ethikkommissionen",
+            "right": "Beraten die Regierung, ihre Empfehlungen sind jedoch unverbindlich"
+          },
+          {
+            "left": "Markt",
+            "right": "Konzerne entscheiden über Entwicklung und Preis von Therapien"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-2-matching", "stable_id": "ex-msfxg43u02a6u"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "In keiner der vier Arenen – Parlament, Regulierungsbehörden, Ethikkommissionen und Markt – haben Bürger ___ über Fragen, die ihr Leben unmittelbar betreffen.",
+        "blanks": [
+          {
+            "accept": [
+              "eine direkte Stimme"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "indirekte Kontrolle",
+          "wirtschaftliche Macht",
+          "rechtliche Verantwortung"
+        ],
+        "id": "ai-ex-3-cloze", "stable_id": "ex-msfxg43u02bal"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Warum ist die Frage \"Soll die Keimbahn editierbar sein?\" nach der Theorie keine molekularbiologische Frage?",
+        "card_ids": [],
+        "accept": [
+          "weil es eine ethische und politische Frage über Werte ist",
+          "weil sie sich auf Werte bezieht, nicht auf technische Biologie",
+          "weil alle Bürger Wertefragen beantworten können, nicht nur Experten"
+        ],
+        "distractors": [
+          "weil Bürger keine Gentechnik verstehen können"
+        ],
+        "id": "ai-ex-4-free-text", "stable_id": "ex-msfxg43u02cfz"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-word-tiles",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "word_tiles",
+        "prompt": "Bilden Sie einen Satz mit den folgenden Wörtern, der einen zentralen Punkt der Theorie ausdrückt:",
+        "card_ids": [],
+        "tiles": [
+          "Das",
+          "Argument",
+          "über",
+          "Kompetenz",
+          "ist",
+          "im",
+          "Kern",
+          "ein",
+          "Argument",
+          "über",
+          "Machtverteilung"
+        ],
+        "distractors": [],
+        "id": "ai-ex-5-word-tiles", "stable_id": "ex-msfxg43u02d1h"
+      },
+      "theory_ref": "theory-3"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

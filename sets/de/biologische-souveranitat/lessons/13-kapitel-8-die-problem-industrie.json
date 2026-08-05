@@ -1,0 +1,160 @@
+{
+  "id": "13-kapitel-8-die-problem-industrie",
+  "title": "Kapitel 8: Die Problem-Industrie",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 11,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Chronische Verwaltung versus einmalige Heilung als Geschäftsmodelle",
+      "body": "Medikamente lassen sich in zwei Kategorien einteilen: solche, die ein Problem dauerhaft lösen, und solche, die es lediglich kontrollieren. Statine sind ein Beispiel für das zweite Modell – sie senken den Cholesterinspiegel, solange man sie nimmt, heilen aber die zugrunde liegende Störung nicht. Damit erzeugen sie wiederkehrende Einnahmen über das ganze Leben eines Patienten. Im Gegensatz dazu könnten Gentherapien wie CTX310 das Problem in einer einzigen Behandlung beheben und den Patienten dauerhaft heilen. Aus ökonomischer Perspektive sind diese beiden Ansätze fundamental unterschiedlich: Ein chronischer Patient kauft über Jahrzehnte regelmäßig ein Produkt; ein geheilter Patient ist ein verlorener Kunde, der nie wiederkehrt."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Wie Geschäftsanreize die Forschungsrichtung lenken",
+      "body": "Die finanzielle Struktur der Pharmaindustrie schafft Anreize, die nicht automatisch mit den Patienteninteressen übereinstimmen. Investoren profitieren mehr von lebenslanger Behandlung als von einmaliger Heilung – das ist rationale Betriebswirtschaft, keine Verschwörung. Dies führt dazu, dass Forschung und Entwicklung auf chronische Verwaltung optimiert werden, während der Übergang zu heilenden Ansätzen schwächer finanziert wird. Das gilt nicht nur für Cholesterin, sondern für viele chronische Erkrankungen: Diabetes, Bluthochdruck, Depressionen. Ein Gesundheitssystem, das Leistung statt Ergebnisse bezahlt, verstärkt diesen Effekt noch, weil mehr Behandlungen mehr Einkommen bedeuten als erfolgreiche Prävention."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Problem-Ökonomie und begrenzte biologische Souveränität",
+      "body": "Problem-Ökonomie beschreibt eine systemische Struktur, in der Probleme verwaltet statt gelöst werden, nicht weil einzelne Akteure böswillig sind, sondern weil die Anreize aller Beteiligten – Forscher, Manager, Investoren, Regulierer – auf Verwaltung hinweisen. Dies schränkt die Fähigkeit von Patienten ein, wirklich über ihre Gesundheit zu entscheiden. Ein Patient, der täglich Medikamente nehmen muss, weil heilende Alternativen nicht zugänglich oder bezahlbar sind, ist wirtschaftlich abhängig gemacht worden. Echte biologische Souveränität würde erfordern, dass heilende Lösungen existieren, verfügbar sind und bezahlt werden können – Bedingungen, die das aktuelle System nicht erfüllt, obwohl die Technologie bereits vorhanden ist."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Statine senken den Cholesterinspiegel, ___ aber die zugrunde liegende Störung nicht.",
+        "blanks": [
+          {
+            "accept": [
+              "heilen"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "verstärken",
+          "verhindern"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfxg43s01hx5"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Problem-Ökonomie beschreibt eine Struktur, in der Probleme verwaltet statt gelöst werden, weil die ___ aller Beteiligten auf Verwaltung hinweisen.",
+        "blanks": [
+          {
+            "accept": [
+              "Anreize"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Fähigkeiten",
+          "Absichten"
+        ],
+        "id": "ai-ex-2-cloze", "stable_id": "ex-msfxg43s01idt"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie jedes Geschäftsmodell seinem wirtschaftlichen Ergebnis zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Chronische Verwaltung (z.B. Statine)",
+            "right": "Wiederkehrende Einnahmen über Jahrzehnte"
+          },
+          {
+            "left": "Einmalige Heilung (z.B. Gentherapie CTX310)",
+            "right": "Ein geheilter Patient ist ein verlorener Kunde"
+          },
+          {
+            "left": "Leistungsbasierte Bezahlung im Gesundheitssystem",
+            "right": "Mehr Behandlungen bedeuten mehr Einkommen"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching", "stable_id": "ex-msfxg43s01jeu"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Echte biologische Souveränität würde erfordern, dass heilende Lösungen existieren, verfügbar sind und ___ werden können.",
+        "blanks": [
+          {
+            "accept": [
+              "bezahlt"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "verschrieben",
+          "erforscht"
+        ],
+        "id": "ai-ex-4-cloze", "stable_id": "ex-msfxg43s01kry"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Nenne zwei chronische Erkrankungen, die nach der Theorie von Problem-Ökonomie betroffen sind.",
+        "card_ids": [],
+        "accept": [
+          "Diabetes und Bluthochdruck",
+          "Bluthochdruck und Depressionen",
+          "Diabetes und Depressionen",
+          "Diabetes, Bluthochdruck und Depressionen"
+        ],
+        "distractors": [
+          "Cholesterin und Statine",
+          "CTX310 und Gentherapie"
+        ],
+        "id": "ai-ex-5-free-text", "stable_id": "ex-msfxg43s01l1t"
+      },
+      "theory_ref": "theory-1"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

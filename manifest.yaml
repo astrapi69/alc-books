@@ -1,19 +1,36 @@
-# Root manifest — lists the sets your repository offers.
+# Wurzel-Manifest: die Sets, die dieses Repository anbietet.
 #
-# This template ships ONE example set (sets/en/es-a1). Replace it
-# with your own:
-#   - point `path` at your set directory (convention: sets/<source-lang>/<set-id>)
-#   - keep `lesson_count` honest (it must match the lessons you ship)
-#   - a set needs at least: id, title, target_language, level, version, lesson_count
+# alc-books sammelt Lernsets ZU BUECHERN. Ein Buch = ein Set = ein
+# Verzeichnis sets/<Quellsprache>/<Set-Id>/ mit eigenem manifest.yaml und
+# lessons/NN-slug.json. Weitere Buch-Sets kommen als Geschwister daneben;
+# hier wird je Set genau ein Eintrag ergaenzt und `lesson_count` ehrlich
+# gehalten (es muss zu den ausgelieferten Lektionen passen).
 #
-# `schema_version` is optional and not strict.
-# Validate everything with:  python3 scripts/validate_content.py
+# Pruefen mit:  make lint  (Engine-Gate) und  make validate
 schema_version: '1.5'
-name: My Adaptive Learner content
+name: Adaptive Learner - Buch-Lernsets
 description: >-
-  A content repository created from adaptive-learner-content-template.
-  Replace this example set with your own lessons.
+  Lernsets zu Buechern: je Buch ein Set, dessen Lektionen der Gliederung
+  des Buches folgen.
 sets:
+  - id: biologische-souveranitat
+    title: Biologische Souveränität
+    title_native: Biologische Souveränität
+    target_language: de
+    source_language: de
+    domain: knowledge
+    level: grundlagen
+    path: sets/de/biologische-souveranitat
+    version: '1.0.0'
+    lesson_count: 23
+    # Aus einem Buch erzeugt und noch nicht fachlich geprueft: review_status
+    # richtet sich nach der HERKUNFT, nicht nach der Qualitaet.
+    review_status: generated
+    tags:
+      - buch
+      - bioethik
+      - crispr
+      - genetik
   - id: example-set
     title: Spanish A1 (example)
     title_native: Español A1 (ejemplo)
@@ -24,10 +41,9 @@ sets:
     path: sets/en/es-a1
     version: '1.0.0'
     lesson_count: 1
-    # Beispiel-Set, kein Lerner-Inhalt: Eine Vorlage wird kopiert, also erbt
-    # jedes daraus erzeugte Repository diese Sichtbarkeit. `hidden` haelt das
-    # Beispiel aus dem Entdecken-Bereich der App heraus, bis du es durch
-    # eigene Inhalte ersetzt. Wer bewusst ausliefern will, loescht diese Zeile.
+    # Aus der Vorlage geerbtes Beispiel-Set, kein Lerner-Inhalt. `hidden`
+    # haelt es aus dem Entdecken-Bereich der App heraus; es bleibt als
+    # Referenz fuer Format und Tooling (Doku und Tests verweisen darauf).
     visibility: hidden
     tags:
       - example

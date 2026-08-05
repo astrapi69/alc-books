@@ -1,0 +1,106 @@
+{
+  "id": "17-teil-4-die-souveranitat",
+  "title": "Teil 4: Die Souveränität",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 8,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Biologische Souveränität verstehen",
+      "body": "Souveränität bezieht sich auf die Fähigkeit von Lebewesen, über ihre eigene biologische Existenz zu bestimmen. Dies ist nicht nur eine politische Frage, sondern auch eine grundlegende Eigenschaft des Lebens selbst. Wenn wir von biologischer Souveränität sprechen, meinen wir das Recht und die Möglichkeit, eigene Entscheidungen über den eigenen Körper und die eigene Existenz zu treffen."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Grenzen und demokratische Organisation",
+      "body": "Während jedes Individuum eine bestimmte Autonomie hat, endet diese Souveränität dort, wo sie die Souveränität anderer gefährdet oder einschränkt. In einer Gesellschaft müssen daher Regeln entstehen, die definieren, wo diese Grenzen liegen. Demokratie bietet einen Weg, diese Grenzen gemeinsam und fair zu verhandeln – nicht durch Willkür einzelner, sondern durch Beteiligung aller Betroffenen."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Philosophische und ethische Dimensionen",
+      "body": "Souveränität hat auch eine tiefere, philosophische Bedeutung: Sie verbindet sich mit Fragen nach dem Sinn von Existenz, Freiheit und menschlicher Verantwortung. Aus dem Verständnis biologischer Souveränität folgt eine ethische Verpflichtung – wer über sich selbst entscheiden darf, trägt auch die Verantwortung für die Folgen dieser Entscheidungen, sowohl für sich selbst als auch für andere."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Biologische Souveränität bezieht sich auf die Fähigkeit von Lebewesen, über ihre eigene ___ zu bestimmen.",
+        "blanks": [
+          {
+            "accept": [
+              "biologische Existenz"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "politische Meinung",
+          "finanzielle Ressourcen"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfxg43t01y12"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne die Konzepte ihren Beschreibungen zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Grenzen der Souveränität",
+            "right": "Dort, wo die eigene Souveränität die Souveränität anderer gefährdet oder einschränkt"
+          },
+          {
+            "left": "Demokratie",
+            "right": "Ein Weg, Grenzen gemeinsam und fair durch Beteiligung aller Betroffenen zu verhandeln"
+          },
+          {
+            "left": "Ethische Verpflichtung",
+            "right": "Die Verantwortung für Folgen der eigenen Entscheidungen für sich selbst und andere"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-2-matching", "stable_id": "ex-msfxg43t01zm1"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Erklär in eigenen Worten, warum der Text sagt, dass Souveränität nicht nur eine politische, sondern auch eine grundlegende Eigenschaft des Lebens selbst ist.",
+        "card_ids": [],
+        "accept": [
+          "weil Lebewesen die natürliche Fähigkeit haben, eigene Entscheidungen über ihren Körper und ihre Existenz zu treffen",
+          "weil die Fähigkeit zur Selbstbestimmung ein wesentliches Merkmal des Lebens ist",
+          "weil jedes Lebewesen inhärent die Möglichkeit hat, über sich selbst zu entscheiden"
+        ],
+        "distractors": [
+          "weil Politiker darüber entscheiden"
+        ],
+        "id": "ai-ex-3-free-text", "stable_id": "ex-msfxg43t020eo"
+      },
+      "theory_ref": "theory-1"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

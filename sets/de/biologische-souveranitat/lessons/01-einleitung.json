@@ -1,0 +1,107 @@
+{
+  "id": "01-einleitung",
+  "title": "Einleitung",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 8,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "CRISPR als Werkzeug mit zwei Gesichtern",
+      "body": "CRISPR ist eine Technologie zum Editieren von genetischem Code. Dieselbe Technik kann auf völlig unterschiedliche Weise eingesetzt werden: Sie kann einen schwerkranken Säugling heilen, indem man einen einzelnen fehlerhaften Buchstaben in seinem Erbgut korrigiert. Oder sie kann die Keimbahn von menschlichen Embryonen dauerhaft verändern – eine Veränderung, die sich auf alle nachfolgenden Generationen überträgt. Die ethische Bewertung dieser beiden Anwendungen unterscheidet sich radikal, obwohl die Technologie identisch ist. Das zeigt: Die Frage ist nicht, was die Schere kann, sondern wer sie benutzt, welches Problem gelöst werden soll und welche Verantwortung dabei übernommen wird."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Biologische Souveränität: Wem gehört mein genetischer Code?",
+      "body": "Die zentrale Frage lautet: Wer darf über die Veränderung eines genetischen Codes entscheiden? Grundsätzlich sollte die Antwort lauten: der Mensch selbst, dessen Körper betroffen ist. Das nennt sich biologische Souveränität. Aber diese Antwort ist komplexer als sie zunächst klingt. Denn es gibt viele Akteure: den Patienten, den Arzt, Pharmaunternehmen, Regulierungsbehörden, den Staat. Jeder dieser Akteure hat Interessen und Macht. Echte biologische Souveränität bedeutet, dass der einzelne Mensch – nicht Unternehmen oder Institutionen – Kontrolle über sein eigenes genetisches Material behält und entscheidet, ob und wie es verändert wird."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Zwei ethische Grenzen: Selbst versus Nachkommen",
+      "body": "Es gibt eine entscheidende ethische Grenze, die beachtet werden muss. Wenn ein erwachsener Mensch seinen eigenen genetischen Code verändern lässt, um sich selbst zu heilen, kann er für diese Entscheidung die Verantwortung übernehmen – das ist sein Recht. Aber wenn jemand die Keimbahn verändert, also die Gene künftiger Menschen, die noch nicht geboren sind und nicht einwilligen können, ist das grundlegend anders. Diese Menschen können sich nicht dagegen wehren und müssen mit einer Entscheidung leben, die andere für sie getroffen haben. Das ist ein moralisches Problem, das nicht einfach mit Ja oder Nein beantwortet werden kann, sondern differenzierte Überlegungen verlangt."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Die ethische Bewertung von CRISPR hängt nicht von der Technologie selbst ab, sondern von ___, wer sie benutzt und welche Verantwortung dabei übernommen wird.",
+        "blanks": [
+          {
+            "accept": [
+              "welches Problem gelöst werden soll"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "wie schnell die Technologie arbeitet",
+          "wie viel die Technologie kostet",
+          "welche Länder die Technologie nutzen"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfxg43n001g8"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie jede Anwendung der entsprechenden ethischen Bewertung zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Heilung eines schwerkranken Säuglings durch Korrektur eines fehlerhaften Buchstabens",
+            "right": "Der betroffene Mensch kann selbst Verantwortung für die Entscheidung übernehmen"
+          },
+          {
+            "left": "Dauerhafte Veränderung der Keimbahn menschlicher Embryonen",
+            "right": "Zukünftige Menschen können nicht einwilligen und müssen mit fremder Entscheidung leben"
+          },
+          {
+            "left": "Biologische Souveränität",
+            "right": "Der einzelne Mensch behält Kontrolle über sein genetisches Material und entscheidet über Veränderungen"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-2-matching", "stable_id": "ex-msfxg43n002le"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Warum stellt die Veränderung der Keimbahn ein anderes ethisches Problem dar als die Veränderung des genetischen Codes eines erwachsenen Patienten?",
+        "card_ids": [],
+        "accept": [
+          "Weil zukünftige Menschen nicht einwilligen können und mit Entscheidungen anderer leben müssen",
+          "Weil betroffene zukünftige Generationen sich nicht dagegen wehren können",
+          "Weil nur der betroffene Mensch selbst für sein genetisches Material Verantwortung übernehmen kann"
+        ],
+        "distractors": [
+          "Weil die Keimbahn technisch schwieriger zu verändern ist"
+        ],
+        "id": "ai-ex-3-free-text", "stable_id": "ex-msfxg43n0036l"
+      },
+      "theory_ref": "theory-2"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

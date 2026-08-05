@@ -1,0 +1,181 @@
+{
+  "id": "10-kapitel-6-komplexitat-als-argument",
+  "title": "Kapitel 6: Komplexität als Argument",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 12,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Warum komplexe Merkmale nicht durch einzelne Gene bestimmt werden",
+      "body": "Menschliche Eigenschaften wie Körpergröße oder Intelligenz entstehen nicht durch die Wirkung weniger Gene, sondern durch das Zusammenspiel von Zehntausenden genetischen Positionen. Jede einzelne Position trägt nur minimal bei – ähnlich wie einzelne Pixel ein Bild formen. Gene funktionieren nicht isoliert, sondern in vernetzten Systemen, in denen die Aktivität eines Gens die Aktivität vieler anderer beeinflusst. Das bedeutet: Selbst wenn man die wichtigsten Gene kennt, erklärt man nur einen kleinen Teil des Gesamtbildes. Der Rest ist eine Art genetisches Grundrauschen, das stärker wirkt als alle bekannten Hauptfaktoren zusammen. Dies macht es unmöglich, komplexe Merkmale durch das Verändern einiger weniger Gene zu optimieren."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Die Grenze zwischen präzisem Werkzeug und unvorhersehbaren Folgen",
+      "body": "CRISPR ist zwar ein präzises Schneidwerkzeug, aber Präzision beim Schneiden bedeutet nicht, dass die Folgen kontrollierbar sind. Nach dem Schnitt repariert die Zelle den Bruch mit fehlerhaften Mechanismen, und es können unerwartete Schnitte an ähnlichen Stellen im Genom auftreten. Bei Erkrankungen durch einen einzelnen Gendefekt funktioniert dies wie eine Fehlerkorrektur in einem Text. Bei Merkmalen, die von Tausenden Genen beeinflusst werden, ist ein einzelner Schnitt hingegen wirkungslos – vergleichbar damit, ein ganzes Orchester umzustimmen, indem man nur die erste Geige austauscht. Erschwerend kommt hinzu, dass negative Folgen erst Jahre oder Generationen später sichtbar werden könnten."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Das Spannungsfeld zwischen Expertise und Entscheidungsgewalt",
+      "body": "Die Behauptung, dass nur Experten über genetische Eingriffe entscheiden dürfen, weil die Materie zu komplex für Laien sei, hat ihre Grenzen. Dieses Argument wird selektiv angewandt: Die Medizin genehmigt bereits seit Jahrzehnten Medikamente, deren Wirkmechanismen nicht vollständig verstanden sind. Zudem ignoriert die Forderung nach reiner Expertenentscheidung, dass Experten in Institutionen arbeiten, die eigene Interessen verfolgen – Pharmaunternehmen, regulatorische Behörden, Lobbyisten. Die wirkliche Frage lautet daher nicht nur: Ist es zu komplex für Laien? Sondern auch: Wer entscheidet wirklich, und im Interesse wessen? Ein ehrlicher Umgang mit Komplexität würde versuchen, sie durch bessere Information und Beratung handhabbar zu machen, statt sie als Grund zu nutzen, Entscheidungsgewalt allein den Experten zu übertragen."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Menschliche Eigenschaften wie Körpergröße entstehen durch das Zusammenspiel von ___ genetischen Positionen, nicht durch wenige Gene.",
+        "blanks": [
+          {
+            "accept": [
+              "Zehntausenden"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Hunderten",
+          "Dutzenden",
+          "einigen wenigen"
+        ],
+        "id": "ai-ex-1-cloze", "stable_id": "ex-msfxg43r015c9"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "CRISPR ist ein präzises Schneidwerkzeug, aber Präzision beim Schneiden bedeutet nicht, dass die ___ kontrollierbar sind.",
+        "blanks": [
+          {
+            "accept": [
+              "Folgen"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Gene",
+          "Mutationen",
+          "Reparaturen"
+        ],
+        "id": "ai-ex-2-cloze", "stable_id": "ex-msfxg43r016fl"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Warum ist es problematisch, komplexe Merkmale durch das Verändern einiger weniger Gene zu optimieren?",
+        "card_ids": [],
+        "accept": [
+          "Weil Tausende genetische Positionen zusammenwirken und jede einzelne nur minimal beiträgt",
+          "Weil das genetische Grundrauschen stärker wirkt als alle bekannten Hauptfaktoren zusammen",
+          "Weil die bekannten Gene nur einen kleinen Teil erklären"
+        ],
+        "distractors": [
+          "Weil CRISPR nicht präzise genug schneiden kann"
+        ],
+        "id": "ai-ex-3-free-text", "stable_id": "ex-msfxg43r017h4"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Nach einem CRISPR-Schnitt können unerwartete Schnitte an ___ Stellen im Genom auftreten.",
+        "blanks": [
+          {
+            "accept": [
+              "ähnlichen"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "entfernten",
+          "bekannten",
+          "zufälligen"
+        ],
+        "id": "ai-ex-4-cloze", "stable_id": "ex-msfxg43r018i7"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie jede Aussage dem korrekten Konzept zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Die Aktivität eines Gens beeinflusst die Aktivität vieler anderer Gene",
+            "right": "Gene funktionieren in vernetzten Systemen"
+          },
+          {
+            "left": "Ein einzelner Schnitt bei einem Merkmal von Tausenden Genen ist wirkungslos",
+            "right": "Vergleich: Eine Geige in einem Orchester umstimmen"
+          },
+          {
+            "left": "Medikamente werden genehmigt, obwohl ihre Wirkmechanismen nicht vollständig verstanden sind",
+            "right": "Argument gegen die Forderung nach reiner Expertenentscheidung"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-5-matching", "stable_id": "ex-msfxg43r019r6"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-6-ai-ex-6-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Welche zwei Fragen sollten bei der Entscheidung über genetische Eingriffe gestellt werden, statt nur auf die Komplexität zu verweisen?",
+        "card_ids": [],
+        "accept": [
+          "Ist es zu komplex für Laien und wer entscheidet wirklich im Interesse wessen",
+          "Ist es zu komplex und im Interesse wessen entscheiden die Experten"
+        ],
+        "distractors": [
+          "Können Experten es verstehen und ist CRISPR sicher genug"
+        ],
+        "id": "ai-ex-6-free-text", "stable_id": "ex-msfxg43r01aoe"
+      },
+      "theory_ref": "theory-3"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

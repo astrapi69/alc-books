@@ -1,0 +1,166 @@
+{
+  "id": "06-kapitel-4-gattaca",
+  "title": "Kapitel 4: GATTACA",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 9,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Genetische Codes als unsichtbare Sortierungsmechanismen",
+      "body": "Im Film GATTACA wird die Gesellschaft durch genetische Information in zwei Gruppen eingeteilt: die \"Valids\" (genetisch optimierte Menschen) und die \"In-Valids\" (natürlich gezeugte Menschen). Das Besondere an diesem System ist, dass es nicht durch offene Verbote oder Gewalt funktioniert, sondern durch strukturelle Ausgrenzung. Ein In-Valid kann formal überall arbeiten, aber bei jeder Bewerbung wird eine Blutprobe verlangt statt eines Lebenslaufs. Niemand wird ausdrücklich abgelehnt – stattdessen wird ihm mitgeteilt, dass die Wahrscheinlichkeit seines Versagens zu hoch ist. Das System diskriminiert nicht durch Verbote, sondern durch Vorhersagen, die auf genetischen Daten basieren."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Der Körper als Beweismittel gegen sich selbst",
+      "body": "Der Protagonist Vincent betrügt das System, indem er die genetische Identität eines anderen übernimmt. Er muss seinen eigenen Körper täglich abschrubben, trägt gefälschte Fingerspitzen mit fremdem Blut und verbirgt Urinproben am Körper – all dies, um keine biologischen Spuren seiner wahren Identität zu hinterlassen. Dies zeigt das zentrale Problem: In einer genetisch sortierten Gesellschaft kann ein Mensch nicht einfach über seine Fähigkeiten lügen, sondern muss seine grundlegende Biologie verbergen. Der eigene Körper wird zur Gefahr für die eigene Karriere."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Technologie als Verstärker sozialer Ungleichheit statt Lösung",
+      "body": "GATTACA stellt dar, dass Technologien, die den genetischen Code zugänglich machen – ob durch Selektion oder durch Editierung – unvermeidlich Fragen nach Zugang und Ausschluss aufwerfen. Im Film können sich nur wohlhabende Eltern die genetische Optimierung ihrer Kinder leisten. In der Realität kosten moderne Gentherapien Millionen Dollar, während ihre Herstellung nur einen Bruchteil kostet. Das Ergebnis ist dasselbe: Biologie wird zum Sortierungsmerkmal, das durch Geld vermittelt wird. Die Technologie selbst ist neutral, aber ihre Anwendung unter bestehenden wirtschaftlichen Bedingungen schärft bestehende Ungleichheiten eher, als dass sie sie abbaut."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "In GATTACA funktioniert die Diskriminierung nicht durch offene Verbote oder Gewalt, sondern durch ___.",
+        "blanks": [
+          {
+            "accept": [
+              "strukturelle Ausgrenzung"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "genetische Editierung",
+          "offene Ablehnung",
+          "körperliche Kontrolle"
+        ],
+        "id": "ai-ex-1-cloze",
+        "stable_id": "ex-msfxg43q00pxd"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "In einer genetisch sortierten Gesellschaft kann ein Mensch nicht einfach über seine Fähigkeiten lügen, sondern muss seine ___ verbergen.",
+        "blanks": [
+          {
+            "accept": [
+              "grundlegende Biologie"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "sozialen Beziehungen",
+          "berufliche Qualifikationen",
+          "psychologischen Gedanken"
+        ],
+        "id": "ai-ex-2-cloze",
+        "stable_id": "ex-msfxg43q00qz5"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie die Konzepte ihren Beschreibungen aus dem Film zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Valids",
+            "right": "genetisch optimierte Menschen"
+          },
+          {
+            "left": "In-Valids",
+            "right": "natürlich gezeugte Menschen"
+          },
+          {
+            "left": "Vorhersagen basierend auf genetischen Daten",
+            "right": "ersetzen offene Ablehnungen im Bewerbungsprozess"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching",
+        "stable_id": "ex-msfxg43q00rk2"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Warum muss Vincent seinen Körper täglich abschrubben und gefälschte Fingerspitzen tragen?",
+        "card_ids": [],
+        "accept": [
+          "um keine biologischen Spuren seiner wahren Identität zu hinterlassen",
+          "um zu verhindern, dass sein eigener genetischer Code ihn verrät",
+          "um die genetische Identität eines anderen zu bewahren"
+        ],
+        "distractors": [
+          "um schneller zu laufen",
+          "um seine Intelligenz zu verstecken"
+        ],
+        "id": "ai-ex-4-free-text",
+        "stable_id": "ex-msfxg43q00sn3"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-topup-ex-5-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "card_ids": [],
+        "prompt": "Fülle das fehlende Wort ein.",
+        "sentence": "GATTACA diskriminiert nicht durch offene Verbote, sondern durch ___, die auf genetischen Daten basieren.",
+        "blanks": [
+          {
+            "accept": [
+              "Vorhersagen"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Gesetze",
+          "Strafen",
+          "Abstimmungen"
+        ],
+        "id": "topup-ex-5-cloze", "stable_id": "ex-msfxntk9001af"
+      },
+      "theory_ref": "theory-1"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}

@@ -1,0 +1,171 @@
+{
+  "id": "16-kapitel-11-die-stellvertreter",
+  "title": "Kapitel 11: Die Stellvertreter",
+  "description": null,
+  "target_language": "de",
+  "source_language": "de",
+  "estimated_minutes": 9,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Die Entscheidungskette in der Medizin",
+      "body": "In der modernen Medizin entscheiden nicht Patienten selbst über ihre Behandlung, sondern eine Reihe von Institutionen treffen diese Entscheidungen für sie. Forscher bestimmen, welche Krankheiten überhaupt untersucht werden – dabei richten sie sich nicht nach medizinischer Dringlichkeit, sondern danach, wo sich Investitionen rentieren. Die Pharmaindustrie wählt dann aus, welche Forschungsergebnisse in Produkte umgewandelt werden, und bevorzugt dabei häufig chronische Behandlungen gegenüber einmaligen Heilungen, weil diese profitabler sind. Regulierungsbehörden entscheiden, welche Therapien zugelassen werden, während Ärzte am Ende dieser Kette nur das verschreiben können, was bereits genehmigt ist. Der Patient befindet sich nicht in dieser Kette – er ist das Objekt, auf das die Kette wirkt."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Formale Zustimmung ist nicht echte Entscheidungsfreiheit",
+      "body": "Patienten unterzeichnen zwar Formulare zur informierten Zustimmung, was ihnen formal eine Stimme gibt. In der Praxis aber ist diese Zustimmung eine Formalität ohne echte Handlungsfähigkeit. Der Patient unterschreibt etwas, das er nicht vollständig versteht, für eine Behandlung, die er nicht beurteilen kann, basierend auf Informationen, die der Arzt ausgewählt hat. Die große Wissensasymmetrie zwischen medizinischem Fachpersonal und Patient verwandelt die Zustimmung von einer freien Entscheidung in bloße Genehmigung. Der Patient willigt ein, ohne wirklich zu wählen."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Stellvertretung in Medizin und Politik",
+      "body": "Das medizinische System funktioniert ähnlich wie die repräsentative Demokratie: Der Bürger wählt einen Vertreter, der in seinem Namen entscheidet, hat dann aber nur alle vier Jahre erneut eine Stimme. In beiden Systemen entscheiden Stellvertreter unter Einflüssen, die der Mensch nicht kontrolliert – in der Politik sind es Lobbyisten und Parteieninteressen, in der Medizin sind es Marktinteressen und regulatorische Strukturen. Während die politische Stellvertretung zunehmend in Frage gestellt wird, wird sie in der Medizin als selbstverständlich behandelt. Die zentrale Frage lautet: Wenn Patienten über Entscheidungen entscheiden könnten, die ihre biologische Substanz betreffen – etwa über Genbehandlungen – würde die Gesellschaft anders entscheiden als die jetzigen Stellvertreter?"
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Die Pharmaindustrie bevorzugt chronische Behandlungen gegenüber einmaligen Heilungen, weil diese ___ sind.",
+        "blanks": [
+          {
+            "accept": [
+              "profitabler"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "sicherer",
+          "wirksamer",
+          "schneller"
+        ],
+        "id": "ai-ex-1-cloze",
+        "stable_id": "ex-msfxg43t01ut1"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Fülle das fehlende Wort ein.",
+        "card_ids": [],
+        "sentence": "Patienten unterzeichnen Formulare zur informierten Zustimmung, doch in der Praxis ist diese Zustimmung eine ___ ohne echte Handlungsfähigkeit.",
+        "blanks": [
+          {
+            "accept": [
+              "Formalität"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Täuschung",
+          "Fiktion",
+          "Illusion"
+        ],
+        "id": "ai-ex-2-cloze",
+        "stable_id": "ex-msfxg43t01v4d"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordnen Sie jede Institution ihrer Rolle in der medizinischen Entscheidungskette zu.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Forscher",
+            "right": "Bestimmen, welche Krankheiten untersucht werden"
+          },
+          {
+            "left": "Pharmaindustrie",
+            "right": "Wählen aus, welche Forschungsergebnisse in Produkte umgewandelt werden"
+          },
+          {
+            "left": "Regulierungsbehörden",
+            "right": "Entscheiden, welche Therapien zugelassen werden"
+          },
+          {
+            "left": "Ärzte",
+            "right": "Können nur das verschreiben, was bereits genehmigt ist"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-3-matching",
+        "stable_id": "ex-msfxg43t01wb4"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Welcher Grund führt dazu, dass die informierte Zustimmung des Patienten nicht echte Entscheidungsfreiheit darstellt?",
+        "card_ids": [],
+        "accept": [
+          "Die Wissensasymmetrie zwischen medizinischem Fachpersonal und Patient",
+          "Der Patient versteht die Informationen nicht vollständig",
+          "Der Patient kann die Behandlung nicht beurteilen",
+          "Der Arzt hat die Informationen ausgewählt"
+        ],
+        "distractors": [
+          "Patienten haben nicht genug Zeit zum Überlegen",
+          "Das Formular ist zu lang"
+        ],
+        "id": "ai-ex-4-free-text",
+        "stable_id": "ex-msfxg43t01x47"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-topup-ex-5-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "card_ids": [],
+        "prompt": "Fülle das fehlende Wort ein.",
+        "sentence": "Die Pharmaindustrie bevorzugt häufig ___ Behandlungen gegenüber einmaligen Heilungen, weil diese profitabler sind.",
+        "blanks": [
+          {
+            "accept": [
+              "chronische"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "akute",
+          "seltene",
+          "kostenlose"
+        ],
+        "id": "topup-ex-5-cloze", "stable_id": "ex-msfxntkc006xu"
+      },
+      "theory_ref": "theory-1"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null
+}
