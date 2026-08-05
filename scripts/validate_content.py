@@ -236,6 +236,46 @@ def lesson_shape_ok(lesson) -> bool:
 #: their text base cannot carry the full exercise minimum. This is a
 #: structural category of a book companion set, not a blanket excuse - a
 #: chapter lesson stays subject to MIN_EXERCISES.
+#: Content domains a consumer recognises. Mirrors adaptive-learner's
+#: ``KNOWN_CONTENT_DOMAINS`` plus the implicit ``language`` default, because
+#: the app is what filters on this field in Discover.
+#:
+#: Origin markers are NOT domains. Both book exports arrived with
+#: ``"domain": "imported"`` on every lesson - the app's "My Lessons" origin
+#: value, written straight through by the export (adaptive-learner#2376).
+#: A lesson carrying it passed ``make lint`` AND ``make validate`` with zero
+#: findings; it was caught by reading the files, which is not a gate.
+KNOWN_DOMAINS = frozenset({
+    "language",
+    "knowledge",
+    "programming",
+    "psychology",
+    "math",
+    "ai",
+    "technology",
+    "software",
+    "philosophy",
+    "dog-training",
+    "traffic-knowledge",
+})
+
+
+def validate_domain(carrier: dict, label: str, errors: list[str]) -> None:
+    """Reject a ``domain`` value no consumer knows.
+
+    An ABSENT domain is fine and is the normal shape for a lesson: it then
+    inherits the set's domain during parsing.
+    """
+    domain = carrier.get("domain")
+    if domain is None or domain in KNOWN_DOMAINS:
+        return
+    errors.append(
+        f"{label}: unknown domain {domain!r} "
+        f"(known: {', '.join(sorted(KNOWN_DOMAINS))}); "
+        "app-internal origin markers like 'imported' are not content domains"
+    )
+
+
 BRIDGE_LESSON_RE = re.compile(
     r"^\d+-(einleitung|vorwort|teil-\d+|interludium|epilog|schluss|nachwort)\b"
 )
@@ -349,6 +389,7 @@ def validate_set_dir(content_set: dict, errors: list[str]) -> None:
     sid = content_set.get("id", "?")
     path = content_set.get("path")
     source = content_set.get("source_language", "en")
+    validate_domain(content_set, f"set {sid}", errors)
     if not path:
         return
     set_dir = REPO_ROOT / path
@@ -373,6 +414,7 @@ def validate_set_dir(content_set: dict, errors: list[str]) -> None:
         label = f"{sid}/{filename}"
         validate_lesson_schema(lesson, label, errors)
         validate_lesson_quality(lesson, source, label, errors)
+        validate_domain(lesson, label, errors)
 
 
 def validate() -> int:
