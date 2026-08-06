@@ -19,7 +19,9 @@ sets:
     target_language: de
     source_language: de
     domain: knowledge
-    level: fortgeschritten
+    # Sachthema: bewusst ohne Sprachniveau (engine#127, level-Vertrag);
+    # die Schwierigkeit traegt das Tag `fortgeschritten`.
+    level: none
     path: sets/de/das-lebende-stimmrecht
     version: '1.0.0'
     lesson_count: 15
@@ -29,13 +31,16 @@ sets:
       - demokratie
       - mitbestimmung
       - politik
+      - fortgeschritten
   - id: biologische-souveranitat
     title: Biologische Souveränität
     title_native: Biologische Souveränität
     target_language: de
     source_language: de
     domain: knowledge
-    level: grundlagen
+    # Sachthema: bewusst ohne Sprachniveau (engine#127, level-Vertrag);
+    # die Schwierigkeit traegt das Tag `grundlagen`.
+    level: none
     path: sets/de/biologische-souveranitat
     version: '1.0.0'
     lesson_count: 23
@@ -47,6 +52,7 @@ sets:
       - bioethik
       - crispr
       - genetik
+      - grundlagen
   - id: example-set
     title: Spanish A1 (example)
     title_native: Español A1 (ejemplo)

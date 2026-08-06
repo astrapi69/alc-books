@@ -21,7 +21,9 @@ sets:
     target_language: de
     source_language: de
     domain: knowledge
-    level: fortgeschritten
+    # Sachthema: bewusst ohne Sprachniveau (engine#127, level-Vertrag);
+    # die Schwierigkeit traegt das Tag `fortgeschritten`.
+    level: none
     path: sets/de/das-lebende-stimmrecht
     version: "1.0.0"
     lesson_count: 15
@@ -33,6 +35,7 @@ sets:
       - demokratie
       - mitbestimmung
       - politik
+      - fortgeschritten
 metadata:
   author: Asterios Raptis
   license: CC-BY-SA-4.0

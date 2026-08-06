@@ -20,7 +20,9 @@ sets:
     target_language: de
     source_language: de
     domain: knowledge
-    level: grundlagen
+    # Sachthema: bewusst ohne Sprachniveau (engine#127, level-Vertrag);
+    # die Schwierigkeit traegt das Tag `grundlagen`.
+    level: none
     path: sets/de/biologische-souveranitat
     version: "1.0.0"
     lesson_count: 23
@@ -33,6 +35,7 @@ sets:
       - bioethik
       - crispr
       - genetik
+      - grundlagen
 metadata:
   author: Asterios Raptis
   license: CC-BY-SA-4.0
