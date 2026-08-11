@@ -1,6 +1,6 @@
 {
   "repo": "astrapi69/alc-books",
-  "generated": "2026-08-06T10:50:06Z",
+  "generated": "2026-08-11T09:15:58Z",
   "schema_version": "1.0",
   "sets": [
     {
@@ -52,6 +52,28 @@
       "updated_at": "2026-08-06T12:49:53+02:00"
     },
     {
+      "id": "ia-para-principiantes",
+      "name": "IA para principiantes",
+      "description": "",
+      "source_language": "es",
+      "target_language": "es",
+      "level": "none",
+      "domain": "knowledge",
+      "lesson_count": 10,
+      "card_count": 0,
+      "tags": [
+        "libro",
+        "ia",
+        "principiantes"
+      ],
+      "visibility": "visible",
+      "review_status": "generated",
+      "ai_validated": false,
+      "trust_level": 1,
+      "book": null,
+      "updated_at": "2026-08-11T11:15:15+02:00"
+    },
+    {
       "id": "example-set",
       "name": "Spanish A1 (example)",
       "description": "",
@@ -74,6 +96,6 @@
       "updated_at": "2026-08-05T11:54:25+02:00"
     }
   ],
-  "total_lessons": 39,
+  "total_lessons": 49,
   "total_cards": 4
 }
