@@ -1,0 +1,180 @@
+{
+  "id": "05-capitulo-5-potenciando-la-creatividad-con-ia",
+  "title": "Capítulo 5: Potenciando la creatividad con IA",
+  "description": null,
+  "target_language": "es",
+  "source_language": "es",
+  "estimated_minutes": 11,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "La IA como amplificador, no reemplazo de tu creatividad",
+      "body": "La creatividad reside en todos nosotros, independientemente de nuestra profesión. Cuando utilizas inteligencia artificial en proyectos creativos, no estás delegando el trabajo: estás obteniendo material que puedes moldear, refinar y transformar según tu visión. La IA funciona como un colaborador rápido que expande las posibilidades disponibles. Tu papel sigue siendo directivo: tú defines la dirección, evalúas las opciones generadas y añades tu toque personal. Piensa en ella como un socio creativo que acelera el proceso al ofrecerte múltiples caminos para explorar."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Prompts específicos abren puertas a resultados inesperados",
+      "body": "La calidad de lo que obtienes depende directamente de cómo formules tus instrucciones. Un prompt vago genera resultados genéricos; uno detallado y bien construido guía la IA hacia tu visión. Los elementos clave incluyen: precisar el género, tono o atmósfera que buscas; solicitar múltiples versiones para comparar; y fusionar estilos o referencias para crear algo único. Técnicas como \"Imagina que...\" o \"En el estilo de...\" abren posibilidades expansivas. La iteración es fundamental: pide versiones alternativas, refina lo que funciona, descarta lo que no. Este ciclo de mejora continua es donde realmente prospera la creatividad colaborativa."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Aplicaciones prácticas en narrativa, arte, música e ideas",
+      "body": "La IA potencia múltiples formas de expresión creativa. En escritura, puede ayudarte a generar tramas alternativas, desarrollar personajes y estructurar narrativas complejas. En arte visual, herramientas especializadas convierten descripciones detalladas en imágenes mediante prompts que especifican ambiente, estilo y composición. Para música, plataformas dedicadas crean melodías basadas en emociones y géneros que defines. Cuando enfrentas bloqueo creativo o necesitas inspiración, la IA actúa como fuente infinita de ideas. En todos estos campos, el proceso es similar: establece límites claros, describe con detalle lo que imaginas, solicita variaciones y selecciona lo que resuena contigo. La clave está en usar estas herramientas para materializar lo que tu mente vislumbra pero aún no ha tomado forma."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-multiple-choice",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "multiple_choice",
+        "prompt": "¿Cuál es el rol principal de la IA en proyectos creativos según el texto?",
+        "card_ids": [],
+        "options": [
+          {
+            "text": "Reemplazar completamente el trabajo creativo del humano",
+            "correct": false
+          },
+          {
+            "text": "Actuar como un colaborador rápido que expande posibilidades y que el creador moldea según su visión",
+            "correct": true
+          },
+          {
+            "text": "Generar automáticamente la versión final sin intervención humana",
+            "correct": false
+          },
+          {
+            "text": "Limitar las opciones creativas a las que propone la máquina",
+            "correct": false
+          }
+        ],
+        "multiple": false,
+        "distractors": [],
+        "id": "ai-ex-1-multiple-choice",
+        "stable_id": "ex-msofn2k400otf"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-multiple-choice",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "multiple_choice",
+        "prompt": "¿Cuáles de los siguientes son elementos clave para formular un prompt efectivo?",
+        "card_ids": [],
+        "options": [
+          {
+            "text": "Precisar el género, tono o atmósfera buscada",
+            "correct": true
+          },
+          {
+            "text": "Solicitar múltiples versiones para comparar",
+            "correct": true
+          },
+          {
+            "text": "Usar únicamente palabras técnicas de IA",
+            "correct": false
+          },
+          {
+            "text": "Fusionar estilos o referencias para crear algo único",
+            "correct": true
+          }
+        ],
+        "multiple": true,
+        "distractors": [],
+        "id": "ai-ex-2-multiple-choice",
+        "stable_id": "ex-msofn2k400prw"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Completa la palabra que falta.",
+        "card_ids": [],
+        "sentence": "Un prompt ___ genera resultados genéricos, mientras que uno detallado y bien construido guía la IA hacia tu visión.",
+        "blanks": [
+          {
+            "accept": [
+              "vago"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "específico",
+          "creativo",
+          "iterativo"
+        ],
+        "id": "ai-ex-3-cloze",
+        "stable_id": "ex-msofn2k400qss"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Relaciona cada campo creativo con su aplicación de IA mencionada en el texto.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Escritura",
+            "right": "Generar tramas alternativas, desarrollar personajes y estructurar narrativas"
+          },
+          {
+            "left": "Arte visual",
+            "right": "Convertir descripciones detalladas en imágenes mediante prompts especializados"
+          },
+          {
+            "left": "Música",
+            "right": "Crear melodías basadas en emociones y géneros definidos"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-4-matching",
+        "stable_id": "ex-msofn2k400rnh"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Explica por qué la iteración y el ciclo de mejora continua son fundamentales en la creatividad colaborativa con IA.",
+        "card_ids": [],
+        "accept": [
+          "Permite refinar lo que funciona y descartar lo que no, mejorando progresivamente el resultado",
+          "A través de versiones alternativas se pueden identificar opciones mejores y ajustar según la visión del creador",
+          "El proceso iterativo permite transformar y moldear los resultados de la IA hasta alcanzar la visión deseada"
+        ],
+        "distractors": [
+          "La iteración es necesaria solo cuando la IA falla completamente",
+          "Acelera el proceso eliminando la necesidad de creatividad humana"
+        ],
+        "id": "ai-ex-5-free-text",
+        "stable_id": "ex-msofn2k400s6a"
+      },
+      "theory_ref": "theory-2"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null,
+  "domain": "ai"
+}

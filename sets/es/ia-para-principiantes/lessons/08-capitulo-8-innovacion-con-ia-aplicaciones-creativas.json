@@ -1,0 +1,189 @@
+{
+  "id": "08-capitulo-8-innovacion-con-ia-aplicaciones-creativas",
+  "title": "Capítulo 8: Innovación con IA: Aplicaciones creativas",
+  "description": null,
+  "target_language": "es",
+  "source_language": "es",
+  "estimated_minutes": 11,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "La IA como socio creativo, no como reemplazo",
+      "body": "La inteligencia artificial expande tus posibilidades creativas al ofrecerte variaciones, perspectivas nuevas y soluciones que quizás no hubieras considerado por ti mismo. En lugar de reemplazar tu capacidad de crear, te proporciona más material para moldear y desarrollar. Funciona mejor cuando la tratas como una colaboradora: tú aportas la dirección, la intención y el refinamiento crítico, mientras la IA genera opciones, estructuras y puntos de partida que aceleran tu proceso creativo."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Prompts efectivos tienen estructura: contexto, tono y formato",
+      "body": "Para obtener resultados creativos de calidad, tu indicación debe incluir cuatro elementos clave: qué quieres lograr (la idea o contenido), a quién va dirigido (audiencia), cómo debe sonar o verse (tono y estilo), y en qué forma presentarlo (formato específico). Por ejemplo, en lugar de pedir simplemente 'escribe un artículo', especifica 'escribe un párrafo introductorio para un blog sobre teletrabajo, con tono desenfadado, dirigido a profesionales jóvenes, e incluye una estadística'. Esta claridad transforma respuestas genéricas en sugerencias realmente útiles que puedes refinar iterativamente."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "La creatividad cotidiana también se potencia con IA",
+      "body": "No es necesario ser artista o escritor profesional para beneficiarse de estas herramientas. La IA asiste en tareas creativas del día a día como planificar regalos personalizados, organizar eventos temáticos, diseñar espacios, crear recetas o elaborar planes de fin de semana. Al eliminar las barreras técnicas y el miedo al fracaso, estas herramientas permiten que cualquiera persona materialice ideas que antes parecían imposibles por falta de habilidad o inspiración instantánea."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-multiple-choice",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "multiple_choice",
+        "prompt": "Según la teoría, ¿cuál es el rol principal de la IA en el proceso creativo?",
+        "card_ids": [],
+        "options": [
+          {
+            "text": "Reemplazar completamente tu capacidad de crear",
+            "correct": false
+          },
+          {
+            "text": "Actuar como colaboradora que genera opciones y puntos de partida que aceleras tu proceso",
+            "correct": true
+          },
+          {
+            "text": "Tomar todas las decisiones creativas por ti",
+            "correct": false
+          },
+          {
+            "text": "Limitar tus posibilidades creativas a lo que ella sugiere",
+            "correct": false
+          }
+        ],
+        "multiple": false,
+        "distractors": [],
+        "id": "ai-ex-1-multiple-choice",
+        "stable_id": "ex-msofn2k501529"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-multiple-choice",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "multiple_choice",
+        "prompt": "¿Cuáles de las siguientes son aplicaciones de la IA en la creatividad cotidiana mencionadas en la teoría?",
+        "card_ids": [],
+        "options": [
+          {
+            "text": "Planificar regalos personalizados",
+            "correct": true
+          },
+          {
+            "text": "Diseñar espacios",
+            "correct": true
+          },
+          {
+            "text": "Elaborar planes de fin de semana",
+            "correct": true
+          },
+          {
+            "text": "Reemplazar a artistas profesionales",
+            "correct": false
+          },
+          {
+            "text": "Crear recetas",
+            "correct": true
+          }
+        ],
+        "multiple": true,
+        "distractors": [],
+        "id": "ai-ex-2-multiple-choice",
+        "stable_id": "ex-msofn2k5016o8"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Completa la palabra que falta.",
+        "card_ids": [],
+        "sentence": "Un prompt efectivo debe incluir cuatro elementos clave: la idea o contenido, la audiencia, el ___ y el formato específico.",
+        "blanks": [
+          {
+            "accept": [
+              "tono y estilo"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "presupuesto",
+          "plazo de entrega",
+          "número de palabras"
+        ],
+        "id": "ai-ex-3-cloze",
+        "stable_id": "ex-msofn2k501722"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Empareja cada elemento de un prompt efectivo con su descripción.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Contexto",
+            "right": "Qué quieres lograr: la idea o contenido"
+          },
+          {
+            "left": "Audiencia",
+            "right": "A quién va dirigido"
+          },
+          {
+            "left": "Tono y estilo",
+            "right": "Cómo debe sonar o verse"
+          },
+          {
+            "left": "Formato",
+            "right": "En qué forma presentar el resultado"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-4-matching",
+        "stable_id": "ex-msofn2k5018q8"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Explica cómo la claridad en un prompt puede transformar la calidad de las respuestas de la IA.",
+        "card_ids": [],
+        "accept": [
+          "La claridad al especificar qué, a quién, cómo y en qué formato transforma respuestas genéricas en sugerencias realmente útiles",
+          "Detallar contexto, audiencia, tono y formato permite obtener resultados más relevantes y refinables",
+          "Un prompt claro y estructurado produce respuestas de mejor calidad que un prompt vago",
+          "Incluir los cuatro elementos clave hace que la IA genere opciones más específicas y aprovechables"
+        ],
+        "distractors": [
+          "La claridad no afecta la calidad, la IA siempre da el mismo tipo de respuesta",
+          "Basta con usar frases largas para obtener mejores respuestas, sin importar el contenido"
+        ],
+        "id": "ai-ex-5-free-text",
+        "stable_id": "ex-msofn2k5019d5"
+      },
+      "theory_ref": "theory-2"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null,
+  "domain": "ai"
+}

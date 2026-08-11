@@ -1,0 +1,251 @@
+{
+  "id": "01-capitulo-1-desbloqueando-el-poder-de-la-ia-en-la-vida-cotidiana",
+  "title": "Capítulo 1: Desbloqueando el poder de la IA en la vida cotidiana",
+  "description": null,
+  "target_language": "es",
+  "source_language": "es",
+  "estimated_minutes": 14,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "La IA es una herramienta accesible que ya usas sin saberlo",
+      "body": "La inteligencia artificial no es algo futurista o complicado reservado para expertos. Se trata de software que realiza tareas que requieren inteligencia humana, como comprender lenguaje, reconocer patrones o generar contenido. Ya la utilizas constantemente sin percatarte: cuando Spotify te sugiere canciones, cuando Google Translate traduce un idioma, o cuando Alexa responde tus preguntas. Aprender a usarla activamente, en lugar de solo recibir sus sugerencias, es una habilidad práctica tan importante como enviar correos o buscar en internet."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "La calidad de lo que obtienes depende de la claridad de lo que pides",
+      "body": "Comunicarse con la IA es una habilidad que mejora con la práctica. Si das instrucciones vagas, recibirás respuestas vagas; si das instrucciones específicas y detalladas, obtendrás resultados útiles y precisos. Un buen mensaje hacia la IA debe incluir tu objetivo claro, el tono deseado, el contexto necesario y el formato esperado. Por ejemplo, en lugar de pedir \"ayúdame a planear una fiesta\", es mejor especificar \"una fiesta de cumpleaños para 10 personas con temática tropical, con ideas para comida, decoración y juegos\". Este proceso se llama ingeniería de prompts, pero en realidad es simplemente aprender a dar instrucciones eficaces."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "La IA potencia tus capacidades, no las reemplaza",
+      "body": "Usar IA te permite ahorrar tiempo en tareas repetitivas, despertar tu creatividad al colaborar con una herramienta, resolver problemas complejos con más eficiencia y ganar ventaja en el trabajo o tus metas personales. No se trata de que la IA piense por ti, sino de que trabaje contigo. Debes recordar que la IA no siempre acierta, así que es importante verificar información importante. La clave es comenzar con tareas simples, experimentar con diferentes tonos y formatos, refinar tus solicitudes según los resultados, y mantener un registro de qué prompts funcionan mejor para ti."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-multiple-choice",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "multiple_choice",
+        "prompt": "¿Cuáles de los siguientes son ejemplos de IA que ya usas sin saberlo?",
+        "card_ids": [],
+        "options": [
+          {
+            "text": "Spotify sugiriéndote canciones",
+            "correct": true
+          },
+          {
+            "text": "Google Translate traduciendo idiomas",
+            "correct": true
+          },
+          {
+            "text": "Alexa respondiendo preguntas",
+            "correct": true
+          },
+          {
+            "text": "Un calculadora manual de bolsillo",
+            "correct": false
+          }
+        ],
+        "multiple": true,
+        "distractors": [],
+        "id": "ai-ex-1-multiple-choice",
+        "stable_id": "ex-msofn2jz00100"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Completa la palabra que falta.",
+        "card_ids": [],
+        "sentence": "La calidad de lo que obtienes de la IA depende de la ___ de lo que pides.",
+        "blanks": [
+          {
+            "accept": [
+              "claridad"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "rapidez",
+          "gramática",
+          "longitud"
+        ],
+        "id": "ai-ex-2-cloze",
+        "stable_id": "ex-msofn2jz0027p"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-multiple-choice",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "multiple_choice",
+        "prompt": "¿Cuál de estos ejemplos muestra una solicitud más específica y efectiva a la IA?",
+        "card_ids": [],
+        "options": [
+          {
+            "text": "Ayúdame a planear una fiesta",
+            "correct": false
+          },
+          {
+            "text": "Una fiesta de cumpleaños para 10 personas con temática tropical, con ideas para comida, decoración y juegos",
+            "correct": true
+          },
+          {
+            "text": "Necesito ideas para algo",
+            "correct": false
+          },
+          {
+            "text": "¿Qué hago?",
+            "correct": false
+          }
+        ],
+        "multiple": false,
+        "distractors": [],
+        "id": "ai-ex-3-multiple-choice",
+        "stable_id": "ex-msofn2jz003qx"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Completa la palabra que falta.",
+        "card_ids": [],
+        "sentence": "Es importante ___ la información importante obtenida de la IA, ya que no siempre acierta.",
+        "blanks": [
+          {
+            "accept": [
+              "verificar"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "copiar",
+          "ignorar",
+          "confiar"
+        ],
+        "id": "ai-ex-4-cloze",
+        "stable_id": "ex-msofn2jz0044k"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Empareja cada característica de un buen mensaje hacia la IA con su descripción.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Objetivo claro",
+            "right": "Lo que exactamente quieres que haga la IA"
+          },
+          {
+            "left": "Tono deseado",
+            "right": "El estilo o manera en que quieres la respuesta"
+          },
+          {
+            "left": "Contexto necesario",
+            "right": "Información de fondo que la IA necesita entender"
+          },
+          {
+            "left": "Formato esperado",
+            "right": "Cómo presentar el resultado (lista, párrafo, tabla)"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-5-matching",
+        "stable_id": "ex-msofn2jz005cv"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-6-ai-ex-6-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Según el texto, ¿cuál es la relación entre la IA y tus capacidades personales?",
+        "card_ids": [],
+        "accept": [
+          "La IA potencia tus capacidades, no las reemplaza",
+          "La IA trabaja contigo para potenciar tus capacidades",
+          "La IA no piensa por ti sino que trabaja contigo",
+          "Amplía tus habilidades sin reemplazarlas"
+        ],
+        "distractors": [
+          "La IA reemplaza por completo la necesidad de pensar por ti mismo",
+          "La IA solo sirve para tareas técnicas, no para el trabajo creativo o personal"
+        ],
+        "id": "ai-ex-6-free-text",
+        "stable_id": "ex-msofn2jz006nu"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-7-ai-ex-7-ext-al-categorization",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "ext:al-categorization",
+        "prompt": "Categoriza los siguientes pasos según si son parte del proceso de aprender a usar IA de forma efectiva.",
+        "card_ids": [],
+        "distractors": [],
+        "ext_payload": {
+          "categories": [
+            {
+              "name": "Pasos recomendados para mejorar",
+              "items": [
+                "Comenzar con tareas simples",
+                "Experimentar con diferentes tonos y formatos",
+                "Refinar solicitudes según los resultados",
+                "Mantener un registro de qué prompts funcionan mejor"
+              ]
+            },
+            {
+              "name": "No recomendados",
+              "items": [
+                "Confiar ciegamente en todas las respuestas",
+                "Dar instrucciones vagas esperando buenos resultados"
+              ]
+            }
+          ]
+        },
+        "id": "ai-ex-7-ext-al-categorization",
+        "stable_id": "ex-msofn2jz007hq"
+      },
+      "theory_ref": "theory-3"
+    }
+  ],
+  "requires_extensions": [
+    "ext:al-categorization@1"
+  ],
+  "contributed_by": null,
+  "contributed_at": null,
+  "domain": "ai"
+}

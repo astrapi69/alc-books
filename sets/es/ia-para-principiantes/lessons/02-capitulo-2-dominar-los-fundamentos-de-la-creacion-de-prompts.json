@@ -1,0 +1,182 @@
+{
+  "id": "02-capitulo-2-dominar-los-fundamentos-de-la-creacion-de-prompts",
+  "title": "Capítulo 2: Dominar los fundamentos de la creación de prompts",
+  "description": null,
+  "target_language": "es",
+  "source_language": "es",
+  "estimated_minutes": 11,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "Entender qué hace que un prompt sea efectivo",
+      "body": "Un prompt es como dar direcciones a la IA: cuanto más precisas sean tus instrucciones, mejores resultados obtendrás. Un buen prompt combina cuatro ingredientes esenciales: claridad (evitar ambigüedad), especificidad (incluir detalles concretos), contexto (proporcionar antecedentes sobre la situación) y tono adecuado (definir cómo quieres que suene la respuesta). La IA no piensa como nosotros, sino que responde a las señales que le envías. Un prompt vago genera resultados genéricos e inútiles, mientras que uno bien elaborado proporciona respuestas precisas y relevantes."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Elegir el tipo de prompt según tu objetivo",
+      "body": "Existen cinco estilos de prompts, cada uno diseñado para diferentes propósitos:\n\n• **Instruccionales:** para tareas claras y específicas (crear contenido, escribir resúmenes)\n• **Exploratorios:** para generar ideas y lluvia de ideas sin restricciones\n• **Basados en roles:** cuando asignas a la IA un rol específico (agente de viajes, entrenador) para que adopte esa perspectiva\n• **Conversacionales:** para diálogos iterativos que profundicen en temas\n• **Reflexivos:** para pedir crítica, revisión o mejoras a un contenido existente\n\nTodos estos tipos dependen de los mismos elementos clave: claridad, contexto e instrucciones precisas. El tipo solo define el estilo de comunicación, pero la estructura es la que garantiza buenos resultados."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Mejorar iterativamente tus prompts",
+      "body": "Los mejores resultados rara vez llegan al primer intento. El proceso de refinamiento es fundamental: primero obtienes una respuesta, luego la evalúas, y después ajustas tu prompt para mejorar el resultado. Evita errores comunes como ser demasiado vago (\"ayúdame con mi proyecto\"), sobrecargar el prompt con múltiples tareas a la vez, omitir contexto importante, o conformarte con el primer borrador. En lugar de esto, divide las tareas complejas en prompts simples, añade siempre contexto específico, y repite el ciclo: escribe → recibe respuesta → refina → mejora. Este ciclo iterativo transforma un resultado mediocre en uno excepcional."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Completa la palabra que falta.",
+        "card_ids": [],
+        "sentence": "Un buen prompt combina cuatro ingredientes esenciales: claridad, especificidad, contexto y ___.",
+        "blanks": [
+          {
+            "accept": [
+              "tono adecuado"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "brevedad extrema",
+          "longitud mínima",
+          "formato visual"
+        ],
+        "id": "ai-ex-1-cloze",
+        "stable_id": "ex-msofn2k2008of"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Empareja cada tipo de prompt con su propósito principal.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Instruccionales",
+            "right": "Tareas claras y específicas como crear contenido o escribir resúmenes"
+          },
+          {
+            "left": "Exploratorios",
+            "right": "Generar ideas y lluvia de ideas sin restricciones"
+          },
+          {
+            "left": "Basados en roles",
+            "right": "Asignar a la IA un rol específico para que adopte esa perspectiva"
+          },
+          {
+            "left": "Conversacionales",
+            "right": "Diálogos iterativos que profundicen en temas"
+          },
+          {
+            "left": "Reflexivos",
+            "right": "Pedir crítica, revisión o mejoras a un contenido existente"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-2-matching",
+        "stable_id": "ex-msofn2k3009xu"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Completa la palabra que falta.",
+        "card_ids": [],
+        "sentence": "El proceso de ___ es fundamental para obtener mejores resultados: escribes, recibes respuesta, refinas y mejoras.",
+        "blanks": [
+          {
+            "accept": [
+              "refinamiento"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "borrador inicial",
+          "respuesta única",
+          "conformidad"
+        ],
+        "id": "ai-ex-3-cloze",
+        "stable_id": "ex-msofn2k300a0w"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-multiple-choice",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "multiple_choice",
+        "prompt": "¿Cuáles de los siguientes son errores comunes que hay que evitar al escribir prompts?",
+        "card_ids": [],
+        "options": [
+          {
+            "text": "Ser demasiado vago en las instrucciones",
+            "correct": true
+          },
+          {
+            "text": "Omitir contexto importante",
+            "correct": true
+          },
+          {
+            "text": "Dividir las tareas complejas en prompts simples",
+            "correct": false
+          },
+          {
+            "text": "Sobrecargar el prompt con múltiples tareas a la vez",
+            "correct": true
+          }
+        ],
+        "multiple": true,
+        "distractors": [],
+        "id": "ai-ex-4-multiple-choice",
+        "stable_id": "ex-msofn2k300bl5"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Explica por qué un prompt vago produce resultados genéricos e inútiles según la teoría.",
+        "card_ids": [],
+        "accept": [
+          "porque la IA responde a las señales que le envías, y señales imprecisas generan respuestas genéricas",
+          "porque las instrucciones ambiguas no guían adecuadamente a la IA hacia resultados específicos",
+          "porque sin claridad y especificidad, la IA no tiene suficiente información para proporcionar respuestas precisas"
+        ],
+        "distractors": [
+          "porque la IA tiene un límite diario de respuestas detalladas",
+          "porque los prompts vagos siempre son rechazados automáticamente por la IA"
+        ],
+        "id": "ai-ex-5-free-text",
+        "stable_id": "ex-msofn2k300cdz"
+      },
+      "theory_ref": "theory-1"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null,
+  "domain": "ai"
+}

@@ -1,0 +1,211 @@
+{
+  "id": "03-capitulo-3-usar-ia-para-proyectos-del-mundo-real",
+  "title": "Capítulo 3: Usar IA para proyectos del mundo real",
+  "description": null,
+  "target_language": "es",
+  "source_language": "es",
+  "estimated_minutes": 12,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "De la teoría a la práctica: aplicar IA en tu vida diaria",
+      "body": "Saber comunicarse con IA es solo el primer paso. Lo que realmente marca la diferencia es cómo integras esa capacidad en situaciones reales. La IA funciona mejor cuando tienes un objetivo concreto y sabes transmitirlo claramente. Un buen prompt generalmente incluye cuatro elementos: a quién va dirigido, qué específicamente necesitas, qué limitaciones existen (tiempo, presupuesto, herramientas disponibles) y en qué formato prefieres la respuesta. Si el resultado inicial no te satisface, no significa que haya fracasado; es normal refinar y ajustar tu pregunta varias veces hasta obtener lo que buscas. Pensar en la IA como un asistente personal que requiere instrucciones precisas te ayudará a maximizar su potencial."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Dividir metas grandes en acciones concretas",
+      "body": "La IA excele en transformar objetivos amplios y desorganizados en planes estructurados y realizables. Ya sea planificar un evento, establecer una meta de fitness o crear un presupuesto, el proceso es similar: proporcionas el panorama general con los detalles que importan y la IA te devuelve un desglose paso a paso. Esto funciona porque la IA reconoce patrones de miles de proyectos similares y puede adaptarlos a tus necesidades específicas. Lo importante es ser preciso en lo que pides: cuanto más claro seas sobre tus prioridades, restricciones y lo que esperas recibir, mejor será la respuesta. Este enfoque transforma tareas abrumadoras en una serie de pasos manejables."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Usar IA como compañera para explorar y resolver",
+      "body": "Más allá de la planificación, la IA es útil cuando necesitas generar opciones, explorar nuevas ideas o buscar soluciones a problemas cotidianos. Puedes pedirle que genere múltiples alternativas, que combine tus intereses de formas inesperadas, o que ofrezca diagnósticos y soluciones paso a paso para problemas prácticos. La clave es formular preguntas descriptivas con suficiente contexto y, si es necesario, hacer preguntas de seguimiento para refinar o profundizar en la respuesta. Este enfoque iterativo, formular, recibir, refinar, preguntar más, convierte la IA en un verdadero compañero de resolución de problemas que no se cansa y siempre está disponible."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-multiple-choice",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "multiple_choice",
+        "prompt": "¿Cuáles de los siguientes son elementos que debe incluir un buen prompt?",
+        "card_ids": [],
+        "options": [
+          {
+            "text": "A quién va dirigido",
+            "correct": true
+          },
+          {
+            "text": "Qué específicamente necesitas",
+            "correct": true
+          },
+          {
+            "text": "Limitaciones como tiempo, presupuesto o herramientas",
+            "correct": true
+          },
+          {
+            "text": "El formato preferido de la respuesta",
+            "correct": true
+          },
+          {
+            "text": "El historial personal del usuario de IA",
+            "correct": false
+          }
+        ],
+        "multiple": true,
+        "distractors": [],
+        "id": "ai-ex-1-multiple-choice",
+        "stable_id": "ex-msofn2k300dkq"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Completa la palabra que falta.",
+        "card_ids": [],
+        "sentence": "La IA excele en transformar objetivos amplios y desorganizados en ___ estructurados y realizables.",
+        "blanks": [
+          {
+            "accept": [
+              "planes"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "herramientas",
+          "restricciones",
+          "contextos"
+        ],
+        "id": "ai-ex-2-cloze",
+        "stable_id": "ex-msofn2k300e3z"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-multiple-choice",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "multiple_choice",
+        "prompt": "¿Cuál es el enfoque iterativo recomendado para usar IA como compañera en la resolución de problemas?",
+        "card_ids": [],
+        "options": [
+          {
+            "text": "Formular una pregunta única y esperar la respuesta final",
+            "correct": false
+          },
+          {
+            "text": "Formular, recibir, refinar y hacer preguntas de seguimiento para profundizar en la respuesta",
+            "correct": true
+          },
+          {
+            "text": "Usar solo preguntas cortas sin contexto",
+            "correct": false
+          },
+          {
+            "text": "Hacer la misma pregunta múltiples veces sin cambios",
+            "correct": false
+          }
+        ],
+        "multiple": false,
+        "distractors": [],
+        "id": "ai-ex-3-multiple-choice",
+        "stable_id": "ex-msofn2k300fxt"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Completa la palabra que falta.",
+        "card_ids": [],
+        "sentence": "Si el resultado inicial de una consulta a IA no te satisface, es normal ___ y ajustar tu pregunta varias veces hasta obtener lo que buscas.",
+        "blanks": [
+          {
+            "accept": [
+              "refinar"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "abandonar",
+          "ignorar",
+          "repetir exactamente"
+        ],
+        "id": "ai-ex-4-cloze",
+        "stable_id": "ex-msofn2k300gs2"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Relaciona cada uso práctico de IA con su descripción correspondiente.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Comunicarse con IA",
+            "right": "Es solo el primer paso; lo que marca la diferencia es la integración en situaciones reales"
+          },
+          {
+            "left": "Dividir metas grandes en acciones concretas",
+            "right": "La IA proporciona un desglose paso a paso transformando tareas abrumadoras en pasos manejables"
+          },
+          {
+            "left": "Usar IA como compañera para explorar y resolver",
+            "right": "Generar opciones, explorar ideas y buscar soluciones a problemas cotidianos mediante preguntas descriptivas"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-5-matching",
+        "stable_id": "ex-msofn2k300hov"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-6-ai-ex-6-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Describe por qué la IA puede generar mejores planes cuando se le proporciona información precisa sobre prioridades y restricciones.",
+        "card_ids": [],
+        "accept": [
+          "Porque reconoce patrones de miles de proyectos similares y puede adaptarlos a necesidades específicas",
+          "La IA identifica patrones de muchos proyectos parecidos y los ajusta según tus necesidades",
+          "Porque ha visto muchos proyectos similares y puede personalizar esos patrones a lo que necesitas"
+        ],
+        "distractors": [
+          "Porque aprende de tu historial personal"
+        ],
+        "id": "ai-ex-6-free-text",
+        "stable_id": "ex-msofn2k300iwi"
+      },
+      "theory_ref": "theory-2"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null,
+  "domain": "ai"
+}

@@ -1,0 +1,179 @@
+{
+  "id": "07-capitulo-7-aprendizaje-continuo-y-desarrollo-de-habilidades-con-ia",
+  "title": "Capítulo 7: Aprendizaje continuo y desarrollo de habilidades con IA",
+  "description": null,
+  "target_language": "es",
+  "source_language": "es",
+  "estimated_minutes": 11,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "La IA como diseñadora de rutas de aprendizaje personalizadas",
+      "body": "Cuando aprendes algo nuevo, enfrentas decisiones abrumadoras: por dónde empezar, cuánto tiempo dedicar, qué recursos usar. La IA resuelve esto actuando como un consejero académico que comprende tu punto de partida, tus limitaciones de tiempo y tus objetivos específicos. En lugar de seguir cursos genéricos, puedes obtener un plan adaptado que estructura el conocimiento en pasos manejables, incluye herramientas relevantes y propone proyectos prácticos. La clave está en ser específico en tus peticiones: menciona tu experiencia previa, tu estilo de aprendizaje y tu disponibilidad. De esta forma, la IA genera una hoja de ruta única que hace el aprendizaje alcanzable y motivante."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Desglosar conceptos complejos mediante explicaciones claras y contextualizadas",
+      "body": "Algunos temas parecen impenetrables cuando los abordas por primera vez. La IA simplifica esto dividiendo ideas complejas en explicaciones digeribles, frecuentemente usando analogías que conectan con lo que ya conoces. Por ejemplo, puede explicar machine learning comparándolo con recetas culinarias, o ajustar el nivel de detalle según a quién va dirigido: un adolescente, un entrevistador profesional o alguien sin experiencia técnica. Esta flexibilidad permite que explores temas nuevos sin sentirte perdido. La técnica funciona mejor cuando pides ejemplos reales, historias de origen o aplicaciones prácticas del concepto."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Practicar habilidades mediante ciclos iterativos de desafío y retroalimentación",
+      "body": "Aprender una habilidad requiere acción repetida con corrección inmediata. La IA facilita esto proporcionando ejercicios prácticos graduados (desde principiante hasta desafiante), revisando tu trabajo y explicando los errores. Ya sea programación, escritura o cualquier otra competencia, el proceso es cíclico: haces una tarea, recibes retroalimentación, refinás tu ejecución y progresas. Puedes incluso establecer restricciones deliberadas, como resolver un problema en pocas líneas de código, para profundizar tu comprensión. Este aprendizaje activo, combinado con ajustes inmediatos, acelera la adquisición de habilidades más que la lectura pasiva."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-multiple-choice",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "multiple_choice",
+        "prompt": "¿Cuál de las siguientes es una característica clave para obtener una ruta de aprendizaje personalizada efectiva de la IA?",
+        "card_ids": [],
+        "options": [
+          {
+            "text": "Ser específico mencionando tu experiencia previa, estilo de aprendizaje y disponibilidad",
+            "correct": true
+          },
+          {
+            "text": "Solicitar el curso genérico más popular disponible",
+            "correct": false
+          },
+          {
+            "text": "Seguir exactamente el mismo plan que otros estudiantes",
+            "correct": false
+          },
+          {
+            "text": "Evitar mencionar tus limitaciones de tiempo",
+            "correct": false
+          }
+        ],
+        "multiple": false,
+        "distractors": [],
+        "id": "ai-ex-1-multiple-choice",
+        "stable_id": "ex-msofn2k50107l"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Empareja cada rol de la IA en el aprendizaje con su descripción.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "IA como diseñadora de rutas personalizadas",
+            "right": "Crea un plan adaptado que estructura el conocimiento en pasos manejables según tu experiencia, estilo y disponibilidad"
+          },
+          {
+            "left": "IA desglosando conceptos complejos",
+            "right": "Divide ideas difíciles en explicaciones digeribles usando analogías conectadas a conocimiento previo"
+          },
+          {
+            "left": "IA en ciclos iterativos de desafío y retroalimentación",
+            "right": "Proporciona ejercicios graduados, revisa el trabajo y explica errores para acelerar la adquisición de habilidades"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-2-matching",
+        "stable_id": "ex-msofn2k5011rf"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-multiple-choice",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "multiple_choice",
+        "prompt": "¿Cuáles de las siguientes estrategias hacen más efectivo el aprendizaje mediante ciclos iterativos con IA?",
+        "card_ids": [],
+        "options": [
+          {
+            "text": "Recibir retroalimentación inmediata tras completar una tarea",
+            "correct": true
+          },
+          {
+            "text": "Refinar tu ejecución basándote en los errores señalados",
+            "correct": true
+          },
+          {
+            "text": "Leer pasivamente sin practicar",
+            "correct": false
+          },
+          {
+            "text": "Establecer restricciones deliberadas para profundizar comprensión",
+            "correct": true
+          }
+        ],
+        "multiple": true,
+        "distractors": [],
+        "id": "ai-ex-3-multiple-choice",
+        "stable_id": "ex-msofn2k5012kc"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Completa la palabra que falta.",
+        "card_ids": [],
+        "sentence": "La IA simplifica temas complejos usando ___ que conectan nuevas ideas con lo que ya conoces.",
+        "blanks": [
+          {
+            "accept": [
+              "analogías"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "definiciones técnicas",
+          "memorización",
+          "videos largos"
+        ],
+        "id": "ai-ex-4-cloze",
+        "stable_id": "ex-msofn2k50139h"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Explica por qué pedir ejemplos reales y aplicaciones prácticas mejora la efectividad al simplificar conceptos complejos con IA.",
+        "card_ids": [],
+        "accept": [
+          "Porque los ejemplos y aplicaciones prácticas conectan la teoría con situaciones concretas que ya entiendes",
+          "Los ejemplos reales hacen las explicaciones más tangibles y relevantes a tu experiencia",
+          "Las aplicaciones prácticas contextualizan el concepto y lo hacen menos abstracto"
+        ],
+        "distractors": [
+          "Porque los ejemplos hacen que todo sea más fácil sin esfuerzo"
+        ],
+        "id": "ai-ex-5-free-text",
+        "stable_id": "ex-msofn2k5014p2"
+      },
+      "theory_ref": "theory-2"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null,
+  "domain": "ai"
+}

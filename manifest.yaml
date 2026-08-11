@@ -53,6 +53,23 @@ sets:
       - crispr
       - genetik
       - grundlagen
+  - id: ia-para-principiantes
+    title: IA para principiantes
+    title_native: IA para principiantes
+    target_language: es
+    source_language: es
+    domain: knowledge
+    # Sachthema: bewusst ohne Sprachniveau (engine#127, level-Vertrag);
+    # die Schwierigkeit traegt das Tag `principiantes`.
+    level: none
+    path: sets/es/ia-para-principiantes
+    version: '1.0.0'
+    lesson_count: 10
+    review_status: generated
+    tags:
+      - libro
+      - ia
+      - principiantes
   - id: example-set
     title: Spanish A1 (example)
     title_native: Español A1 (ejemplo)

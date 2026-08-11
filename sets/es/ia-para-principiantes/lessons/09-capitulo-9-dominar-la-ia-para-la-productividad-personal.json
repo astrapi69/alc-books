@@ -1,0 +1,180 @@
+{
+  "id": "09-capitulo-9-dominar-la-ia-para-la-productividad-personal",
+  "title": "Capítulo 9: Dominar la IA para la productividad personal",
+  "description": null,
+  "target_language": "es",
+  "source_language": "es",
+  "estimated_minutes": 11,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "La IA como liberadora de tiempo y enfoque",
+      "body": "La productividad real no significa hacer más cosas, sino concentrarse en lo que verdaderamente importa. La IA es especialmente valiosa para eliminar tareas repetitivas y mecánicas, como organizar correos, resumir documentos o generar borradores, que consumen energía mental sin aportar valor. Al delegar estas actividades a sistemas inteligentes, recuperas tiempo y claridad mental para dedicarte a lo que requiere tu atención genuina: decisiones estratégicas, trabajo creativo y relaciones significativas."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Estructurar tu día según energía y prioridades",
+      "body": "Más allá de simplemente agendar, la IA te ayuda a diseñar un horario inteligente que respete cómo funciona realmente tu mente. Por ejemplo, puedes programar tareas creativas cuando tu energía es máxima (típicamente por la mañana) y dejar lo administrativo para cuando naturalmente decae tu concentración. La clave es proporcionar contexto a la IA: tus patrones de energía, fechas límite, tipos de trabajo y descansos necesarios. Esto transforma tu calendario de una simple lista de reuniones en un plan realista y sostenible."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Automatizar información y transformarla en acción",
+      "body": "El exceso de información es agobiante. La IA puede procesar volúmenes masivos de datos, reportes largos, conjuntos de retroalimentación, artículos, y extraer lo esencial: las ideas clave, los riesgos principales, los próximos pasos. Al solicitar resúmenes estructurados, categorizados por tema o urgencia, conviertes el caos informativo en claridad ejecutable. Esta capacidad de síntesis también aplica a tu vida personal: desde planificación de comidas hasta gestión financiera, donde la IA organiza datos dispersos en planes concretos que puedes seguir inmediatamente."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-multiple-choice",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "multiple_choice",
+        "prompt": "Según el texto, ¿cuál es la razón principal por la que la IA es valiosa para eliminar tareas repetitivas?",
+        "card_ids": [],
+        "options": [
+          {
+            "text": "Porque consumen energía mental sin aportar valor",
+            "correct": true
+          },
+          {
+            "text": "Porque son imposibles de hacer manualmente",
+            "correct": false
+          },
+          {
+            "text": "Porque requieren más tiempo que las tareas creativas",
+            "correct": false
+          },
+          {
+            "text": "Porque la IA siempre comete menos errores",
+            "correct": false
+          }
+        ],
+        "multiple": false,
+        "distractors": [],
+        "id": "ai-ex-1-multiple-choice",
+        "stable_id": "ex-msofn2k601aku"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-multiple-choice",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "multiple_choice",
+        "prompt": "¿Cuáles de las siguientes son ejemplos que el texto menciona de tareas repetitivas que la IA puede eliminar?",
+        "card_ids": [],
+        "options": [
+          {
+            "text": "Organizar correos y resumir documentos",
+            "correct": true
+          },
+          {
+            "text": "Generar borradores",
+            "correct": true
+          },
+          {
+            "text": "Tomar decisiones estratégicas",
+            "correct": false
+          },
+          {
+            "text": "Mantener relaciones significativas",
+            "correct": false
+          }
+        ],
+        "multiple": true,
+        "distractors": [],
+        "id": "ai-ex-2-multiple-choice",
+        "stable_id": "ex-msofn2k601b0g"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Completa la palabra que falta.",
+        "card_ids": [],
+        "sentence": "Para diseñar un horario inteligente con IA, es clave proporcionar ___ como tus patrones de energía, fechas límite y tipos de trabajo.",
+        "blanks": [
+          {
+            "accept": [
+              "contexto"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "automatización",
+          "retroalimentación",
+          "resúmenes"
+        ],
+        "id": "ai-ex-3-cloze",
+        "stable_id": "ex-msofn2k601csl"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Empareja cada beneficio de la IA con su descripción correspondiente según el texto.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Liberadora de tiempo y enfoque",
+            "right": "Eliminar tareas repetitivas para dedicarse a decisiones estratégicas y trabajo creativo"
+          },
+          {
+            "left": "Estructurar el día según energía",
+            "right": "Programar tareas creativas cuando la energía es máxima y lo administrativo cuando decae la concentración"
+          },
+          {
+            "left": "Automatizar información",
+            "right": "Procesar datos masivos para extraer ideas clave y convertir el caos en claridad ejecutable"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-4-matching",
+        "stable_id": "ex-msofn2k601d0s"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Explica cómo transforma la IA un calendario de una simple lista de reuniones en un plan realista y sostenible.",
+        "card_ids": [],
+        "accept": [
+          "Respeta los patrones de energía y programa tareas según cuándo el cerebro funciona mejor",
+          "Proporciona contexto sobre energía, fechas límite y tipos de trabajo para diseñar un horario inteligente",
+          "Ajusta el calendario considerando la energía máxima por la mañana para tareas creativas y lo administrativo cuando decae la concentración"
+        ],
+        "distractors": [
+          "Elimina todas las reuniones innecesarias automáticamente",
+          "Aumenta el número de horas de trabajo disponibles"
+        ],
+        "id": "ai-ex-5-free-text",
+        "stable_id": "ex-msofn2k601ef6"
+      },
+      "theory_ref": "theory-2"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null,
+  "domain": "ai"
+}

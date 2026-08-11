@@ -1,0 +1,48 @@
+# Set-Manifest: IA para principiantes (Buch-Set).
+#
+# Buch-Set in spanischer Originalsprache. Die Ordnerstruktur folgt der
+# Konvention sets/<Quellsprache>/<Set-Id>/lessons/NN-slug.json - weitere
+# Buch-Sets kommen als eigene Verzeichnisse daneben, nicht als Unterordner
+# hier.
+#
+# Reihenfolge: die Anzeigereihenfolge ist die lexikografische Sortierung
+# der Lektions-Ids (learn-content-engine#106). Die NN-Prefixe sind damit
+# der Mechanismus, nicht Kosmetik, und alle auf zwei Stellen genullt.
+schema_version: "1.5"
+name: IA para principiantes
+description: >-
+  Begleitendes Lernset zum Buch "IA para principiantes": 10 Kapitel zum
+  praktischen Einsatz von KI im Alltag, von den Grundlagen des
+  Promptings bis zu Kreativitaet, Produktivitaet und Zusammenarbeit.
+sets:
+  - id: ia-para-principiantes
+    title: IA para principiantes
+    title_native: IA para principiantes
+    target_language: es
+    source_language: es
+    domain: knowledge
+    # Sachthema: bewusst ohne Sprachniveau (engine#127, level-Vertrag);
+    # die Schwierigkeit traegt das Tag `principiantes`.
+    level: none
+    path: sets/es/ia-para-principiantes
+    version: "1.0.0"
+    lesson_count: 10
+    review_status: generated
+    tags:
+      - libro
+      - ia
+      - principiantes
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-capitulo-1-desbloqueando-el-poder-de-la-ia-en-la-vida-cotidiana.json
+    - 02-capitulo-2-dominar-los-fundamentos-de-la-creacion-de-prompts.json
+    - 03-capitulo-3-usar-ia-para-proyectos-del-mundo-real.json
+    - 04-capitulo-4-aprendizaje-y-desarrollo-de-habilidades-con-ia.json
+    - 05-capitulo-5-potenciando-la-creatividad-con-ia.json
+    - 06-capitulo-6-potenciando-la-productividad-con-ia.json
+    - 07-capitulo-7-aprendizaje-continuo-y-desarrollo-de-habilidades-con-ia.json
+    - 08-capitulo-8-innovacion-con-ia-aplicaciones-creativas.json
+    - 09-capitulo-9-dominar-la-ia-para-la-productividad-personal.json
+    - 10-capitulo-10-la-ia-para-la-colaboracion-y-el-trabajo-en-equipo.json

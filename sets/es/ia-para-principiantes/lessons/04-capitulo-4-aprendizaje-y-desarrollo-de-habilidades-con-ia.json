@@ -1,0 +1,173 @@
+{
+  "id": "04-capitulo-4-aprendizaje-y-desarrollo-de-habilidades-con-ia",
+  "title": "Capítulo 4: Aprendizaje y desarrollo de habilidades con IA",
+  "description": null,
+  "target_language": "es",
+  "source_language": "es",
+  "estimated_minutes": 11,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "La IA como tutor personalizado adaptable",
+      "body": "La inteligencia artificial funciona como un mentor que se ajusta a tu ritmo individual. En lugar de seguir un curso rígido, puedes dialogar con la IA para obtener explicaciones específicas, ejemplos contextualizados y retroalimentación inmediata. El aprendizaje se vuelve interactivo: planteas una pregunta, recibes respuesta, y luego refinas el contenido pidiendo que se adapte a tus necesidades. Este ciclo de pregunta y mejora continua convierte cualquier dispositivo en una herramienta de enseñanza flexible, ya sea para dominar un idioma, explorar un pasatiempo o desarrollar habilidades profesionales."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Estrategias efectivas: claridad, contexto y estructura",
+      "body": "Para aprovechar la IA en tu aprendizaje, debes ser específico en tres aspectos. Primero, define claramente qué quieres aprender (vocabulario, técnica, habilidad comunicativa). Segundo, proporciona contexto real que sea relevante para ti (viajes, situaciones laborales, hobbies que te interesan). Tercero, solicita que la información se organize en pasos pequeños y manejables. Por ejemplo, en lugar de \"enséñame fotografía\", es más efectivo \"explícame apertura e ISO como principiante, con ejercicios prácticos para este fin de semana\". Esta precisión en tus peticiones garantiza respuestas más útiles y directamente aplicables."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Motivación sostenida a través de seguimiento y micro-pasos",
+      "body": "El aprendizaje requiere más que información; necesita estructura y motivación continua. La IA puede generar planes de estudio con hitos semanales, crear listas de verificación diarias y ofrecer recordatorios personalizados. La clave es dividir metas grandes en acciones pequeñas (micro-hábitos de 5 minutos) que no abrumen. También es útil que la IA te ayude a identificar cuándo procrastinas y diseñar rituales que combatan esto. Al mantener el enfoque mediante planes claros y reconocimiento del progreso, aumentas las probabilidades de persistir hasta lograr tu objetivo."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Completa la palabra que falta.",
+        "card_ids": [],
+        "sentence": "La IA funciona como un ___ que se ajusta a tu ritmo individual de aprendizaje.",
+        "blanks": [
+          {
+            "accept": [
+              "mentor"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "profesor",
+          "evaluador",
+          "controlador"
+        ],
+        "id": "ai-ex-1-cloze",
+        "stable_id": "ex-msofn2k400jtt"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Empareja cada estrategia efectiva con su descripción.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Claridad",
+            "right": "Definir específicamente qué quieres aprender"
+          },
+          {
+            "left": "Contexto",
+            "right": "Proporcionar situaciones reales relevantes para ti"
+          },
+          {
+            "left": "Estructura",
+            "right": "Solicitar que la información se organize en pasos pequeños y manejables"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-2-matching",
+        "stable_id": "ex-msofn2k400khk"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Completa la palabra que falta.",
+        "card_ids": [],
+        "sentence": "En lugar de \"enséñame fotografía\", es más efectivo ser específico, por ejemplo: \"explícame ___ e ISO como principiante, con ejercicios prácticos\".",
+        "blanks": [
+          {
+            "accept": [
+              "apertura"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "iluminación",
+          "composición",
+          "enfoque"
+        ],
+        "id": "ai-ex-3-cloze",
+        "stable_id": "ex-msofn2k400lyc"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-multiple-choice",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "multiple_choice",
+        "prompt": "¿Cuáles de los siguientes son elementos clave para mantener motivación sostenida según el texto?",
+        "card_ids": [],
+        "options": [
+          {
+            "text": "Planes de estudio con hitos semanales",
+            "correct": true
+          },
+          {
+            "text": "Micro-hábitos de 5 minutos",
+            "correct": true
+          },
+          {
+            "text": "Metas grandes sin división en pasos",
+            "correct": false
+          },
+          {
+            "text": "Listas de verificación diarias",
+            "correct": true
+          }
+        ],
+        "multiple": true,
+        "distractors": [],
+        "id": "ai-ex-4-multiple-choice",
+        "stable_id": "ex-msofn2k400mv2"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "¿Por qué el aprendizaje con IA se describe como 'interactivo'? Explica el ciclo que lo caracteriza.",
+        "card_ids": [],
+        "accept": [
+          "Porque planteas una pregunta, recibes respuesta y refinas el contenido pidiendo adaptación",
+          "Es un ciclo de pregunta y mejora continua donde adaptas el contenido a tus necesidades",
+          "Permite dialogar con la IA para obtener explicaciones específicas y retroalimentación inmediata"
+        ],
+        "distractors": [
+          "Porque es más rápido que estudiar en un libro"
+        ],
+        "id": "ai-ex-5-free-text",
+        "stable_id": "ex-msofn2k400n8c"
+      },
+      "theory_ref": "theory-1"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null,
+  "domain": "ai"
+}

@@ -1,0 +1,247 @@
+{
+  "id": "06-capitulo-6-potenciando-la-productividad-con-ia",
+  "title": "Capítulo 6: Potenciando la productividad con IA",
+  "description": null,
+  "target_language": "es",
+  "source_language": "es",
+  "estimated_minutes": 14,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "La IA como organizadora de prioridades",
+      "body": "Cuando enfrentas múltiples tareas compitiendo por tu atención, la inteligencia artificial puede ayudarte a distinguir qué es realmente urgente de qué es importante. En lugar de sentirte abrumado por una lista caótica, puedes describirle a la IA tu situación completa (tareas pendientes, reuniones, responsabilidades personales) y ella desglosará todo en un orden ejecutable, incluso agregando estimaciones de tiempo realistas. Esto transforma el pánico inicial en un plan claro que puedes seguir paso a paso. La clave es ser específico en tu descripción para obtener organizaciones más precisas que realmente se adapten a tu día."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Estructuración del tiempo mediante bloques de trabajo",
+      "body": "La productividad no solo depende de qué hagas, sino de cómo distribuyas tu energía a lo largo del día. La IA excela en crear cronogramas que alternan períodos de concentración profunda con descansos y tareas administrativas. Por ejemplo, puedes solicitar que diseñe bloques ininterrumpidos para trabajo importante, seguidos de espacios para comunicaciones o movimiento físico. Este enfoque reconoce que tu capacidad de concentración es limitada y que cambiar constantemente de actividad te agota. Al estructurar el tiempo de antemano, reduces decisiones innecesarias y proteges tus momentos de mayor rendimiento."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Claridad en información caótica y metas a largo plazo",
+      "body": "Ya sea que tengas notas desordenadas de una reunión o un objetivo ambicioso que te paraliza, la IA puede convertir información confusa en formatos útiles y metas fragmentadas en pasos alcanzables. Puedes solicitar que resuma tus apuntes en acciones concretas con fechas límite, o que divida una meta importante en hitos semanales. Este procesamiento mental lo delega a la tecnología, liberándote para enfocarte en la ejecución real. Lo importante es que especifiques qué tipo de resultado necesitas: un checklist, un resumen breve, frases motivacionales, o un plan estructurado por semanas."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-multiple-choice",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "multiple_choice",
+        "prompt": "¿Cuál es el beneficio principal de usar IA para organizar prioridades cuando tienes múltiples tareas compitiendo por tu atención?",
+        "card_ids": [],
+        "options": [
+          {
+            "text": "Distinguir qué es realmente urgente de qué es importante",
+            "correct": true
+          },
+          {
+            "text": "Eliminar completamente la necesidad de tomar decisiones",
+            "correct": false
+          },
+          {
+            "text": "Completar automáticamente todas tus tareas pendientes",
+            "correct": false
+          },
+          {
+            "text": "Reducir el tiempo que dedicas a trabajar cada día",
+            "correct": false
+          }
+        ],
+        "multiple": false,
+        "distractors": [],
+        "id": "ai-ex-1-multiple-choice",
+        "stable_id": "ex-msofn2k500t1y"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-multiple-choice",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "multiple_choice",
+        "prompt": "Según la teoría, ¿cuál de estos es un factor clave para obtener organizaciones de prioridades más precisas de la IA?",
+        "card_ids": [],
+        "options": [
+          {
+            "text": "Ser específico en tu descripción de la situación completa",
+            "correct": true
+          },
+          {
+            "text": "Proporcionar solo las tareas más urgentes",
+            "correct": false
+          },
+          {
+            "text": "Usar siempre el mismo formato de pregunta",
+            "correct": false
+          },
+          {
+            "text": "Mencionar solo responsabilidades laborales",
+            "correct": false
+          }
+        ],
+        "multiple": false,
+        "distractors": [],
+        "id": "ai-ex-2-multiple-choice",
+        "stable_id": "ex-msofn2k500uxf"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Completa la palabra que falta.",
+        "card_ids": [],
+        "sentence": "Al estructurar el tiempo mediante bloques de trabajo, la IA alterna períodos de concentración profunda con ___ y tareas administrativas.",
+        "blanks": [
+          {
+            "accept": [
+              "descansos"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "reuniones",
+          "más trabajo",
+          "correos electrónicos"
+        ],
+        "id": "ai-ex-3-cloze",
+        "stable_id": "ex-msofn2k500vgi"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-multiple-choice",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "multiple_choice",
+        "prompt": "¿Cuál es importante especificar cuando solicitas a la IA que aclare un objetivo confuso?",
+        "card_ids": [],
+        "options": [
+          {
+            "text": "Qué tipo de resultado necesitas: checklist, resumen, plan por semanas, etc.",
+            "correct": true
+          },
+          {
+            "text": "Cuántos años has estado trabajando en esa meta",
+            "correct": false
+          },
+          {
+            "text": "Los nombres de todas las personas involucradas",
+            "correct": false
+          },
+          {
+            "text": "La hora exacta en que comenzarás a trabajar",
+            "correct": false
+          }
+        ],
+        "multiple": false,
+        "distractors": [],
+        "id": "ai-ex-4-multiple-choice",
+        "stable_id": "ex-msofn2k500w4w"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Completa la palabra que falta.",
+        "card_ids": [],
+        "sentence": "Cuando la IA procesa información confusa o metas ambiciosas, te delega a ti la tarea de la ___, liberándote para enfocarte en la ejecución real.",
+        "blanks": [
+          {
+            "accept": [
+              "ejecución"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "planificación",
+          "organización",
+          "comunicación"
+        ],
+        "id": "ai-ex-5-cloze",
+        "stable_id": "ex-msofn2k500xdl"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-6-ai-ex-6-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Relaciona cada situación con cómo la IA puede ayudarte según la teoría.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Tienes notas desordenadas de una reunión",
+            "right": "Convertir información confusa en formatos útiles"
+          },
+          {
+            "left": "Un objetivo ambicioso te paraliza",
+            "right": "Dividir metas en pasos alcanzables"
+          },
+          {
+            "left": "Sientes pánico por múltiples tareas pendientes",
+            "right": "Transformar el pánico en un plan claro ejecutable"
+          },
+          {
+            "left": "Tu capacidad de concentración es limitada",
+            "right": "Crear cronogramas que distribuyan tu energía a lo largo del día"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-6-matching",
+        "stable_id": "ex-msofn2k500yk0"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-7-ai-ex-7-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Explica por qué cambiar constantemente de actividad afecta tu productividad, según lo que plantea la teoría.",
+        "card_ids": [],
+        "accept": [
+          "porque agota tu capacidad de concentración",
+          "el cambio constante de actividades agota tu energía",
+          "cambiando constantemente de tarea te cansas más",
+          "porque el cambio continuo reduce tu rendimiento"
+        ],
+        "distractors": [
+          "porque la IA funciona peor cuando alternas entre varias tareas",
+          "porque cambiar de actividad consume más batería del dispositivo"
+        ],
+        "id": "ai-ex-7-free-text",
+        "stable_id": "ex-msofn2k500zyk"
+      },
+      "theory_ref": "theory-2"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null,
+  "domain": "ai"
+}

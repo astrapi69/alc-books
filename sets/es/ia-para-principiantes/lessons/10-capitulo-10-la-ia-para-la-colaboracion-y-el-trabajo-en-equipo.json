@@ -1,0 +1,212 @@
+{
+  "id": "10-capitulo-10-la-ia-para-la-colaboracion-y-el-trabajo-en-equipo",
+  "title": "Capítulo 10: La IA para la colaboración y el trabajo en equipo",
+  "description": null,
+  "target_language": "es",
+  "source_language": "es",
+  "estimated_minutes": 12,
+  "cards": [],
+  "steps": [
+    {
+      "id": "theory-1",
+      "type": "theory",
+      "title": "La IA como miembro silencioso del equipo",
+      "body": "Cuando los equipos trabajan juntos, necesitan tres cosas fundamentales: que todos entiendan lo que se comunica, que sepan quién hace qué y cuándo, y que compartan las mismas metas. La IA fortalece cada uno de estos elementos sin interrumpir el trabajo real. Actúa como un asistente invisible que resume lo que pasó en una reunión, organiza tareas, traduce mensajes para equipos multilingües y mantiene la información en orden. El punto clave es que la IA no reemplaza a las personas, sino que les ahorra tiempo en tareas repetitivas para que puedan enfocarse en lo que realmente importa: crear, decidir y colaborar de verdad."
+    },
+    {
+      "id": "theory-2",
+      "type": "theory",
+      "title": "Tres usos prácticos para mejorar la colaboración diaria",
+      "body": "La IA puede aplicarse en tres áreas específicas del trabajo en equipo. Primero, en la **comunicación**: aclara mensajes confusos, traduce a otros idiomas y resume reuniones para que los miembros remotos entiendan qué pasó mientras no estaban. Segundo, en la **organización**: crea planes de proyecto con cronogramas, asigna responsables y detecta problemas antes de que se conviertan en crisis. Tercero, en la **creatividad**: cuando el equipo se siente estancado, la IA sugiere ideas nuevas y las organiza de forma útil. En todos estos casos, el equipo debe dar instrucciones claras (prompts específicos) y luego revisar y ajustar lo que la IA genera."
+    },
+    {
+      "id": "theory-3",
+      "type": "theory",
+      "title": "Integración responsable de la IA en rutinas de trabajo",
+      "body": "Para que la IA sea útil de verdad, no debe ser una herramienta aislada sino parte del flujo de trabajo normal. Esto significa usar la IA en reuniones diarias para resumir avances, en planificaciones semanales para crear cronogramas, en sesiones de lluvia de ideas para generar opciones, y en repositorios compartidos para mantener el conocimiento organizado. Sin embargo, hay límites éticos importantes: siempre verifica que los hechos sean correctos (la IA puede inventar información), nunca compartas datos sensibles en un prompt, y sé crítico con posibles sesgos en las sugerencias. La IA es una herramienta con intención, no una solución automática."
+    },
+    {
+      "id": "step-ex-1-ai-ex-1-multiple-choice",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "multiple_choice",
+        "prompt": "Según el texto, ¿cuáles son las tres cosas fundamentales que necesitan los equipos para trabajar juntos?",
+        "card_ids": [],
+        "options": [
+          {
+            "text": "Que todos entiendan la comunicación, que sepan quién hace qué y cuándo, y que compartan las mismas metas",
+            "correct": true
+          },
+          {
+            "text": "Que tengan presupuesto suficiente, que usen la misma tecnología y que trabajen en la misma oficina",
+            "correct": false
+          },
+          {
+            "text": "Que la IA tome todas las decisiones, que haya un líder fuerte y que todos sean expertos",
+            "correct": false
+          },
+          {
+            "text": "Que eviten usar herramientas, que se comuniquen solo verbalmente y que trabajen sin planes",
+            "correct": false
+          }
+        ],
+        "multiple": false,
+        "distractors": [],
+        "id": "ai-ex-1-multiple-choice",
+        "stable_id": "ex-msofn2k601foq"
+      },
+      "theory_ref": "theory-1"
+    },
+    {
+      "id": "step-ex-2-ai-ex-2-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Completa la palabra que falta.",
+        "card_ids": [],
+        "sentence": "La IA no reemplaza a las personas, sino que les ahorra tiempo en tareas ___ para que puedan enfocarse en lo que realmente importa.",
+        "blanks": [
+          {
+            "accept": [
+              "repetitivas"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "difíciles",
+          "creativas",
+          "urgentes"
+        ],
+        "id": "ai-ex-2-cloze",
+        "stable_id": "ex-msofn2k601guj"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-3-ai-ex-3-multiple-choice",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "multiple_choice",
+        "prompt": "¿Cuáles de los siguientes son límites éticos importantes al usar IA en equipos?",
+        "card_ids": [],
+        "options": [
+          {
+            "text": "Verificar que los hechos sean correctos porque la IA puede inventar información",
+            "correct": true
+          },
+          {
+            "text": "Nunca compartir datos sensibles en un prompt",
+            "correct": true
+          },
+          {
+            "text": "Ser crítico con posibles sesgos en las sugerencias",
+            "correct": true
+          },
+          {
+            "text": "Usar la IA sin revisar nunca lo que genera para ahorrar tiempo",
+            "correct": false
+          },
+          {
+            "text": "Compartir toda la información del equipo con la IA sin filtro",
+            "correct": false
+          }
+        ],
+        "multiple": true,
+        "distractors": [],
+        "id": "ai-ex-3-multiple-choice",
+        "stable_id": "ex-msofn2k601hw6"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-4-ai-ex-4-matching",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "matching",
+        "prompt": "Relaciona cada área de aplicación de la IA con su descripción correspondiente.",
+        "card_ids": [],
+        "pairs": [
+          {
+            "left": "Comunicación",
+            "right": "Aclara mensajes confusos, traduce a otros idiomas y resume reuniones"
+          },
+          {
+            "left": "Organización",
+            "right": "Crea planes de proyecto con cronogramas, asigna responsables y detecta problemas"
+          },
+          {
+            "left": "Creatividad",
+            "right": "Sugiere ideas nuevas cuando el equipo se siente estancado y las organiza de forma útil"
+          }
+        ],
+        "distractors": [],
+        "id": "ai-ex-4-matching",
+        "stable_id": "ex-msofn2k601i5x"
+      },
+      "theory_ref": "theory-2"
+    },
+    {
+      "id": "step-ex-5-ai-ex-5-cloze",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Completa la palabra que falta.",
+        "card_ids": [],
+        "sentence": "Para que la IA sea útil de verdad, no debe ser una herramienta aislada sino parte del ___ de trabajo normal.",
+        "blanks": [
+          {
+            "accept": [
+              "flujo"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "equipo",
+          "sistema",
+          "objetivo"
+        ],
+        "id": "ai-ex-5-cloze",
+        "stable_id": "ex-msofn2k601jtw"
+      },
+      "theory_ref": "theory-3"
+    },
+    {
+      "id": "step-ex-6-ai-ex-6-free-text",
+      "type": "exercise",
+      "title": null,
+      "body": null,
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Explica por qué el texto dice que la IA es 'un asistente invisible' en los equipos.",
+        "card_ids": [],
+        "accept": [
+          "Porque actúa sin interrumpir el trabajo real, resumiendo reuniones, organizando tareas y manteniendo la información en orden",
+          "Porque trabaja en el fondo sin que se note, realizando tareas repetitivas para que el equipo se enfoque en lo importante",
+          "Porque realiza funciones de apoyo sin reemplazar a las personas ni interrumpir la colaboración"
+        ],
+        "distractors": [
+          "Porque nadie puede verla",
+          "Porque no cuesta dinero"
+        ],
+        "id": "ai-ex-6-free-text",
+        "stable_id": "ex-msofn2k601kza"
+      },
+      "theory_ref": "theory-1"
+    }
+  ],
+  "contributed_by": null,
+  "contributed_at": null,
+  "domain": "ai"
+}
