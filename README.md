@@ -14,6 +14,7 @@ directly and no vendor can lock away.
 |---|---|---|
 | [`biologische-souveranitat`](sets/de/biologische-souveranitat/) | 23 | CRISPR, germline editing, and who owns your genetic code |
 | [`das-lebende-stimmrecht`](sets/de/das-lebende-stimmrecht/) | 15 | how democratic participation stays alive |
+| [`ia-para-principiantes`](sets/es/ia-para-principiantes/) | 10 | practical AI literacy for everyday life, from prompts to real-world projects |
 
 Both carry `review_status: generated`: they were produced from the book
 text and have not been reviewed by a domain expert yet. That field states
