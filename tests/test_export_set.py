@@ -16,7 +16,18 @@ Covered behaviours (TDD, RED first):
 * ``--format json`` produces valid JSON with the same lesson content,
 * the default output path lands under ``exports/`` (created on demand),
 * the manifest set id (``example-set``) resolves the same set as the
-  path basename slug (``es-a1``).
+  path basename slug (``es-a1``),
+* ``--split-size`` chunks the lesson list into consecutive, order-
+  preserving groups; each written part is self-contained (own
+  ``review_instructions`` copy) and carries its ``part``/``of`` position;
+  ``--split-size`` combined with ``--out`` is a usage error.
+
+The known fixture set here has exactly one lesson, so the two multi-part
+integration tests from the reference implementation (multiple files
+written, parts concatenating back to the full lesson order) are not
+meaningful against it and are intentionally omitted - the chunking logic
+itself is still fully covered by the three ``chunk_lessons()`` unit tests
+below, which use synthetic lesson lists, not the fixture.
 """
 from __future__ import annotations
 
@@ -24,6 +35,7 @@ import json
 import sys
 from pathlib import Path
 
+import pytest
 import yaml
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -217,3 +229,74 @@ def test_missing_review_template_fails_with_clear_error(
     captured_stderr = capsys.readouterr().err
     assert "ai-review-prompt-template" in captured_stderr or "not-there.md" in captured_stderr
     assert not out_path.exists()
+
+
+def test_chunk_lessons_splits_into_consecutive_groups_preserving_order() -> None:
+    lessons = [{"id": f"l{i}"} for i in range(8)]
+    chunks = export_set.chunk_lessons(lessons, 5)
+    assert chunks == [lessons[0:5], lessons[5:8]]
+
+
+def test_chunk_lessons_split_size_at_or_above_count_yields_one_chunk() -> None:
+    lessons = [{"id": f"l{i}"} for i in range(3)]
+    assert export_set.chunk_lessons(lessons, 5) == [lessons]
+    assert export_set.chunk_lessons(lessons, 3) == [lessons]
+
+
+def test_chunk_lessons_rejects_non_positive_split_size() -> None:
+    with pytest.raises(ValueError):
+        export_set.chunk_lessons([{"id": "l0"}], 0)
+
+
+EXPORTS_DIR = REPO_ROOT / "exports"
+
+
+def run_split_export(tmp_path: Path, split_size: int, *extra_argv: str) -> list[Path]:
+    """Run a split export for the known set and return the written files,
+    sorted by name (which sorts by part number thanks to zero-padding)."""
+    before = set(EXPORTS_DIR.glob("*")) if EXPORTS_DIR.is_dir() else set()
+    exit_code = export_set.main(
+        [KNOWN_SLUG, "--split-size", str(split_size), *extra_argv]
+    )
+    assert exit_code == 0
+    created = sorted((set(EXPORTS_DIR.glob("*")) - before))
+    for created_path in created:
+        tmp_path_copy = tmp_path / created_path.name
+        tmp_path_copy.write_bytes(created_path.read_bytes())
+        created_path.unlink()
+    return sorted(tmp_path.glob("*"))
+
+
+def test_split_size_at_or_above_lesson_count_yields_single_file(tmp_path: Path) -> None:
+    source_lessons = load_source_lessons()
+    created_files = run_split_export(tmp_path, 100)
+    assert len(created_files) == 1
+    payload = yaml.safe_load(created_files[0].read_text(encoding="utf-8"))
+    assert payload["part"] == 1
+    assert payload["of"] == 1
+    assert payload["lesson_count"] == payload["total_lesson_count"] == len(source_lessons)
+
+
+def test_split_size_part_is_self_contained_with_review_instructions(tmp_path: Path) -> None:
+    created_files = run_split_export(tmp_path, 100)
+    template_text = REVIEW_TEMPLATE_PATH.read_text(encoding="utf-8")
+    for created_path in created_files:
+        payload = yaml.safe_load(created_path.read_text(encoding="utf-8"))
+        assert payload["review_instructions"] == template_text
+
+
+def test_split_size_combined_with_out_is_a_usage_error(tmp_path: Path, capsys) -> None:
+    exit_code = export_set.main(
+        [
+            KNOWN_SLUG,
+            "--split-size",
+            "5",
+            "--out",
+            str(tmp_path / "never-written.yaml"),
+        ]
+    )
+    assert exit_code != 0
+    captured_stderr = capsys.readouterr().err
+    assert "--split-size" in captured_stderr
+    assert "--out" in captured_stderr
+    assert not (tmp_path / "never-written.yaml").exists()
