@@ -31,7 +31,11 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install validator dependencies
-        run: pip install "pyyaml>=6,<7" "jsonschema>=4,<5" "pytest>=8,<9" regex "genanki>=0.13,<0.14"
+        # requests: the hub's AI review script (scripts/ai_review.py, hub-only)
+        # imports it, and its tests run in the same suite. The workflow is the
+        # same file in every repository, so the hub's need is installed
+        # everywhere; it is one small package.
+        run: pip install "pyyaml>=6,<7" "jsonschema>=4,<5" "pytest>=8,<9" "requests>=2,<3" regex "genanki>=0.13,<0.14"
       - name: Prose gate self-test
         # Blocking always: a gate that does not fire on known-bad input is
         # broken, whatever the repository's backlog.
