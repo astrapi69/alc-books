@@ -56,34 +56,10 @@ QUALITY_RULES_PATH = SCHEMA_DIR / "quality-rules.json"
 
 ISO_639_1 = re.compile(r"^[a-z]{2}$")
 
-# Answer-length statements in exercise/blank hints (adaptive-learner-content#100).
-# The app shows the answer's length automatically (the system hint), so an
-# authored hint stating a letter/character count ("Vier Buchstaben.") is
-# redundant at best and contradicts the system hint when it is wrong. Card
-# hints are NOT covered: a character count there can be legitimate teaching
-# content (e.g. explaining that ``s[0:3]`` yields 3 characters). Compounds
-# like "Leerzeichen" do not match (no word boundary inside the compound),
-# so indentation advice passes.
-_HINT_COUNT_WORDS = (
-    r"\d+|ein(?:e[nmrs]?)?|zwei|drei|vier|f(?:ü|ue)nf|sechs|sieben|acht|neun"
-    r"|zehn|elf|zw(?:ö|oe)lf"
-)
-HINT_LENGTH_PATTERN = re.compile(
-    rf"\b(?:{_HINT_COUNT_WORDS})[-\s]+(?:buchstaben?|zeichen|letters?|characters?)\b"
-    r"|\w*buchstabig",
-    re.IGNORECASE,
-)
-
-
-def hint_states_answer_length(hint: object) -> bool:
-    """True when an authored hint states the answer's letter/character count.
-
-    Matches a digit or German number word followed by "Buchstabe(n)"/"Zeichen"
-    (plus the English "letter(s)"/"character(s)" forms and "-buchstabig"
-    adjectives). Applied to exercise-level and blank-level hints only - see
-    the note on ``HINT_LENGTH_PATTERN``.
-    """
-    return isinstance(hint, str) and bool(HINT_LENGTH_PATTERN.search(hint))
+# Answer-length statements in hints are the engine's rule: W-HINT-LENGTH
+# (learn-content-engine#186, since 0.29.0) checks exercise and blank hints with
+# the forms this validator used to check, and reports them in the engine gate's
+# warning step. Content rules belong to the engine, not to a second copy here.
 
 # Scripts we can distinguish from Latin (mirror the TS validator).
 SCRIPT_RANGES = {
@@ -239,46 +215,6 @@ def lesson_shape_ok(lesson) -> bool:
 #: their text base cannot carry the full exercise minimum. This is a
 #: structural category of a book companion set, not a blanket excuse - a
 #: chapter lesson stays subject to MIN_EXERCISES.
-#: Content domains a consumer recognises. Mirrors adaptive-learner's
-#: ``KNOWN_CONTENT_DOMAINS`` plus the implicit ``language`` default, because
-#: the app is what filters on this field in Discover.
-#:
-#: Origin markers are NOT domains. Both book exports arrived with
-#: ``"domain": "imported"`` on every lesson - the app's "My Lessons" origin
-#: value, written straight through by the export (adaptive-learner#2376).
-#: A lesson carrying it passed ``make lint`` AND ``make validate`` with zero
-#: findings; it was caught by reading the files, which is not a gate.
-KNOWN_DOMAINS = frozenset({
-    "language",
-    "knowledge",
-    "programming",
-    "psychology",
-    "math",
-    "ai",
-    "technology",
-    "software",
-    "philosophy",
-    "dog-training",
-    "traffic-knowledge",
-})
-
-
-def validate_domain(carrier: dict, label: str, errors: list[str]) -> None:
-    """Reject a ``domain`` value no consumer knows.
-
-    An ABSENT domain is fine and is the normal shape for a lesson: it then
-    inherits the set's domain during parsing.
-    """
-    domain = carrier.get("domain")
-    if domain is None or domain in KNOWN_DOMAINS:
-        return
-    errors.append(
-        f"{label}: unknown domain {domain!r} "
-        f"(known: {', '.join(sorted(KNOWN_DOMAINS))}); "
-        "app-internal origin markers like 'imported' are not content domains"
-    )
-
-
 BRIDGE_LESSON_RE = re.compile(
     r"^\d+-(einleitung|vorwort|teil-\d+|interludium|epilog|schluss|nachwort)\b"
 )
@@ -331,18 +267,6 @@ def validate_lesson_quality(lesson: dict, source: str, label: str, errors: list[
 
     for ex in exercises:
         eid = ex.get("id", "?")
-        if hint_states_answer_length(ex.get("hint")):
-            errors.append(
-                f"{label}: exercise '{eid}' hint states a letter/character count "
-                "(redundant to the app's automatic length hint) - use a content hint"
-            )
-        for blank_index, blank in enumerate(ex.get("blanks") or []):
-            if isinstance(blank, dict) and hint_states_answer_length(blank.get("hint")):
-                errors.append(
-                    f"{label}: exercise '{eid}' blanks[{blank_index}] hint states a "
-                    "letter/character count (redundant to the app's automatic "
-                    "length hint) - use a content hint"
-                )
         if ex.get("type") == "free_text":
             if len(ex.get("accept") or []) < MIN_FREE_TEXT_ACCEPTS:
                 errors.append(f"{label}: free_text '{eid}' needs >= {MIN_FREE_TEXT_ACCEPTS} accepts")
@@ -392,7 +316,6 @@ def validate_set_dir(content_set: dict, errors: list[str]) -> None:
     sid = content_set.get("id", "?")
     path = content_set.get("path")
     source = content_set.get("source_language", "en")
-    validate_domain(content_set, f"set {sid}", errors)
     if not path:
         return
     set_dir = REPO_ROOT / path
@@ -417,7 +340,6 @@ def validate_set_dir(content_set: dict, errors: list[str]) -> None:
         label = f"{sid}/{filename}"
         validate_lesson_schema(lesson, label, errors)
         validate_lesson_quality(lesson, source, label, errors)
-        validate_domain(lesson, label, errors)
 
 
 def validate() -> int:
