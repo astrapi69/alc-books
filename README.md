@@ -56,16 +56,21 @@ progress hangs on, so the prefix has to be right while the set is still
 unpublished. Both sets here needed that fix on import; the second one
 arrived with no prefixes at all.
 
-Two rules this repository adds on top of the shared gates:
+Two things matter more here than in other repositories. Both used to be
+rules of this repository's own validator; both are the engine's now, and
+this repository runs the shared gates unchanged:
 
 - **Bridge lessons** (an introduction, a part divider, an interlude, an
-  epilogue) are exempt from the exercise minimum. They summarise and
-  connect rather than teach new material, so their text base cannot carry
-  the full floor. Chapter lessons are not exempt.
+  epilogue) declare `"purpose": "bridge"`. They summarise and connect
+  rather than teach new material, so the engine's quality minimums lift
+  the exercise and exercise-type minimums for them
+  (learn-content-engine#185). Chapter lessons declare nothing and get the
+  full floor. A new bridge lesson needs the declaration; its file name no
+  longer decides.
 - **`domain` must be a real content domain.** Book exports arrive with
   `domain: "imported"`, which is the app's origin marker and not a domain
-  any consumer knows. It passed every other gate silently
-  (adaptive-learner#2376), so there is a check for it now.
+  any consumer knows. The engine reports such a value as
+  `W-DOMAIN-UNKNOWN` (learn-content-engine#127, #183).
 
 ## What's inside
 
