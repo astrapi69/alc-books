@@ -5,10 +5,10 @@
 #
 # Reihenfolge: die Anzeigereihenfolge ist die lexikografische Sortierung
 # der Lektions-Ids (learn-content-engine#106). Der Export trug KEINE
-# NN-Prefixe - unveraendert uebernommen haette das Set als epilog,
+# NN-Prefixe - unverändert übernommen hätte das Set als epilog,
 # kapitel-1, kapitel-10..14, kapitel-2..9 anzeigt. Prefixe wurden vor der
-# Veroeffentlichung vergeben, solange die Ids noch keine Identitaet
-# tragen (keine stable_ids gepraegt, kein Lernfortschritt vorhanden).
+# Veröffentlichung vergeben, solange die Ids noch keine Identität
+# tragen (keine stable_ids geprägt, kein Lernfortschritt vorhanden).
 schema_version: "1.5"
 name: Das lebende Stimmrecht
 description: >-
@@ -22,13 +22,13 @@ sets:
     source_language: de
     domain: knowledge
     # Sachthema: bewusst ohne Sprachniveau (engine#127, level-Vertrag);
-    # die Schwierigkeit traegt das Tag `fortgeschritten`.
+    # die Schwierigkeit trägt das Tag `fortgeschritten`.
     level: none
     path: sets/de/das-lebende-stimmrecht
     version: "1.0.0"
     lesson_count: 15
-    # Aus einem Buch erzeugt und noch nicht fachlich geprueft: review_status
-    # richtet sich nach der HERKUNFT, nicht nach der Qualitaet.
+    # Aus einem Buch erzeugt und noch nicht fachlich geprüft: review_status
+    # richtet sich nach der HERKUNFT, nicht nach der Qualität.
     review_status: generated
     tags:
       - buch

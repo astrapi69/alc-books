@@ -11,19 +11,19 @@
       "id": "theory-1",
       "type": "theory",
       "title": "Vom Bakterienschutz zum universellen Werkzeug",
-      "body": "Bakterien verfügen über ein natürliches Abwehrsystem gegen Viren: Sie speichern Bruchstücke von Virus-DNA in ihrem eigenen Erbgut und nutzen diese wie Fahndungsfotos, um Angreifer wiederzuerkennen und unschädlich zu machen. Diese biologische \"Datenbank\" nennt sich CRISPR. Was Horvath und Barrangou 2007 bewiesen, war bahnbrechend: Einzeller ohne Gehirn besitzen echtes Gedächtnis. Doch erst als Charpentier und Doudna das System 2012 vereinfachten, wurde es zu einem praktischen Werkzeug. Sie zeigten, dass das Protein Cas9 mit einer programmierbaren Anleitung (Guide-RNA) an beliebige Stellen im Erbgut navigiert und dort präzise schneiden kann. Die Technik war so überlegen gegenüber früheren Methoden, dass sie sich innerhalb von Monaten weltweit verbreitete—nicht weil Labore warteten, sondern weil sie genau das brauchten, was fehlte."
+      "body": "Bakterien verfügen über ein natürliches Abwehrsystem gegen Viren: Sie speichern Bruchstücke von Virus-DNA in ihrem eigenen Erbgut und nutzen diese wie Fahndungsfotos, um Angreifer wiederzuerkennen und unschädlich zu machen. Diese biologische \"Datenbank\" nennt sich CRISPR. Was Horvath und Barrangou 2007 bewiesen, war bahnbrechend: Einzeller ohne Gehirn besitzen echtes Gedächtnis. Doch erst als Charpentier und Doudna das System 2012 vereinfachten, wurde es zu einem praktischen Werkzeug. Sie zeigten, dass das Protein Cas9 mit einer programmierbaren Anleitung (Guide-RNA) an beliebige Stellen im Erbgut navigiert und dort präzise schneiden kann. Die Technik war so überlegen gegenüber früheren Methoden, dass sie sich innerhalb von Monaten weltweit verbreitete, nicht weil Labore warteten, sondern weil sie genau das brauchten, was fehlte."
     },
     {
       "id": "theory-2",
       "type": "theory",
       "title": "Was CRISPR tatsächlich leistet",
-      "body": "CRISPR funktioniert auf drei Ebenen. Erstens schneidet es gezielt: Das Cas9-Protein wird von einer RNA-Anleitung zu einer genauen Stelle im Genom gelotst und durchtrennt dort den DNA-Doppelstrang. Zweitens ist es programmierbar: Nicht das Protein selbst muss neu entworfen werden, sondern nur die RNA-Anleitung wird angepasst—vergleichbar mit dem Unterschied zwischen einer Schreibmaschine mit festen Lettern und einer Tastatur, auf der man anders tippt. Dieser Unterschied ist nicht einfach schneller, er ist kategorisch anders und macht Genbearbeitung erstmals für viele Labore zugänglich. Drittens, und das ist philosophisch bedeutsam: CRISPR macht Erbinformation nicht nur lesbar oder kopierbar, sondern editierbar. Wer einen Text editieren kann, wird vom Leser zum Autor seines eigenen Codes."
+      "body": "CRISPR funktioniert auf drei Ebenen. Erstens schneidet es gezielt: Das Cas9-Protein wird von einer RNA-Anleitung zu einer genauen Stelle im Genom gelotst und durchtrennt dort den DNA-Doppelstrang. Zweitens ist es programmierbar: Nicht das Protein selbst muss neu entworfen werden, sondern nur die RNA-Anleitung wird angepasst, vergleichbar mit dem Unterschied zwischen einer Schreibmaschine mit festen Lettern und einer Tastatur, auf der man anders tippt. Dieser Unterschied ist nicht einfach schneller, er ist kategorisch anders und macht Genbearbeitung erstmals für viele Labore zugänglich. Drittens, und das ist philosophisch bedeutsam: CRISPR macht Erbinformation nicht nur lesbar oder kopierbar, sondern editierbar. Wer einen Text editieren kann, wird vom Leser zum Autor seines eigenen Codes."
     },
     {
       "id": "theory-3",
       "type": "theory",
       "title": "Von der Heilung zur politischen Frage",
-      "body": "2025 erhielt ein Säugling in Philadelphia namens KJ eine massgeschneiderte Gentherapie gegen eine tödliche Stoffwechselstörung: Ein einzelner fehlerhafter Buchstabe in seinem CPS1-Gen wurde korrigiert. Innerhalb von Monaten war er gesund genug, nach Hause zu gehen. Diese konkrete Heilung zeigt, dass CRISPR nicht mehr Zukunftsmusik ist, sondern Gegenwart. Doch die Fähigkeit, menschliche Erbinformation umzuschreiben, wirft Fragen auf, die über Medizin und Ethik hinausgehen: Wem gehört der genetische Code? Wer entscheidet über Zugang, Kosten und Konsequenzen? Diese Fragen sind nicht technisch, sondern politisch. Sie handeln von Macht, Gerechtigkeit und davon, wer berechtigt ist, die biologische Grundlage menschlichen Lebens zu gestalten."
+      "body": "2025 erhielt ein Säugling in Philadelphia namens KJ eine maßgeschneiderte Gentherapie gegen eine tödliche Stoffwechselstörung: Ein einzelner fehlerhafter Buchstabe in seinem CPS1-Gen wurde korrigiert. Innerhalb von Monaten war er gesund genug, nach Hause zu gehen. Diese konkrete Heilung zeigt, dass CRISPR nicht mehr Zukunftsmusik ist, sondern Gegenwart. Doch die Fähigkeit, menschliche Erbinformation umzuschreiben, wirft Fragen auf, die über Medizin und Ethik hinausgehen: Wem gehört der genetische Code? Wer entscheidet über Zugang, Kosten und Konsequenzen? Diese Fragen sind nicht technisch, sondern politisch. Sie handeln von Macht, Gerechtigkeit und davon, wer berechtigt ist, die biologische Grundlage menschlichen Lebens zu gestalten."
     },
     {
       "id": "step-ex-1-ai-ex-1-cloze",
@@ -99,7 +99,7 @@
           },
           {
             "left": "KJ",
-            "right": "Patient, der 2025 eine massgeschneiderte Gentherapie erhielt"
+            "right": "Patient, der 2025 eine maßgeschneiderte Gentherapie erhielt"
           }
         ],
         "distractors": [],

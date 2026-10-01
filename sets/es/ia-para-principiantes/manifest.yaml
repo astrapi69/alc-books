@@ -13,7 +13,7 @@ name: IA para principiantes
 description: >-
   Begleitendes Lernset zum Buch "IA para principiantes": 10 Kapitel zum
   praktischen Einsatz von KI im Alltag, von den Grundlagen des
-  Promptings bis zu Kreativitaet, Produktivitaet und Zusammenarbeit.
+  Promptings bis zu Kreativität, Produktivität und Zusammenarbeit.
 sets:
   - id: ia-para-principiantes
     title: IA para principiantes
@@ -22,7 +22,7 @@ sets:
     source_language: es
     domain: knowledge
     # Sachthema: bewusst ohne Sprachniveau (engine#127, level-Vertrag);
-    # die Schwierigkeit traegt das Tag `principiantes`.
+    # die Schwierigkeit trägt das Tag `principiantes`.
     level: none
     path: sets/es/ia-para-principiantes
     version: "1.0.0"

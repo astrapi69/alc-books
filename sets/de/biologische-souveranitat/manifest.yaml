@@ -21,13 +21,13 @@ sets:
     source_language: de
     domain: knowledge
     # Sachthema: bewusst ohne Sprachniveau (engine#127, level-Vertrag);
-    # die Schwierigkeit traegt das Tag `grundlagen`.
+    # die Schwierigkeit trägt das Tag `grundlagen`.
     level: none
     path: sets/de/biologische-souveranitat
     version: "1.0.0"
     lesson_count: 23
-    # Aus einem Buch erzeugt und noch nicht fachlich geprueft: review_status
-    # richtet sich nach der HERKUNFT, nicht nach der Qualitaet. Auf
+    # Aus einem Buch erzeugt und noch nicht fachlich geprüft: review_status
+    # richtet sich nach der HERKUNFT, nicht nach der Qualität. Auf
     # "reviewed" heben, sobald jemand die Lektionen durchgesehen hat.
     review_status: generated
     tags:

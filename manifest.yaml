@@ -1,16 +1,16 @@
 # Wurzel-Manifest: die Sets, die dieses Repository anbietet.
 #
-# alc-books sammelt Lernsets ZU BUECHERN. Ein Buch = ein Set = ein
+# alc-books sammelt Lernsets ZU BÜCHERN. Ein Buch = ein Set = ein
 # Verzeichnis sets/<Quellsprache>/<Set-Id>/ mit eigenem manifest.yaml und
 # lessons/NN-slug.json. Weitere Buch-Sets kommen als Geschwister daneben;
-# hier wird je Set genau ein Eintrag ergaenzt und `lesson_count` ehrlich
+# hier wird je Set genau ein Eintrag ergänzt und `lesson_count` ehrlich
 # gehalten (es muss zu den ausgelieferten Lektionen passen).
 #
-# Pruefen mit:  make lint  (Engine-Gate) und  make validate
+# Prüfen mit:  make lint  (Engine-Gate) und  make validate
 schema_version: '1.5'
 name: Adaptive Learner - Buch-Lernsets
 description: >-
-  Lernsets zu Buechern: je Buch ein Set, dessen Lektionen der Gliederung
+  Lernsets zu Büchern: je Buch ein Set, dessen Lektionen der Gliederung
   des Buches folgen.
 sets:
   - id: das-lebende-stimmrecht
@@ -20,7 +20,7 @@ sets:
     source_language: de
     domain: knowledge
     # Sachthema: bewusst ohne Sprachniveau (engine#127, level-Vertrag);
-    # die Schwierigkeit traegt das Tag `fortgeschritten`.
+    # die Schwierigkeit trägt das Tag `fortgeschritten`.
     level: none
     path: sets/de/das-lebende-stimmrecht
     version: '1.0.0'
@@ -39,13 +39,13 @@ sets:
     source_language: de
     domain: knowledge
     # Sachthema: bewusst ohne Sprachniveau (engine#127, level-Vertrag);
-    # die Schwierigkeit traegt das Tag `grundlagen`.
+    # die Schwierigkeit trägt das Tag `grundlagen`.
     level: none
     path: sets/de/biologische-souveranitat
     version: '1.0.0'
     lesson_count: 23
-    # Aus einem Buch erzeugt und noch nicht fachlich geprueft: review_status
-    # richtet sich nach der HERKUNFT, nicht nach der Qualitaet.
+    # Aus einem Buch erzeugt und noch nicht fachlich geprüft: review_status
+    # richtet sich nach der HERKUNFT, nicht nach der Qualität.
     review_status: generated
     tags:
       - buch
@@ -60,7 +60,7 @@ sets:
     source_language: es
     domain: knowledge
     # Sachthema: bewusst ohne Sprachniveau (engine#127, level-Vertrag);
-    # die Schwierigkeit traegt das Tag `principiantes`.
+    # die Schwierigkeit trägt das Tag `principiantes`.
     level: none
     path: sets/es/ia-para-principiantes
     version: '1.0.0'
@@ -81,8 +81,8 @@ sets:
     version: '1.0.0'
     lesson_count: 1
     # Aus der Vorlage geerbtes Beispiel-Set, kein Lerner-Inhalt. `hidden`
-    # haelt es aus dem Entdecken-Bereich der App heraus; es bleibt als
-    # Referenz fuer Format und Tooling (Doku und Tests verweisen darauf).
+    # hält es aus dem Entdecken-Bereich der App heraus; es bleibt als
+    # Referenz für Format und Tooling (Doku und Tests verweisen darauf).
     visibility: hidden
     tags:
       - example
