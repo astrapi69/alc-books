@@ -1,6 +1,6 @@
 {
   "repo": "astrapi69/alc-books",
-  "generated": "2026-09-24T06:33:38Z",
+  "generated": "2026-10-01T09:20:01Z",
   "schema_version": "1.0",
   "sets": [
     {
@@ -25,7 +25,7 @@
       "ai_validated": false,
       "trust_level": 1,
       "book": null,
-      "updated_at": "2026-08-06T10:49:53Z"
+      "updated_at": "2026-10-01T09:19:40Z"
     },
     {
       "id": "biologische-souveranitat",
@@ -49,7 +49,7 @@
       "ai_validated": false,
       "trust_level": 1,
       "book": null,
-      "updated_at": "2026-08-06T10:49:53Z"
+      "updated_at": "2026-10-01T09:19:40Z"
     },
     {
       "id": "ia-para-principiantes",
