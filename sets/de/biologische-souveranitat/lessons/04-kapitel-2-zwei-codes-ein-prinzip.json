@@ -11,7 +11,7 @@
       "id": "theory-1",
       "type": "theory",
       "title": "Schrödingers Codeschrift",
-      "body": "Im Februar 1943 hielt der nach Irland geflohene Physiker Erwin Schrödinger am Trinity College Dublin eine Vorlesungsreihe zu einer Frage ausserhalb seines Fachgebiets: Was ist Leben, physikalisch betrachtet? Wo sitzt die Information, die einen Organismus über Generationen hinweg gegen den thermodynamischen Zerfall organisiert hält? Seine Antwort war richtig, obwohl er die Details nicht kennen konnte, denn die Struktur der DNA lag noch zehn Jahre in der Zukunft. Die Erbsubstanz, argumentierte er, müsse ein aperiodischer Kristall sein: stabil wie ein Kristall, aber nicht wiederholend wie eine Tapete, sondern kohärent und bedeutungsvoll wie ein Wandteppich. Dieser Kristall enthalte in einer Art Codeschrift das gesamte Muster der künftigen Entwicklung des Individuums. Ein Physiker ohne Kenntnis von Adenin, Thymin, Guanin und Cytosin griff nach genau dem Wort, das sich als richtig erweisen sollte: Code. 1953 schrieb Francis Crick ihm, dass er und James Watson durch dieses Buch zur Molekularbiologie gefunden hätten."
+      "body": "Im Februar 1943 hielt der nach Irland geflohene Physiker Erwin Schrödinger am Trinity College Dublin eine Vorlesungsreihe zu einer Frage außerhalb seines Fachgebiets: Was ist Leben, physikalisch betrachtet? Wo sitzt die Information, die einen Organismus über Generationen hinweg gegen den thermodynamischen Zerfall organisiert hält? Seine Antwort war richtig, obwohl er die Details nicht kennen konnte, denn die Struktur der DNA lag noch zehn Jahre in der Zukunft. Die Erbsubstanz, argumentierte er, müsse ein aperiodischer Kristall sein: stabil wie ein Kristall, aber nicht wiederholend wie eine Tapete, sondern kohärent und bedeutungsvoll wie ein Wandteppich. Dieser Kristall enthalte in einer Art Codeschrift das gesamte Muster der künftigen Entwicklung des Individuums. Ein Physiker ohne Kenntnis von Adenin, Thymin, Guanin und Cytosin griff nach genau dem Wort, das sich als richtig erweisen sollte: Code. 1953 schrieb Francis Crick ihm, dass er und James Watson durch dieses Buch zur Molekularbiologie gefunden hätten."
     },
     {
       "id": "theory-2",
@@ -141,7 +141,7 @@
       "body": null,
       "exercise": {
         "type": "free_text",
-        "prompt": "Erklären Sie, warum die Parallele zwischen Sprache und Genom keine blosse Analogie ist.",
+        "prompt": "Erklären Sie, warum die Parallele zwischen Sprache und Genom keine bloße Analogie ist.",
         "card_ids": [],
         "accept": [
           "Beide sind digitale Informationssysteme mit endlichen Zeichen, Syntax und Redundanz, also dasselbe Prinzip in zwei Medien",

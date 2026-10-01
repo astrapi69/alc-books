@@ -1,6 +1,6 @@
 {
   "id": "01-example",
-  "title": "Example lesson — greetings in Spanish",
+  "title": "Example lesson - greetings in Spanish",
   "description": "A minimal, valid template lesson. Replace it with your own content, keeping the shape the validator enforces.",
   "target_language": "es",
   "source_language": "en",
@@ -17,7 +17,7 @@
       "id": "intro",
       "type": "theory",
       "title": "Saying hello",
-      "body": "# Greetings\n\n- **hola** = hello\n- **gracias** = thank you\n- **por favor** = please\n- **adiós** = goodbye\n\nThis is the one example lesson shipped with the template. Replace it with your own — the validator enforces the shape, so if it passes, the app will load it."
+      "body": "# Greetings\n\n- **hola** = hello\n- **gracias** = thank you\n- **por favor** = please\n- **adiós** = goodbye\n\nThis is the one example lesson shipped with the template. Replace it with your own - the validator enforces the shape, so if it passes, the app will load it."
     },
     {
       "id": "ex-select",

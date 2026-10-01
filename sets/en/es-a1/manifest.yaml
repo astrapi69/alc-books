@@ -1,9 +1,9 @@
-# Per-set manifest — the template's one example set.
+# Per-set manifest - the template's one example set.
 #
 # Replace every field with your own. The content loader reads the file
 # list from `metadata.lessons` (one entry per lesson JSON in `lessons/`).
 schema_version: '1.5'
-name: Example set — Spanish A1
+name: Example set - Spanish A1
 description: A one-lesson example set. Replace it with your own content.
 sets:
   - id: example-set
