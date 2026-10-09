@@ -16,6 +16,9 @@ sets:
     path: sets/en/es-a1
     version: '1.0.0'
     lesson_count: 1
+    # Same as the root manifest's entry: the example set stays out of the
+    # app's Discover view; it remains as a reference for format and tooling.
+    visibility: hidden
     tags:
       - example
       - spanish
