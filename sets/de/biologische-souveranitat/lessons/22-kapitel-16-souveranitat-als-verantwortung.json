@@ -116,7 +116,7 @@
         "type": "cloze",
         "prompt": "Fülle das fehlende Wort ein.",
         "card_ids": [],
-        "sentence": "Das Prinzip der ___ als Massstab bedeutet, dass Eingriffe, die nicht rückgängig gemacht werden können, einer strengeren Begründung bedürfen.",
+        "sentence": "Das Prinzip der ___ als Maßstab bedeutet, dass Eingriffe, die nicht rückgängig gemacht werden können, einer strengeren Begründung bedürfen.",
         "blanks": [
           {
             "accept": [

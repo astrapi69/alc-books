@@ -34,7 +34,7 @@
         "type": "cloze",
         "prompt": "Fülle das fehlende Wort ein.",
         "card_ids": [],
-        "sentence": "Der Fall, in dem der Supreme Court 1927 die Zwangssterilisierung Carrie Bucks genehmigte, heisst ___.",
+        "sentence": "Der Fall, in dem der Supreme Court 1927 die Zwangssterilisierung Carrie Bucks genehmigte, heißt ___.",
         "blanks": [
           {
             "accept": [
