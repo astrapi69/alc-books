@@ -17,7 +17,7 @@
       "id": "theory-2",
       "type": "theory",
       "title": "Estructuración del tiempo mediante bloques de trabajo",
-      "body": "La productividad no solo depende de qué hagas, sino de cómo distribuyas tu energía a lo largo del día. La IA excela en crear cronogramas que alternan períodos de concentración profunda con descansos y tareas administrativas. Por ejemplo, puedes solicitar que diseñe bloques ininterrumpidos para trabajo importante, seguidos de espacios para comunicaciones o movimiento físico. Este enfoque reconoce que tu capacidad de concentración es limitada y que cambiar constantemente de actividad te agota. Al estructurar el tiempo de antemano, reduces decisiones innecesarias y proteges tus momentos de mayor rendimiento."
+      "body": "La productividad no solo depende de qué hagas, sino de cómo distribuyas tu energía a lo largo del día. La IA sobresale en crear cronogramas que alternan períodos de concentración profunda con descansos y tareas administrativas. Por ejemplo, puedes solicitar que diseñe bloques ininterrumpidos para trabajo importante, seguidos de espacios para comunicaciones o movimiento físico. Este enfoque reconoce que tu capacidad de concentración es limitada y que cambiar constantemente de actividad te agota. Al estructurar el tiempo de antemano, reduces decisiones innecesarias y proteges tus momentos de mayor rendimiento."
     },
     {
       "id": "theory-3",
@@ -164,7 +164,7 @@
         "type": "cloze",
         "prompt": "Completa la palabra que falta.",
         "card_ids": [],
-        "sentence": "Cuando la IA procesa información confusa o metas ambiciosas, te delega a ti la tarea de la ___, liberándote para enfocarte en la ejecución real.",
+        "sentence": "Cuando delegas a la IA el procesamiento de información confusa o de metas ambiciosas, quedas libre para enfocarte en la ___ real.",
         "blanks": [
           {
             "accept": [
