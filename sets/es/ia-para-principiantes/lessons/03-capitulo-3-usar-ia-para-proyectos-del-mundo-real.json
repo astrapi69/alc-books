@@ -17,7 +17,7 @@
       "id": "theory-2",
       "type": "theory",
       "title": "Dividir metas grandes en acciones concretas",
-      "body": "La IA excele en transformar objetivos amplios y desorganizados en planes estructurados y realizables. Ya sea planificar un evento, establecer una meta de fitness o crear un presupuesto, el proceso es similar: proporcionas el panorama general con los detalles que importan y la IA te devuelve un desglose paso a paso. Esto funciona porque la IA reconoce patrones de miles de proyectos similares y puede adaptarlos a tus necesidades específicas. Lo importante es ser preciso en lo que pides: cuanto más claro seas sobre tus prioridades, restricciones y lo que esperas recibir, mejor será la respuesta. Este enfoque transforma tareas abrumadoras en una serie de pasos manejables."
+      "body": "La IA sobresale en transformar objetivos amplios y desorganizados en planes estructurados y realizables. Ya sea planificar un evento, establecer una meta de fitness o crear un presupuesto, el proceso es similar: proporcionas el panorama general con los detalles que importan y la IA te devuelve un desglose paso a paso. Esto funciona porque la IA reconoce patrones de miles de proyectos similares y puede adaptarlos a tus necesidades específicas. Lo importante es ser preciso en lo que pides: cuanto más claro seas sobre tus prioridades, restricciones y lo que esperas recibir, mejor será la respuesta. Este enfoque transforma tareas abrumadoras en una serie de pasos manejables."
     },
     {
       "id": "theory-3",
@@ -72,7 +72,7 @@
         "type": "cloze",
         "prompt": "Completa la palabra que falta.",
         "card_ids": [],
-        "sentence": "La IA excele en transformar objetivos amplios y desorganizados en ___ estructurados y realizables.",
+        "sentence": "La IA sobresale en transformar objetivos amplios y desorganizados en ___ estructurados y realizables.",
         "blanks": [
           {
             "accept": [
