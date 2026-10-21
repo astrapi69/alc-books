@@ -1,6 +1,6 @@
 {
   "repo": "astrapi69/alc-books",
-  "generated": "2026-10-12T17:07:35Z",
+  "generated": "2026-10-21T12:24:54Z",
   "schema_version": "1.0",
   "sets": [
     {
@@ -71,7 +71,7 @@
       "ai_validated": false,
       "trust_level": 1,
       "book": null,
-      "updated_at": "2026-10-01T09:43:05Z"
+      "updated_at": "2026-10-21T12:24:42Z"
     },
     {
       "id": "example-set",
